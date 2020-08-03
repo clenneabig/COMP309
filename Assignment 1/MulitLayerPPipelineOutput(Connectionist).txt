@@ -1,0 +1,3410 @@
+=== Classifier model ===
+
+Scheme:   MultilayerPerceptron
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    0.4413053884890766
+    Node 2    -6.472568992912243
+    Node 3    -3.5795810547581453
+    Node 4    -2.7792053132495083
+    Node 5    4.47959475901898
+    Node 6    2.849083823921277
+    Node 7    4.656555422193219
+    Node 8    -5.7451575873548295
+    Node 9    -3.561281289591755
+    Node 10    -3.383763352543798
+    Node 11    3.3841093595266813
+    Node 12    -8.79526171351913
+    Node 13    4.877703503798666
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -0.4427328988996425
+    Node 2    6.472718538629564
+    Node 3    3.577111311936701
+    Node 4    2.7822113516767275
+    Node 5    -4.480464737078229
+    Node 6    -2.8458533296345085
+    Node 7    -4.655339210613308
+    Node 8    5.74885569173742
+    Node 9    3.568132187558929
+    Node 10    3.375720806310049
+    Node 11    -3.38367062421036
+    Node 12    8.795113599793922
+    Node 13    -4.877486231915303
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    0.7033264552125913
+    Attrib age    -4.092334903936726
+    Attrib sex=1    3.9582341768477223
+    Attrib cp=1    -2.115585166325972
+    Attrib cp=2    0.7077067081007313
+    Attrib cp=3    1.0628281898336098
+    Attrib cp=4    -0.9823511208512459
+    Attrib trestbps    0.32210768582213173
+    Attrib chol    -0.2875009783918471
+    Attrib fbs=1    0.541406979649203
+    Attrib restecg=0    -0.46788281819746924
+    Attrib restecg=1    -0.6244369415560779
+    Attrib restecg=2    0.4023347411170969
+    Attrib thalach    -0.4689946705203424
+    Attrib exang=1    -0.6141350987872182
+    Attrib oldpeak='(0.75-inf)'    2.3872580525959
+    Attrib slope=1    1.3504221896115245
+    Attrib slope=2    -1.0695137383406015
+    Attrib slope=3    -1.0263540818291301
+    Attrib ca    5.937380421190072
+    Attrib thal=3    -0.9379130307475024
+    Attrib thal=6    0.2527335761183837
+    Attrib thal=7    0.5752612548373102
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    0.07554407146583043
+    Attrib age    1.3681731879218457
+    Attrib sex=1    1.8410824494534352
+    Attrib cp=1    0.0015694965117870165
+    Attrib cp=2    0.8173571174566425
+    Attrib cp=3    -0.2902080269266706
+    Attrib cp=4    -0.7500380314977081
+    Attrib trestbps    1.145361100480261
+    Attrib chol    3.3132104083715044
+    Attrib fbs=1    0.12856244792010324
+    Attrib restecg=0    -0.9451868174412158
+    Attrib restecg=1    -0.10273916858024333
+    Attrib restecg=2    0.9960585208216569
+    Attrib thalach    0.15811224139576874
+    Attrib exang=1    -0.01543642014767542
+    Attrib oldpeak='(0.75-inf)'    -1.06480327414036
+    Attrib slope=1    1.0324405118238418
+    Attrib slope=2    -0.876792251762799
+    Attrib slope=3    -0.21305775934178642
+    Attrib ca    1.7405109766586935
+    Attrib thal=3    0.830526114312247
+    Attrib thal=6    -0.5432057624295719
+    Attrib thal=7    -0.32451479665397626
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -0.42904879547648533
+    Attrib age    -1.3927892010268732
+    Attrib sex=1    -0.3894985744529964
+    Attrib cp=1    0.9635072573840486
+    Attrib cp=2    -0.40719711837142836
+    Attrib cp=3    -0.28063096767431867
+    Attrib cp=4    0.47253788120047663
+    Attrib trestbps    0.6498024834561438
+    Attrib chol    4.68169601851045
+    Attrib fbs=1    0.14315861211640685
+    Attrib restecg=0    -0.6289959062136509
+    Attrib restecg=1    0.3156606441036557
+    Attrib restecg=2    0.6716319019905485
+    Attrib thalach    1.435006835778106
+    Attrib exang=1    -0.4351381582941831
+    Attrib oldpeak='(0.75-inf)'    -0.9739062236773607
+    Attrib slope=1    0.22654744413943198
+    Attrib slope=2    -0.033129399341689895
+    Attrib slope=3    0.136828233660308
+    Attrib ca    0.17233165985776353
+    Attrib thal=3    0.08178383816764996
+    Attrib thal=6    0.2457748962218695
+    Attrib thal=7    0.16962076838989604
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    0.10773625237927215
+    Attrib age    -2.38869416151221
+    Attrib sex=1    -4.11435083714345
+    Attrib cp=1    0.4080112313531541
+    Attrib cp=2    -0.47468955653640543
+    Attrib cp=3    1.6438247434680524
+    Attrib cp=4    -1.78140491422346
+    Attrib trestbps    -1.8917900562042118
+    Attrib chol    3.076788546674916
+    Attrib fbs=1    1.119299781197867
+    Attrib restecg=0    -0.873327742235431
+    Attrib restecg=1    0.02076372472248227
+    Attrib restecg=2    0.7400146217523985
+    Attrib thalach    2.680750411633456
+    Attrib exang=1    0.05783151822434094
+    Attrib oldpeak='(0.75-inf)'    1.0105755709854445
+    Attrib slope=1    2.4991792154551424
+    Attrib slope=2    -3.3205236244883167
+    Attrib slope=3    0.651105612914028
+    Attrib ca    -5.015137490473707
+    Attrib thal=3    0.5740561874477086
+    Attrib thal=6    0.43793000351329947
+    Attrib thal=7    -1.1286427174062024
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.6240488745928149
+    Attrib age    1.2962807722640735
+    Attrib sex=1    0.5673707746744245
+    Attrib cp=1    1.3335758534905504
+    Attrib cp=2    -0.08717887887337779
+    Attrib cp=3    1.152648088005263
+    Attrib cp=4    -1.0671914884390235
+    Attrib trestbps    -2.515891905941472
+    Attrib chol    -5.404382629382147
+    Attrib fbs=1    1.4452045139651462
+    Attrib restecg=0    -0.46876154372737505
+    Attrib restecg=1    0.7811581268353934
+    Attrib restecg=2    0.343267401236815
+    Attrib thalach    -0.7547208528637506
+    Attrib exang=1    0.7067917114218661
+    Attrib oldpeak='(0.75-inf)'    -0.14786697176654146
+    Attrib slope=1    1.3275450290121065
+    Attrib slope=2    -0.9022104531421753
+    Attrib slope=3    0.2141819984915277
+    Attrib ca    -2.667110305934009
+    Attrib thal=3    -0.48143864936137976
+    Attrib thal=6    1.1793216004179263
+    Attrib thal=7    -0.3260436945425184
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    0.31815997337522917
+    Attrib age    -0.9712733342267856
+    Attrib sex=1    -2.6796474988362613
+    Attrib cp=1    -1.4190193324384517
+    Attrib cp=2    1.5023812741732967
+    Attrib cp=3    1.413936182656803
+    Attrib cp=4    -2.2397782764807115
+    Attrib trestbps    -2.8191045347860735
+    Attrib chol    2.6491799684896407
+    Attrib fbs=1    1.864933209409178
+    Attrib restecg=0    -0.5319343988401385
+    Attrib restecg=1    -0.7385639583091568
+    Attrib restecg=2    0.8978938086152397
+    Attrib thalach    2.1706128604392325
+    Attrib exang=1    -2.9349021182968364
+    Attrib oldpeak='(0.75-inf)'    2.6259843632905504
+    Attrib slope=1    -0.4572316798997567
+    Attrib slope=2    -0.5501330522227446
+    Attrib slope=3    0.7496241320922394
+    Attrib ca    -4.056629908007433
+    Attrib thal=3    1.332907734375207
+    Attrib thal=6    0.26350608262433517
+    Attrib thal=7    -2.2507950295527195
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -0.9921896659065701
+    Attrib age    -1.7387973914355175
+    Attrib sex=1    -3.780260526361604
+    Attrib cp=1    -0.25821856355529427
+    Attrib cp=2    1.5624979549833145
+    Attrib cp=3    0.06630181076368062
+    Attrib cp=4    0.5913186464196086
+    Attrib trestbps    0.7986716849651662
+    Attrib chol    -1.2532254133684124
+    Attrib fbs=1    0.39171262785487526
+    Attrib restecg=0    1.3234206504529258
+    Attrib restecg=1    1.121604016581484
+    Attrib restecg=2    -1.38938101604411
+    Attrib thalach    1.9574009273212742
+    Attrib exang=1    3.202984676235493
+    Attrib oldpeak='(0.75-inf)'    1.8570135414373743
+    Attrib slope=1    -1.860496913251954
+    Attrib slope=2    0.26582330644134505
+    Attrib slope=3    2.4908699458037926
+    Attrib ca    -0.008177168712946511
+    Attrib thal=3    0.028185085200617715
+    Attrib thal=6    -0.10356138589265387
+    Attrib thal=7    1.913172718949741
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -1.0534992227855335
+    Attrib age    1.0729028882653266
+    Attrib sex=1    0.17064287492354616
+    Attrib cp=1    -0.08081084530530493
+    Attrib cp=2    2.1996097701750847
+    Attrib cp=3    1.738571287615234
+    Attrib cp=4    -1.7598701967244408
+    Attrib trestbps    1.6034975560944984
+    Attrib chol    -0.13302210161859487
+    Attrib fbs=1    0.17284906656791296
+    Attrib restecg=0    -0.4457698585894583
+    Attrib restecg=1    1.175171833203215
+    Attrib restecg=2    0.3144994150558771
+    Attrib thalach    0.19158406574177228
+    Attrib exang=1    -0.8928840950726908
+    Attrib oldpeak='(0.75-inf)'    2.224474731064007
+    Attrib slope=1    -1.314033094634644
+    Attrib slope=2    1.8346875279644443
+    Attrib slope=3    0.528382741078541
+    Attrib ca    3.162281991450111
+    Attrib thal=3    0.3522581842968644
+    Attrib thal=6    0.815585676385943
+    Attrib thal=7    0.01907285552806386
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -0.37511600851483057
+    Attrib age    0.26853379328531074
+    Attrib sex=1    0.527025667774376
+    Attrib cp=1    -0.5916508348037157
+    Attrib cp=2    0.43448938812960686
+    Attrib cp=3    1.7218672964996082
+    Attrib cp=4    -0.8448659382845735
+    Attrib trestbps    1.2682921314167084
+    Attrib chol    -1.1065413670683673
+    Attrib fbs=1    1.0003873833848107
+    Attrib restecg=0    -0.10879945242947577
+    Attrib restecg=1    0.407781905506366
+    Attrib restecg=2    -0.05364787501162617
+    Attrib thalach    0.7399797616563162
+    Attrib exang=1    2.6113916057899695
+    Attrib oldpeak='(0.75-inf)'    2.2435626172993612
+    Attrib slope=1    -1.9621450069096344
+    Attrib slope=2    0.7935662225279978
+    Attrib slope=3    1.4507115567714293
+    Attrib ca    1.114237236051475
+    Attrib thal=3    1.0179463827035529
+    Attrib thal=6    -0.2255796225010278
+    Attrib thal=7    -0.09495204023112368
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -0.8411296665166467
+    Attrib age    -0.43926461114817433
+    Attrib sex=1    1.5597294244953985
+    Attrib cp=1    0.2536588354163687
+    Attrib cp=2    -0.12483643323270921
+    Attrib cp=3    -0.010327029304584774
+    Attrib cp=4    1.5463806608951578
+    Attrib trestbps    -2.3559508015907946
+    Attrib chol    -3.9527083074567324
+    Attrib fbs=1    1.470320448512378
+    Attrib restecg=0    -0.8963406280053403
+    Attrib restecg=1    0.8527753743546277
+    Attrib restecg=2    0.9921125377608094
+    Attrib thalach    -0.8116320882099237
+    Attrib exang=1    1.0524393337267524
+    Attrib oldpeak='(0.75-inf)'    -1.1858010194054045
+    Attrib slope=1    -0.3403174166196431
+    Attrib slope=2    0.06497801296026796
+    Attrib slope=3    1.117359712196038
+    Attrib ca    -1.6177077852959418
+    Attrib thal=3    -0.5934911423478726
+    Attrib thal=6    1.186077223417527
+    Attrib thal=7    0.1797237748712641
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    -0.94421855418239
+    Attrib age    0.04139933772522269
+    Attrib sex=1    -1.3292296528481615
+    Attrib cp=1    -1.9672160010638644
+    Attrib cp=2    2.426212293001172
+    Attrib cp=3    -1.876075699589464
+    Attrib cp=4    3.242400838042329
+    Attrib trestbps    0.6019241974893397
+    Attrib chol    1.7193882037029562
+    Attrib fbs=1    -0.9720209946112948
+    Attrib restecg=0    -2.863934374510236
+    Attrib restecg=1    1.0925117699827953
+    Attrib restecg=2    2.7127242460657035
+    Attrib thalach    -0.23821863103737054
+    Attrib exang=1    0.1389731054654694
+    Attrib oldpeak='(0.75-inf)'    -1.1015296432384805
+    Attrib slope=1    0.6815672234494338
+    Attrib slope=2    -0.8454333676525565
+    Attrib slope=3    1.1304483032385242
+    Attrib ca    5.8008242007774875
+    Attrib thal=3    -0.9013036887848614
+    Attrib thal=6    -0.8035852421264024
+    Attrib thal=7    2.651210864825168
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -0.796500827385582
+    Attrib age    -4.966837573511259
+    Attrib sex=1    -1.42015173002059
+    Attrib cp=1    0.165983110309194
+    Attrib cp=2    1.0539579395037317
+    Attrib cp=3    2.577709641975676
+    Attrib cp=4    -2.1875926504870358
+    Attrib trestbps    -2.8350078626707553
+    Attrib chol    -2.5492958674992225
+    Attrib fbs=1    1.0001543926226724
+    Attrib restecg=0    -0.25470343896302167
+    Attrib restecg=1    1.284120770984541
+    Attrib restecg=2    -0.1828559447835496
+    Attrib thalach    1.918183868959161
+    Attrib exang=1    1.9941035178373563
+    Attrib oldpeak='(0.75-inf)'    -0.3968891421175062
+    Attrib slope=1    2.0899424510791245
+    Attrib slope=2    -1.4556917437243986
+    Attrib slope=3    0.19803946498460992
+    Attrib ca    -1.8302039720414913
+    Attrib thal=3    1.4092490107009419
+    Attrib thal=6    -0.08013036130432143
+    Attrib thal=7    -0.5427003159446496
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+=== Classifier model ===
+
+Scheme:   MultilayerPerceptron
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.09471597093832054
+    Node 2    -4.297928998451013
+    Node 3    -1.890509475970543
+    Node 4    2.045374336162124
+    Node 5    5.912784214210504
+    Node 6    3.7821115842781357
+    Node 7    4.538636864581409
+    Node 8    -3.28912927040436
+    Node 9    -4.857498026176213
+    Node 10    -4.112785130115594
+    Node 11    3.561746154802915
+    Node 12    -4.734258709556062
+    Node 13    3.7361147447985172
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.09205906954488043
+    Node 2    4.303772002007429
+    Node 3    1.8950452056382965
+    Node 4    -2.0427169645470338
+    Node 5    -5.923822178127016
+    Node 6    -3.7772765708116727
+    Node 7    -4.529239270939377
+    Node 8    3.290713075882765
+    Node 9    4.855456364800134
+    Node 10    4.107955519280196
+    Node 11    -3.5558422688558275
+    Node 12    4.733638202138502
+    Node 13    -3.7490431419335044
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    0.21155811488961793
+    Attrib age    -1.1868145856751966
+    Attrib sex=1    1.4413255015706437
+    Attrib cp=1    -0.873431973816724
+    Attrib cp=2    -1.1980382418285778
+    Attrib cp=3    1.492999176822811
+    Attrib cp=4    0.23460633022551045
+    Attrib trestbps    1.0843954407385041
+    Attrib chol    -0.011383088319217291
+    Attrib fbs=1    0.3378408451555235
+    Attrib restecg=0    -1.1009192785459978
+    Attrib restecg=1    -0.010223502840216354
+    Attrib restecg=2    0.9129261030727303
+    Attrib thalach    1.4195470072688543
+    Attrib exang=1    -1.832407299655529
+    Attrib oldpeak='(0.75-inf)'    -0.4970678292160004
+    Attrib slope=1    0.0015979296785237967
+    Attrib slope=2    0.6380834447041456
+    Attrib slope=3    -0.8933586646178991
+    Attrib ca    4.751334938196772
+    Attrib thal=3    -0.030618929593453876
+    Attrib thal=6    -0.31299026521383533
+    Attrib thal=7    0.2908147693312496
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.2586880495103548
+    Attrib age    0.340115235300824
+    Attrib sex=1    -1.032688421709859
+    Attrib cp=1    0.2763109759408964
+    Attrib cp=2    0.6619365458852898
+    Attrib cp=3    -0.31371900308877493
+    Attrib cp=4    -0.1773837212410159
+    Attrib trestbps    0.1281012231307543
+    Attrib chol    0.23618935742906372
+    Attrib fbs=1    0.998000044843207
+    Attrib restecg=0    -0.5043577754608738
+    Attrib restecg=1    0.27250576051340136
+    Attrib restecg=2    0.5142166707238522
+    Attrib thalach    0.026891496070763847
+    Attrib exang=1    0.42890700275747795
+    Attrib oldpeak='(0.75-inf)'    -0.3008234489819888
+    Attrib slope=1    -0.3912745983773653
+    Attrib slope=2    0.46992501415282195
+    Attrib slope=3    0.1981722059199771
+    Attrib ca    1.436042092200102
+    Attrib thal=3    0.07569523871189998
+    Attrib thal=6    0.30873090633370304
+    Attrib thal=7    -0.07433383256204225
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -0.4556136105039896
+    Attrib age    1.0767652334483158
+    Attrib sex=1    -0.8407272301710393
+    Attrib cp=1    0.5526465936373448
+    Attrib cp=2    -0.9525212376172716
+    Attrib cp=3    0.6547290543627813
+    Attrib cp=4    0.5464922722109158
+    Attrib trestbps    -1.0461174215994364
+    Attrib chol    -0.9091531122027301
+    Attrib fbs=1    0.2523513363255762
+    Attrib restecg=0    0.21371051972218832
+    Attrib restecg=1    0.32589161997772337
+    Attrib restecg=2    -0.15474068479185343
+    Attrib thalach    -0.5617462333459081
+    Attrib exang=1    0.9523775124359857
+    Attrib oldpeak='(0.75-inf)'    -0.07100542061210044
+    Attrib slope=1    0.4621818016935594
+    Attrib slope=2    -0.28418235521985563
+    Attrib slope=3    0.1788116470118324
+    Attrib ca    -0.7290512170462887
+    Attrib thal=3    -0.2621742970596549
+    Attrib thal=6    0.4678246255444765
+    Attrib thal=7    0.1561801299449081
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -0.4647748877183168
+    Attrib age    3.143968833407503
+    Attrib sex=1    -0.1316682297707545
+    Attrib cp=1    0.4823762538004668
+    Attrib cp=2    1.2848559336382857
+    Attrib cp=3    1.9099996661987357
+    Attrib cp=4    -2.7364680693809045
+    Attrib trestbps    -0.9190491846063997
+    Attrib chol    -2.349021836720668
+    Attrib fbs=1    1.5576079807147454
+    Attrib restecg=0    -1.0953171351755404
+    Attrib restecg=1    -0.0888166202865533
+    Attrib restecg=2    1.6440954997991069
+    Attrib thalach    2.326785193147768
+    Attrib exang=1    -1.5861901244560033
+    Attrib oldpeak='(0.75-inf)'    0.9805258303846447
+    Attrib slope=1    -0.5752561812268855
+    Attrib slope=2    1.4207142373381907
+    Attrib slope=3    -0.4431857121328914
+    Attrib ca    -3.927679595552307
+    Attrib thal=3    0.3830271105114702
+    Attrib thal=6    2.3147080363709542
+    Attrib thal=7    -3.2770496624757994
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.26241918930028524
+    Attrib age    2.8188793515045085
+    Attrib sex=1    -2.385482360413205
+    Attrib cp=1    1.1739379035831086
+    Attrib cp=2    0.2877959346687505
+    Attrib cp=3    1.154237388597833
+    Attrib cp=4    -2.0073770232513937
+    Attrib trestbps    -1.0008295307126744
+    Attrib chol    -0.8788137334221671
+    Attrib fbs=1    1.2553293354301132
+    Attrib restecg=0    0.26526339795927606
+    Attrib restecg=1    0.13901656216896052
+    Attrib restecg=2    -0.1102456610759265
+    Attrib thalach    -2.735517822246203
+    Attrib exang=1    -0.08973725743227585
+    Attrib oldpeak='(0.75-inf)'    -1.22152522529564
+    Attrib slope=1    1.9136556363510175
+    Attrib slope=2    -1.834036351953148
+    Attrib slope=3    0.19826760467100596
+    Attrib ca    -2.7928178252790983
+    Attrib thal=3    -0.41332238590245257
+    Attrib thal=6    -0.44349196998551665
+    Attrib thal=7    1.0408078027203702
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -0.6436195991334958
+    Attrib age    0.5629904591085823
+    Attrib sex=1    -0.03016817786422356
+    Attrib cp=1    0.7286132381561351
+    Attrib cp=2    1.2378151790149179
+    Attrib cp=3    0.5645545843841364
+    Attrib cp=4    -1.3499040086268221
+    Attrib trestbps    -0.5206259542106492
+    Attrib chol    -0.28986392935079314
+    Attrib fbs=1    0.662188544696736
+    Attrib restecg=0    -0.7022463721086565
+    Attrib restecg=1    0.15027584660399773
+    Attrib restecg=2    1.141145549479359
+    Attrib thalach    2.9436258154375476
+    Attrib exang=1    -1.6462558825374856
+    Attrib oldpeak='(0.75-inf)'    0.5346035997788032
+    Attrib slope=1    0.27667440862430825
+    Attrib slope=2    0.9453478302516201
+    Attrib slope=3    -0.5179832663974695
+    Attrib ca    -3.9470044617957414
+    Attrib thal=3    0.4037322755944975
+    Attrib thal=6    2.2828246237903893
+    Attrib thal=7    -2.9682514378248595
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    0.5787759539240169
+    Attrib age    2.7147529688362755
+    Attrib sex=1    0.894305983786882
+    Attrib cp=1    -0.27921285970290766
+    Attrib cp=2    -0.5606212951830916
+    Attrib cp=3    0.1161044601299463
+    Attrib cp=4    -0.456301696293871
+    Attrib trestbps    1.972505417277081
+    Attrib chol    -0.49409206144859275
+    Attrib fbs=1    0.06696308388667045
+    Attrib restecg=0    0.7189255998170229
+    Attrib restecg=1    -0.2560757363618159
+    Attrib restecg=2    -0.9781718322955215
+    Attrib thalach    -1.4185358223345406
+    Attrib exang=1    2.1264097064717338
+    Attrib oldpeak='(0.75-inf)'    2.2897923281658725
+    Attrib slope=1    -1.8250683742664517
+    Attrib slope=2    1.0306266254818484
+    Attrib slope=3    0.11967246794713038
+    Attrib ca    3.04206422410885
+    Attrib thal=3    -0.4593546125700125
+    Attrib thal=6    -0.20055347609275245
+    Attrib thal=7    0.2693409384050054
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    0.5751657497907771
+    Attrib age    0.9003031686743571
+    Attrib sex=1    1.1779261042176488
+    Attrib cp=1    -1.5907173992702108
+    Attrib cp=2    0.586307956130332
+    Attrib cp=3    0.31067656754842465
+    Attrib cp=4    -0.4660970538006713
+    Attrib trestbps    2.596216979519755
+    Attrib chol    -0.9449591598224135
+    Attrib fbs=1    0.39337066016911393
+    Attrib restecg=0    -0.10748289629776575
+    Attrib restecg=1    -0.3479556932822821
+    Attrib restecg=2    -0.12932499332662475
+    Attrib thalach    -0.2658307508656514
+    Attrib exang=1    -1.4997736715832044
+    Attrib oldpeak='(0.75-inf)'    0.5048088240103797
+    Attrib slope=1    0.5875117166802909
+    Attrib slope=2    -0.4794560958011205
+    Attrib slope=3    -0.6876834190471399
+    Attrib ca    5.114583222428285
+    Attrib thal=3    0.26493577879267244
+    Attrib thal=6    -0.6940652207196839
+    Attrib thal=7    0.05790542553877528
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    0.25486142778295734
+    Attrib age    -1.2029008986822451
+    Attrib sex=1    -0.3029379811677747
+    Attrib cp=1    -1.0152429459969288
+    Attrib cp=2    0.2705409617560507
+    Attrib cp=3    -0.9724084227738024
+    Attrib cp=4    1.1769954459600414
+    Attrib trestbps    -0.39765196003946046
+    Attrib chol    0.6816930371431285
+    Attrib fbs=1    1.8465150826812018
+    Attrib restecg=0    -0.991897060281577
+    Attrib restecg=1    -0.0719832124972448
+    Attrib restecg=2    0.6792374145463339
+    Attrib thalach    2.2959381531366803
+    Attrib exang=1    0.3706147090026412
+    Attrib oldpeak='(0.75-inf)'    -0.2886816586136221
+    Attrib slope=1    -0.5262962913254674
+    Attrib slope=2    0.5011462817873203
+    Attrib slope=3    -0.322694654369865
+    Attrib ca    3.9504316304201237
+    Attrib thal=3    -0.6876136359345039
+    Attrib thal=6    0.32773828406105154
+    Attrib thal=7    0.4997688748222165
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -0.5488890346015889
+    Attrib age    -1.4718944617306664
+    Attrib sex=1    -2.568238230987095
+    Attrib cp=1    0.9061808826001492
+    Attrib cp=2    -0.17364241298027946
+    Attrib cp=3    1.7079467511613176
+    Attrib cp=4    -1.3600904508371043
+    Attrib trestbps    -2.1570108091965285
+    Attrib chol    0.6063430950886755
+    Attrib fbs=1    0.8772680307379425
+    Attrib restecg=0    0.30910393762623234
+    Attrib restecg=1    0.4297544302707338
+    Attrib restecg=2    -0.08255171570193022
+    Attrib thalach    2.2753548747004455
+    Attrib exang=1    -0.1334808875685538
+    Attrib oldpeak='(0.75-inf)'    0.7194938908824439
+    Attrib slope=1    2.1647093572256586
+    Attrib slope=2    -1.855580171658753
+    Attrib slope=3    0.24065049105470745
+    Attrib ca    -1.5530937460707979
+    Attrib thal=3    1.1493629462816874
+    Attrib thal=6    -0.08814646183551038
+    Attrib thal=7    -0.5358247456893153
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    0.7068573536202456
+    Attrib age    3.475054277245112
+    Attrib sex=1    0.41314124689881804
+    Attrib cp=1    -1.8429721658004838
+    Attrib cp=2    1.9046605489321864
+    Attrib cp=3    -0.08790038740024071
+    Attrib cp=4    -1.4506183809465112
+    Attrib trestbps    2.8755671925594957
+    Attrib chol    -1.1225280065299135
+    Attrib fbs=1    -1.6400146900310455
+    Attrib restecg=0    0.9754798318433411
+    Attrib restecg=1    -0.4075486347080723
+    Attrib restecg=2    -1.2777054633997191
+    Attrib thalach    -3.1674594827632996
+    Attrib exang=1    1.7094607637272636
+    Attrib oldpeak='(0.75-inf)'    1.9580266679640561
+    Attrib slope=1    -1.4834942025473847
+    Attrib slope=2    1.0545507931640372
+    Attrib slope=3    -0.2555503393838436
+    Attrib ca    3.2783158771739296
+    Attrib thal=3    -0.5107325849040177
+    Attrib thal=6    0.025206836628361425
+    Attrib thal=7    0.2521666027286122
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -0.8284099628489056
+    Attrib age    0.03586218671343944
+    Attrib sex=1    -2.671486535624948
+    Attrib cp=1    0.11724046488074977
+    Attrib cp=2    -0.6340903491687496
+    Attrib cp=3    2.3459900711079644
+    Attrib cp=4    -0.15526387459184213
+    Attrib trestbps    -2.190838151225941
+    Attrib chol    0.31686884786008596
+    Attrib fbs=1    1.555813465676087
+    Attrib restecg=0    0.6558005625781501
+    Attrib restecg=1    0.6897478147372252
+    Attrib restecg=2    -0.46707785461408885
+    Attrib thalach    1.2873366807946374
+    Attrib exang=1    -0.3594730296052595
+    Attrib oldpeak='(0.75-inf)'    -0.025889763033091248
+    Attrib slope=1    1.8577482012612718
+    Attrib slope=2    -1.5584527738747784
+    Attrib slope=3    0.564903880416133
+    Attrib ca    -2.222788594539154
+    Attrib thal=3    0.8364560691070916
+    Attrib thal=6    -0.22360261239181936
+    Attrib thal=7    0.14333587455232102
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+=== Classifier model ===
+
+Scheme:   MultilayerPerceptron
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -3.11063044242628
+    Node 2    -2.0659329349792
+    Node 3    -3.2090511935773827
+    Node 4    -3.2783315893313545
+    Node 5    6.639683009112
+    Node 6    4.354216999365689
+    Node 7    6.888641888073572
+    Node 8    -5.491798399217254
+    Node 9    -3.623926590564733
+    Node 10    -4.264676452850938
+    Node 11    2.8856093403109275
+    Node 12    -6.729732554510399
+    Node 13    3.7960776673823786
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    3.1105964739660346
+    Node 2    2.068941317383519
+    Node 3    3.201915731037402
+    Node 4    3.2835825676016124
+    Node 5    -6.63939176897893
+    Node 6    -4.3318917384892295
+    Node 7    -6.890284797941788
+    Node 8    5.49473132059182
+    Node 9    3.631307604430091
+    Node 10    4.256735596245248
+    Node 11    -2.8891362916107193
+    Node 12    6.726801587490443
+    Node 13    -3.8177513755156367
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -0.2273510464076542
+    Attrib age    0.7020504820040756
+    Attrib sex=1    -0.6991278291671568
+    Attrib cp=1    -0.8911330968318757
+    Attrib cp=2    1.229947083289955
+    Attrib cp=3    0.8707201821854331
+    Attrib cp=4    -0.6755805546459676
+    Attrib trestbps    0.7498667506742364
+    Attrib chol    0.5101189374675794
+    Attrib fbs=1    0.7658946565026264
+    Attrib restecg=0    -0.9268188398800763
+    Attrib restecg=1    -0.024093049232487222
+    Attrib restecg=2    1.1916043720963558
+    Attrib thalach    0.1305898281392428
+    Attrib exang=1    0.8424792712535963
+    Attrib oldpeak='(0.75-inf)'    1.5537191117943465
+    Attrib slope=1    -0.8435476360469071
+    Attrib slope=2    0.6005219618102872
+    Attrib slope=3    0.4282575452986527
+    Attrib ca    1.2838296910170353
+    Attrib thal=3    -0.23211459641590837
+    Attrib thal=6    0.5289796554654986
+    Attrib thal=7    0.059754710574921203
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.5967328942739195
+    Attrib age    -0.18841694363758463
+    Attrib sex=1    -1.5576667119679029
+    Attrib cp=1    0.24576085354738664
+    Attrib cp=2    0.8343287904746134
+    Attrib cp=3    -0.04963358450236234
+    Attrib cp=4    0.09277842750388138
+    Attrib trestbps    0.33034128773421034
+    Attrib chol    0.17403647916147466
+    Attrib fbs=1    0.1240794434852454
+    Attrib restecg=0    0.02526625319375984
+    Attrib restecg=1    0.4462895165648699
+    Attrib restecg=2    0.14885373078130099
+    Attrib thalach    0.10065925330846687
+    Attrib exang=1    2.2694966405431054
+    Attrib oldpeak='(0.75-inf)'    -1.0940367095297907
+    Attrib slope=1    0.11253804750829292
+    Attrib slope=2    -0.012766798993016795
+    Attrib slope=3    0.5150962179437177
+    Attrib ca    -0.313250427544695
+    Attrib thal=3    0.861422277717971
+    Attrib thal=6    0.3819371481201687
+    Attrib thal=7    -0.6338722086512394
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -0.4061160499157603
+    Attrib age    -0.10366378600899069
+    Attrib sex=1    -1.2030477925167022
+    Attrib cp=1    0.24732758876490113
+    Attrib cp=2    1.2402173320082552
+    Attrib cp=3    -0.34552849812724673
+    Attrib cp=4    -0.43966486122858855
+    Attrib trestbps    0.10810062564873536
+    Attrib chol    -0.05697192681703891
+    Attrib fbs=1    -0.01290698410346739
+    Attrib restecg=0    0.8441889664183624
+    Attrib restecg=1    0.20500753344456868
+    Attrib restecg=2    -0.7138326055430975
+    Attrib thalach    0.33163674479912136
+    Attrib exang=1    1.3688081148958426
+    Attrib oldpeak='(0.75-inf)'    -1.3038832101774738
+    Attrib slope=1    1.071550305140741
+    Attrib slope=2    -0.9642914313146043
+    Attrib slope=3    0.20005465907117997
+    Attrib ca    -0.5057049983306647
+    Attrib thal=3    0.8514223923034272
+    Attrib thal=6    0.17935764796721976
+    Attrib thal=7    -0.5825147982487568
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -0.5189925976700476
+    Attrib age    6.44511577490742
+    Attrib sex=1    -4.348653198524553
+    Attrib cp=1    -1.0663219235456554
+    Attrib cp=2    2.493414215891881
+    Attrib cp=3    0.10608693557075322
+    Attrib cp=4    -0.4839800237569203
+    Attrib trestbps    -1.1084525521166213
+    Attrib chol    -5.6272621909322895
+    Attrib fbs=1    -1.5399042618950098
+    Attrib restecg=0    1.371083928544515
+    Attrib restecg=1    -0.16122186095910054
+    Attrib restecg=2    -0.6956826132966004
+    Attrib thalach    -2.1249302182478464
+    Attrib exang=1    0.8198153209265325
+    Attrib oldpeak='(0.75-inf)'    2.344265045285759
+    Attrib slope=1    -0.5005355654030608
+    Attrib slope=2    0.19544536799079548
+    Attrib slope=3    0.7615802513424613
+    Attrib ca    -8.507779253405811
+    Attrib thal=3    -0.2539621666577099
+    Attrib thal=6    0.6888273730028002
+    Attrib thal=7    -0.02084653651192869
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.27247076460108033
+    Attrib age    -2.2982272831575195
+    Attrib sex=1    -1.5034776700368073
+    Attrib cp=1    0.9017535268518737
+    Attrib cp=2    -0.5597377353104137
+    Attrib cp=3    2.658223544833009
+    Attrib cp=4    -2.3715419821744543
+    Attrib trestbps    -2.862169439969795
+    Attrib chol    1.3251363695402225
+    Attrib fbs=1    0.022836034294673603
+    Attrib restecg=0    -1.2483841483072664
+    Attrib restecg=1    1.3426674960187306
+    Attrib restecg=2    0.20980252664167615
+    Attrib thalach    1.4030318875481957
+    Attrib exang=1    2.6753795001340364
+    Attrib oldpeak='(0.75-inf)'    -1.302797391985669
+    Attrib slope=1    1.66532729387544
+    Attrib slope=2    -2.1273909186010997
+    Attrib slope=3    0.7500020890953137
+    Attrib ca    -3.5600266802368608
+    Attrib thal=3    0.5213572955648401
+    Attrib thal=6    0.11948049584993374
+    Attrib thal=7    -0.3775714077636842
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -0.20915359160265212
+    Attrib age    -1.157128823401831
+    Attrib sex=1    -3.5583102936933106
+    Attrib cp=1    1.6214544019059993
+    Attrib cp=2    -0.30158656178234056
+    Attrib cp=3    0.5404460115740023
+    Attrib cp=4    -1.5481668738309666
+    Attrib trestbps    -1.0508114541163287
+    Attrib chol    2.3344658222140544
+    Attrib fbs=1    4.546344725505395
+    Attrib restecg=0    -0.1391193887773826
+    Attrib restecg=1    0.5093896252251944
+    Attrib restecg=2    -0.21556122000396982
+    Attrib thalach    1.6073392515955158
+    Attrib exang=1    -2.026665214110199
+    Attrib oldpeak='(0.75-inf)'    0.28249421637132344
+    Attrib slope=1    1.7109195974402098
+    Attrib slope=2    -2.1582111709114433
+    Attrib slope=3    0.716864538418871
+    Attrib ca    -5.512212657046188
+    Attrib thal=3    1.7880535462168257
+    Attrib thal=6    -0.7781779902727703
+    Attrib thal=7    -0.8224427614586869
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -0.46159623107350767
+    Attrib age    -4.2428255148233065
+    Attrib sex=1    -1.5437718355218564
+    Attrib cp=1    -2.2830650415198295
+    Attrib cp=2    0.34612585697539444
+    Attrib cp=3    0.9916593944289621
+    Attrib cp=4    1.8459927690606104
+    Attrib trestbps    1.9443531285220796
+    Attrib chol    0.804660821446675
+    Attrib fbs=1    0.3757187425115874
+    Attrib restecg=0    -0.30237807841649533
+    Attrib restecg=1    1.3048645000914958
+    Attrib restecg=2    -0.47743620551780414
+    Attrib thalach    2.3474537735889887
+    Attrib exang=1    1.4081332366451547
+    Attrib oldpeak='(0.75-inf)'    3.3723652430588125
+    Attrib slope=1    -0.35438871316998327
+    Attrib slope=2    -0.4293258473004285
+    Attrib slope=3    1.1493174646304476
+    Attrib ca    1.1670741466932255
+    Attrib thal=3    -1.5115464182413716
+    Attrib thal=6    0.019716616015990812
+    Attrib thal=7    2.31927130547713
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -0.5046076677107354
+    Attrib age    -0.5330200819211672
+    Attrib sex=1    1.9225123427790407
+    Attrib cp=1    -0.42599055565551525
+    Attrib cp=2    0.6879924814949242
+    Attrib cp=3    1.830782468007925
+    Attrib cp=4    -1.093067488236433
+    Attrib trestbps    2.578988444743705
+    Attrib chol    1.6331587723041199
+    Attrib fbs=1    1.6737426492488074
+    Attrib restecg=0    0.38414454194879455
+    Attrib restecg=1    0.9261675792564593
+    Attrib restecg=2    -0.8153022866104164
+    Attrib thalach    -1.8779790645093324
+    Attrib exang=1    0.4271890956539921
+    Attrib oldpeak='(0.75-inf)'    3.3545436301760994
+    Attrib slope=1    -1.7605525132338053
+    Attrib slope=2    1.467878979331683
+    Attrib slope=3    0.7928191532355887
+    Attrib ca    -0.2964414987871077
+    Attrib thal=3    0.2072378601852077
+    Attrib thal=6    -0.4990111983822376
+    Attrib thal=7    1.0773883924759131
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -1.2302616437084994
+    Attrib age    0.6940280184962633
+    Attrib sex=1    2.0779944710476754
+    Attrib cp=1    1.6925708872430587
+    Attrib cp=2    0.6112437776749785
+    Attrib cp=3    2.18168247025083
+    Attrib cp=4    -2.0553659532405155
+    Attrib trestbps    1.1129561197656794
+    Attrib chol    0.9739668603751692
+    Attrib fbs=1    -0.6567752569471836
+    Attrib restecg=0    0.7228445442599977
+    Attrib restecg=1    1.5704389867548982
+    Attrib restecg=2    -1.1928033177560278
+    Attrib thalach    -2.483597997582347
+    Attrib exang=1    2.287758477616787
+    Attrib oldpeak='(0.75-inf)'    3.1914323874791273
+    Attrib slope=1    -1.107582818922635
+    Attrib slope=2    1.3897402251446793
+    Attrib slope=3    0.8551210013614238
+    Attrib ca    0.4269668416911289
+    Attrib thal=3    2.069485060980762
+    Attrib thal=6    -0.3455024305966929
+    Attrib thal=7    -0.3124673087630655
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -0.7469786763884548
+    Attrib age    -1.5532697709631538
+    Attrib sex=1    0.011811082929033379
+    Attrib cp=1    -0.048996863187464296
+    Attrib cp=2    0.582465584149815
+    Attrib cp=3    -0.06620267631392021
+    Attrib cp=4    1.0093080088693849
+    Attrib trestbps    -3.012400763041753
+    Attrib chol    0.110247044174739
+    Attrib fbs=1    -0.36983120077653386
+    Attrib restecg=0    -1.1755726793003478
+    Attrib restecg=1    1.0397098998085081
+    Attrib restecg=2    0.9902590734737716
+    Attrib thalach    1.720202360817475
+    Attrib exang=1    0.30727245424872357
+    Attrib oldpeak='(0.75-inf)'    1.0570423927524104
+    Attrib slope=1    0.8833085953742674
+    Attrib slope=2    -1.2303960032011119
+    Attrib slope=3    1.0949567262353195
+    Attrib ca    -3.9348661563403815
+    Attrib thal=3    -0.23675383346776552
+    Attrib thal=6    1.5452318470689137
+    Attrib thal=7    -0.5764816522913514
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    0.34500766837510904
+    Attrib age    -0.3610132640541884
+    Attrib sex=1    -0.18686538455567123
+    Attrib cp=1    -3.594863472847616
+    Attrib cp=2    3.567176162209612
+    Attrib cp=3    -1.7295689134349463
+    Attrib cp=4    1.0041252093481832
+    Attrib trestbps    0.5525928554097862
+    Attrib chol    -0.14685091274866413
+    Attrib fbs=1    0.6037681218045202
+    Attrib restecg=0    -3.3204793347442276
+    Attrib restecg=1    0.16843182346185442
+    Attrib restecg=2    2.8041229302631008
+    Attrib thalach    -1.0137316948001949
+    Attrib exang=1    0.8809952361351135
+    Attrib oldpeak='(0.75-inf)'    1.0184992335553154
+    Attrib slope=1    1.744011849411436
+    Attrib slope=2    -1.4813042826057778
+    Attrib slope=3    -0.5853516303277458
+    Attrib ca    3.77497624696627
+    Attrib thal=3    -3.1104098134275224
+    Attrib thal=6    1.0697201790716644
+    Attrib thal=7    1.7924680852959325
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -0.3854264135168226
+    Attrib age    -2.3391136390445104
+    Attrib sex=1    -0.09032043247112331
+    Attrib cp=1    1.1393835408067345
+    Attrib cp=2    -0.5888986572492344
+    Attrib cp=3    2.5408261820869105
+    Attrib cp=4    -2.3034018520804223
+    Attrib trestbps    -2.662650659050815
+    Attrib chol    0.767915676060566
+    Attrib fbs=1    1.165653057478343
+    Attrib restecg=0    -0.5791343126925436
+    Attrib restecg=1    0.7033685932637891
+    Attrib restecg=2    0.31125269279798323
+    Attrib thalach    1.3594511675238259
+    Attrib exang=1    2.6628227020933832
+    Attrib oldpeak='(0.75-inf)'    -0.6375978297706381
+    Attrib slope=1    1.2504897187788637
+    Attrib slope=2    -1.7933971863163005
+    Attrib slope=3    0.9641232260080499
+    Attrib ca    -2.8036903305294714
+    Attrib thal=3    0.07610825696138336
+    Attrib thal=6    0.08813209962668295
+    Attrib thal=7    0.24248219504275734
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+=== Classifier model ===
+
+Scheme:   MultilayerPerceptron
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -1.2081777185778682
+    Node 2    -4.565352691558547
+    Node 3    -3.6454833746011643
+    Node 4    0.8316149605791946
+    Node 5    4.939308729028225
+    Node 6    4.107395666865182
+    Node 7    5.579461031607703
+    Node 8    -3.4226090806498295
+    Node 9    -3.2592638913365017
+    Node 10    -4.442807828489627
+    Node 11    2.2612629532482664
+    Node 12    -6.420415450364788
+    Node 13    5.414206458798464
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    1.2080744731194628
+    Node 2    4.565649559596946
+    Node 3    3.6493512319093693
+    Node 4    -0.8362969212009499
+    Node 5    -4.9366445999974236
+    Node 6    -4.093333763580477
+    Node 7    -5.580553331721146
+    Node 8    3.422885725406676
+    Node 9    3.2604280587313066
+    Node 10    4.4378095316703
+    Node 11    -2.260221632563527
+    Node 12    6.419608701411934
+    Node 13    -5.424598116425111
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    0.4868090397009045
+    Attrib age    -0.7760548662348146
+    Attrib sex=1    0.7198942836653438
+    Attrib cp=1    -2.2814021721536237
+    Attrib cp=2    1.8682024041579635
+    Attrib cp=3    -1.3626349254257646
+    Attrib cp=4    0.8814681352019215
+    Attrib trestbps    1.3300489153662547
+    Attrib chol    0.2764894528663098
+    Attrib fbs=1    0.814539367896044
+    Attrib restecg=0    -1.4712916740812572
+    Attrib restecg=1    -0.33634784716088006
+    Attrib restecg=2    1.3341719181173737
+    Attrib thalach    -0.9393763048559752
+    Attrib exang=1    0.5425256791209047
+    Attrib oldpeak='(0.75-inf)'    -0.2157046686065694
+    Attrib slope=1    -0.05287584230979994
+    Attrib slope=2    -0.4156730675384156
+    Attrib slope=3    -0.060379305198317586
+    Attrib ca    5.0284079939902275
+    Attrib thal=3    -1.9133222663719625
+    Attrib thal=6    -0.5375310304601719
+    Attrib thal=7    2.006287597407467
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.4728026945590289
+    Attrib age    -0.06583537491176496
+    Attrib sex=1    -0.9019075705802266
+    Attrib cp=1    0.05466238202242486
+    Attrib cp=2    0.566238269519516
+    Attrib cp=3    -1.1520259008843265
+    Attrib cp=4    1.4064993369361842
+    Attrib trestbps    1.100437767779762
+    Attrib chol    0.29636169994791284
+    Attrib fbs=1    -1.895470800402572
+    Attrib restecg=0    -0.16286516507389268
+    Attrib restecg=1    0.48801445124557585
+    Attrib restecg=2    0.17133001465335868
+    Attrib thalach    -0.2337988026922211
+    Attrib exang=1    1.6611337458555606
+    Attrib oldpeak='(0.75-inf)'    -0.9724330465932348
+    Attrib slope=1    1.2875360371401308
+    Attrib slope=2    -1.5761760299964627
+    Attrib slope=3    0.7795772596004676
+    Attrib ca    0.4247038577030386
+    Attrib thal=3    0.5848060190483135
+    Attrib thal=6    -0.02454807947683853
+    Attrib thal=7    -0.10878130862114141
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -0.3728561022239659
+    Attrib age    -0.5361042684826975
+    Attrib sex=1    -0.5353029649784816
+    Attrib cp=1    0.08175784710124478
+    Attrib cp=2    0.24580828778300118
+    Attrib cp=3    0.14715518258598886
+    Attrib cp=4    0.16111034856352302
+    Attrib trestbps    -0.4101901521526608
+    Attrib chol    -0.0034801387454514066
+    Attrib fbs=1    0.04065109841011397
+    Attrib restecg=0    -0.053961699780803216
+    Attrib restecg=1    0.28171807325901377
+    Attrib restecg=2    0.0743475731498237
+    Attrib thalach    0.1702981215275783
+    Attrib exang=1    0.28438035709250936
+    Attrib oldpeak='(0.75-inf)'    0.4188377167783327
+    Attrib slope=1    -0.3499038020664083
+    Attrib slope=2    0.338056972544186
+    Attrib slope=3    0.2859004147277532
+    Attrib ca    -0.6029447202316984
+    Attrib thal=3    0.46221815738698424
+    Attrib thal=6    0.5347435753391493
+    Attrib thal=7    -0.6069319718326337
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -0.6574409871552098
+    Attrib age    -1.7937555510197292
+    Attrib sex=1    1.3658409358185595
+    Attrib cp=1    0.9614325670484786
+    Attrib cp=2    -1.5066442681758174
+    Attrib cp=3    0.20224866000129943
+    Attrib cp=4    1.6690590242564232
+    Attrib trestbps    -2.0933610102607587
+    Attrib chol    -0.9668966948797617
+    Attrib fbs=1    -0.42384869017796795
+    Attrib restecg=0    1.8254394674421817
+    Attrib restecg=1    0.2711695392532583
+    Attrib restecg=2    -1.4439811629214807
+    Attrib thalach    0.9768781087645336
+    Attrib exang=1    0.24363936070159048
+    Attrib oldpeak='(0.75-inf)'    -2.865640141986065
+    Attrib slope=1    1.7883471208793429
+    Attrib slope=2    -1.489773828610691
+    Attrib slope=3    0.2963651511467264
+    Attrib ca    -3.5115496842588985
+    Attrib thal=3    2.6933406894091956
+    Attrib thal=6    0.5095319610279108
+    Attrib thal=7    -2.5977692952515743
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.37109829823723667
+    Attrib age    2.513587245850544
+    Attrib sex=1    0.08837835350130654
+    Attrib cp=1    1.656418382085123
+    Attrib cp=2    -0.7156806179343573
+    Attrib cp=3    1.6919111747678528
+    Attrib cp=4    -1.8066965174463634
+    Attrib trestbps    -2.422236292959717
+    Attrib chol    -2.6603291113525165
+    Attrib fbs=1    2.8654140270360466
+    Attrib restecg=0    0.16614148983137328
+    Attrib restecg=1    0.3486283659695393
+    Attrib restecg=2    -0.11205644781164466
+    Attrib thalach    -1.861512321337133
+    Attrib exang=1    1.3177446416364025
+    Attrib oldpeak='(0.75-inf)'    -0.8127917392717448
+    Attrib slope=1    0.9503387372341269
+    Attrib slope=2    -1.2486268641236349
+    Attrib slope=3    0.6848541248954297
+    Attrib ca    -1.7199975096342799
+    Attrib thal=3    -0.8761235670398397
+    Attrib thal=6    -0.02147830376800399
+    Attrib thal=7    1.2204888029138168
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -0.06598319318481537
+    Attrib age    0.2472233175403129
+    Attrib sex=1    -4.339073512630118
+    Attrib cp=1    1.054389838581324
+    Attrib cp=2    -0.5541598669292469
+    Attrib cp=3    1.0482205848411215
+    Attrib cp=4    -1.5226443754622156
+    Attrib trestbps    -0.601490935702015
+    Attrib chol    0.5031056579129303
+    Attrib fbs=1    2.013576886297744
+    Attrib restecg=0    -0.21800935560761492
+    Attrib restecg=1    -0.20760093671885174
+    Attrib restecg=2    0.437148910352487
+    Attrib thalach    -0.9491918203865494
+    Attrib exang=1    0.06744619118943905
+    Attrib oldpeak='(0.75-inf)'    0.37229464511969745
+    Attrib slope=1    2.436176987137015
+    Attrib slope=2    -2.998245783278424
+    Attrib slope=3    0.6884713626711471
+    Attrib ca    -6.354100933977956
+    Attrib thal=3    0.5061691145685393
+    Attrib thal=6    0.34624611256026916
+    Attrib thal=7    -0.8238062648680489
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -0.03687465468057356
+    Attrib age    0.17889984815204638
+    Attrib sex=1    -0.756531502412148
+    Attrib cp=1    0.580158235862478
+    Attrib cp=2    -0.45586870609880725
+    Attrib cp=3    -0.09974458918471946
+    Attrib cp=4    0.02672488558031611
+    Attrib trestbps    2.1510735598012776
+    Attrib chol    -0.34511412758989685
+    Attrib fbs=1    -1.3466685929909976
+    Attrib restecg=0    1.578307130076138
+    Attrib restecg=1    0.30986244506549504
+    Attrib restecg=2    -1.7878409353773603
+    Attrib thalach    -1.5025602876624642
+    Attrib exang=1    2.1984792465930587
+    Attrib oldpeak='(0.75-inf)'    1.6685511546244092
+    Attrib slope=1    -0.949606780110052
+    Attrib slope=2    0.15624061540197104
+    Attrib slope=3    0.7342474924751787
+    Attrib ca    2.4065274363336524
+    Attrib thal=3    -0.18556233066257236
+    Attrib thal=6    -0.2406858051620517
+    Attrib thal=7    0.5099046744463921
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    0.2871699744970249
+    Attrib age    -0.6933337010579663
+    Attrib sex=1    -0.5387393487660332
+    Attrib cp=1    -0.2737522443201692
+    Attrib cp=2    1.6881206816385308
+    Attrib cp=3    -0.5215753379164676
+    Attrib cp=4    -1.476631478206446
+    Attrib trestbps    0.22545010452282904
+    Attrib chol    2.9109806093307506
+    Attrib fbs=1    0.981083104241979
+    Attrib restecg=0    -0.7495606141809248
+    Attrib restecg=1    -0.07934155936736252
+    Attrib restecg=2    0.5321343659353718
+    Attrib thalach    0.19889216796451895
+    Attrib exang=1    0.44649585823483817
+    Attrib oldpeak='(0.75-inf)'    1.9620369129844575
+    Attrib slope=1    -1.5237976013934693
+    Attrib slope=2    1.575236641664427
+    Attrib slope=3    -0.3430710631452262
+    Attrib ca    2.7973517722458467
+    Attrib thal=3    -1.7032337624509521
+    Attrib thal=6    -0.04595963147553912
+    Attrib thal=7    1.5495431513512419
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    0.11116190549649971
+    Attrib age    -1.2113606541784177
+    Attrib sex=1    2.09041891471679
+    Attrib cp=1    -1.9545824206177436
+    Attrib cp=2    0.2719685188717824
+    Attrib cp=3    0.27075920824002486
+    Attrib cp=4    1.1591387770241979
+    Attrib trestbps    0.11907714139866837
+    Attrib chol    0.0601007096320897
+    Attrib fbs=1    1.145695733741725
+    Attrib restecg=0    -0.4364766138939326
+    Attrib restecg=1    -0.01656266911751257
+    Attrib restecg=2    0.212095947065388
+    Attrib thalach    -0.7387166207703679
+    Attrib exang=1    -0.048065435437612485
+    Attrib oldpeak='(0.75-inf)'    -1.0226459354865511
+    Attrib slope=1    0.19342958017509063
+    Attrib slope=2    -0.9800046120224607
+    Attrib slope=3    0.5824298902258417
+    Attrib ca    5.299018170497414
+    Attrib thal=3    -0.5646028579974398
+    Attrib thal=6    -0.19742069351624106
+    Attrib thal=7    0.6305843972134713
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -0.42745971413691425
+    Attrib age    -0.8704929966626107
+    Attrib sex=1    -1.10004614962146
+    Attrib cp=1    0.8479026207608994
+    Attrib cp=2    0.6490305297409221
+    Attrib cp=3    0.69226017313044
+    Attrib cp=4    -1.3516571946175164
+    Attrib trestbps    -1.288837127782376
+    Attrib chol    -0.661407289411323
+    Attrib fbs=1    -0.29479406172735795
+    Attrib restecg=0    -0.17530190952994876
+    Attrib restecg=1    0.4061638604875407
+    Attrib restecg=2    0.3040153807727962
+    Attrib thalach    0.07024895801186785
+    Attrib exang=1    1.1847615218827199
+    Attrib oldpeak='(0.75-inf)'    0.6356035338132497
+    Attrib slope=1    0.6596266747333589
+    Attrib slope=2    -0.6639466026276353
+    Attrib slope=3    0.43267028405123353
+    Attrib ca    -2.212051920146545
+    Attrib thal=3    -0.011355910232940332
+    Attrib thal=6    0.9048668437409547
+    Attrib thal=7    -0.4157980062442466
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    0.5059431811818076
+    Attrib age    2.950410240087272
+    Attrib sex=1    -0.5211884110837679
+    Attrib cp=1    -0.3354851153441874
+    Attrib cp=2    -1.3725039165597532
+    Attrib cp=3    2.111707796077966
+    Attrib cp=4    -1.4787208045122604
+    Attrib trestbps    2.54334747506335
+    Attrib chol    -1.6246012586887761
+    Attrib fbs=1    0.7573676217767262
+    Attrib restecg=0    1.8669344340329597
+    Attrib restecg=1    -0.2555769603715244
+    Attrib restecg=2    -2.120217567487466
+    Attrib thalach    -1.7327639515575874
+    Attrib exang=1    2.3919424132553724
+    Attrib oldpeak='(0.75-inf)'    2.9576453563403473
+    Attrib slope=1    -1.929736396831354
+    Attrib slope=2    0.5933983996081059
+    Attrib slope=3    0.8527584208945412
+    Attrib ca    2.9024069230289196
+    Attrib thal=3    -0.17575885330976315
+    Attrib thal=6    -0.21382799943689818
+    Attrib thal=7    -0.10807552621737689
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -0.4857759124804643
+    Attrib age    5.079385404634221
+    Attrib sex=1    -1.1005559763775763
+    Attrib cp=1    0.8514004350668063
+    Attrib cp=2    -0.70440766354427
+    Attrib cp=3    3.135843157574924
+    Attrib cp=4    -2.2942277176061805
+    Attrib trestbps    -2.8330979156830915
+    Attrib chol    -4.3267110953226195
+    Attrib fbs=1    1.7718563095664257
+    Attrib restecg=0    1.001337685263098
+    Attrib restecg=1    0.4690506084171548
+    Attrib restecg=2    -0.9345518213473937
+    Attrib thalach    -3.1579294285883357
+    Attrib exang=1    0.7634692584840126
+    Attrib oldpeak='(0.75-inf)'    -1.508504810458549
+    Attrib slope=1    1.0582711036470527
+    Attrib slope=2    -0.9916222488239856
+    Attrib slope=3    0.45491640261112454
+    Attrib ca    -1.5195456846891822
+    Attrib thal=3    -1.4303008252362635
+    Attrib thal=6    -0.24394864158739787
+    Attrib thal=7    2.180203227465579
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+=== Classifier model ===
+
+Scheme:   MultilayerPerceptron
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -1.5970542461893162
+    Node 2    -5.173986824833354
+    Node 3    -0.43548406238070275
+    Node 4    0.2524229841095292
+    Node 5    4.908103194401695
+    Node 6    3.2471140732818853
+    Node 7    5.661993113647647
+    Node 8    -7.415844917085116
+    Node 9    -4.0405129066756285
+    Node 10    -5.422960971925645
+    Node 11    3.0655765802016357
+    Node 12    -4.977736195827032
+    Node 13    5.7460872312143
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    1.591783245006373
+    Node 2    5.175056477512725
+    Node 3    0.4305035022673474
+    Node 4    -0.24752483602143138
+    Node 5    -4.909852582118933
+    Node 6    -3.238942155959941
+    Node 7    -5.656671310656883
+    Node 8    7.416252416701034
+    Node 9    4.042728379599142
+    Node 10    5.421929270992743
+    Node 11    -3.0711491331704934
+    Node 12    4.979321289111986
+    Node 13    -5.746422601350205
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -0.04334405896517334
+    Attrib age    -1.9308290975798186
+    Attrib sex=1    1.3777717279214157
+    Attrib cp=1    0.19913101666720684
+    Attrib cp=2    -1.4265816161217113
+    Attrib cp=3    -0.025413355091304275
+    Attrib cp=4    1.4188035936583552
+    Attrib trestbps    2.801203245395349
+    Attrib chol    6.471884633148842
+    Attrib fbs=1    1.4149634306340066
+    Attrib restecg=0    -1.1925784768653955
+    Attrib restecg=1    0.3156626180190038
+    Attrib restecg=2    0.9336013543877081
+    Attrib thalach    1.9941980835501492
+    Attrib exang=1    -3.6507332672059345
+    Attrib oldpeak='(0.75-inf)'    -1.2255978502039302
+    Attrib slope=1    1.1325152004269063
+    Attrib slope=2    -0.9310735029275846
+    Attrib slope=3    -0.2002168138797377
+    Attrib ca    3.24197365635786
+    Attrib thal=3    -0.46518267668923136
+    Attrib thal=6    0.7537734467766772
+    Attrib thal=7    -0.18310593179047627
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.2828039935495519
+    Attrib age    0.12808896095735367
+    Attrib sex=1    -0.4461342969433336
+    Attrib cp=1    0.2131501346472643
+    Attrib cp=2    0.16168572556520888
+    Attrib cp=3    0.19467727705790072
+    Attrib cp=4    -0.07413645169557727
+    Attrib trestbps    0.11722000177802165
+    Attrib chol    0.2938939457680696
+    Attrib fbs=1    0.1774585524038205
+    Attrib restecg=0    0.1595872064804568
+    Attrib restecg=1    0.21151409761507564
+    Attrib restecg=2    -0.06462070427997153
+    Attrib thalach    0.16686011297360412
+    Attrib exang=1    0.0356541440609914
+    Attrib oldpeak='(0.75-inf)'    -0.11695095986756943
+    Attrib slope=1    0.23951936399593002
+    Attrib slope=2    -0.16321568674934328
+    Attrib slope=3    0.22463488848804639
+    Attrib ca    -0.5384301986374898
+    Attrib thal=3    0.1521163020821024
+    Attrib thal=6    0.19796115622834784
+    Attrib thal=7    -0.10977037632386931
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -0.3721261463415677
+    Attrib age    -0.08034083856160423
+    Attrib sex=1    -0.15417889394228934
+    Attrib cp=1    0.26900712619642025
+    Attrib cp=2    0.053926516686355605
+    Attrib cp=3    0.34164117213267653
+    Attrib cp=4    -0.030203060746499172
+    Attrib trestbps    -0.2594655084593503
+    Attrib chol    -0.03798854621586881
+    Attrib fbs=1    0.34638922815240225
+    Attrib restecg=0    0.33728382150495845
+    Attrib restecg=1    0.2834473101434806
+    Attrib restecg=2    -0.3193571409028064
+    Attrib thalach    0.06280336316937978
+    Attrib exang=1    0.18111956375792376
+    Attrib oldpeak='(0.75-inf)'    0.32195969729983365
+    Attrib slope=1    0.1668201814918557
+    Attrib slope=2    -0.09789871967298519
+    Attrib slope=3    0.20440216750425577
+    Attrib ca    -0.09675510922142191
+    Attrib thal=3    0.007437777783729282
+    Attrib thal=6    0.5245834148275819
+    Attrib thal=7    -0.15164873120663191
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -0.48880641818697274
+    Attrib age    -3.459023304757508
+    Attrib sex=1    -2.042130058754293
+    Attrib cp=1    0.7035687302349194
+    Attrib cp=2    0.6013543051929611
+    Attrib cp=3    -0.18852514603794518
+    Attrib cp=4    -0.12757104419601945
+    Attrib trestbps    0.46027109396963295
+    Attrib chol    0.2035619660898016
+    Attrib fbs=1    0.8844852093314938
+    Attrib restecg=0    -0.8972704910193882
+    Attrib restecg=1    0.42990665044881055
+    Attrib restecg=2    0.9513571153762755
+    Attrib thalach    2.3426077885105685
+    Attrib exang=1    -3.8237291790532386
+    Attrib oldpeak='(0.75-inf)'    -2.9925533607889307
+    Attrib slope=1    2.331386807737121
+    Attrib slope=2    -1.1841661939060386
+    Attrib slope=3    -0.7209167393839633
+    Attrib ca    -4.485228990524474
+    Attrib thal=3    -0.32524570093177857
+    Attrib thal=6    0.2966036236598912
+    Attrib thal=7    0.44082356645545523
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    0.023328464098882885
+    Attrib age    0.6501856911250022
+    Attrib sex=1    -3.0724316270198018
+    Attrib cp=1    1.161674466011102
+    Attrib cp=2    -1.3879357330161008
+    Attrib cp=3    1.1432001472127293
+    Attrib cp=4    -0.8798399834077588
+    Attrib trestbps    -1.146640884887327
+    Attrib chol    -0.9639621061055661
+    Attrib fbs=1    2.9967773681243983
+    Attrib restecg=0    -0.8657477782898586
+    Attrib restecg=1    0.06327492609869204
+    Attrib restecg=2    0.810759497844307
+    Attrib thalach    0.8233941947852527
+    Attrib exang=1    0.41605376289020557
+    Attrib oldpeak='(0.75-inf)'    0.21917167563854537
+    Attrib slope=1    1.8728156338759943
+    Attrib slope=2    -1.9760094795671117
+    Attrib slope=3    0.09533308136088882
+    Attrib ca    -3.859900634631819
+    Attrib thal=3    -0.3103246551863731
+    Attrib thal=6    -0.36232136112920293
+    Attrib thal=7    0.5754110681567124
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    0.8638416516241085
+    Attrib age    -0.2787921558028614
+    Attrib sex=1    -3.7511413718411135
+    Attrib cp=1    0.5994146400466065
+    Attrib cp=2    -2.064703358900202
+    Attrib cp=3    -1.6374398698489812
+    Attrib cp=4    1.2688850801157519
+    Attrib trestbps    -2.9628080362305655
+    Attrib chol    -1.4594557335800478
+    Attrib fbs=1    -2.737089010628241
+    Attrib restecg=0    -0.9972532674576174
+    Attrib restecg=1    -0.5844516878970314
+    Attrib restecg=2    0.6634187285717115
+    Attrib thalach    2.6373018468308866
+    Attrib exang=1    -0.8621189220691686
+    Attrib oldpeak='(0.75-inf)'    -3.232228529842398
+    Attrib slope=1    2.3447030942454115
+    Attrib slope=2    -2.5922018146731998
+    Attrib slope=3    -0.5559235578513965
+    Attrib ca    -2.0798528863392356
+    Attrib thal=3    -0.34947394495801437
+    Attrib thal=6    1.134359632402538
+    Attrib thal=7    -1.8642035167494324
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    0.8040555514407366
+    Attrib age    -1.789135864720814
+    Attrib sex=1    -2.7612339572180704
+    Attrib cp=1    -1.9810450788392098
+    Attrib cp=2    0.6597903634017009
+    Attrib cp=3    -2.3183506971603416
+    Attrib cp=4    2.009014826514559
+    Attrib trestbps    2.682573841064402
+    Attrib chol    -0.4586516594751173
+    Attrib fbs=1    -0.4471971069994621
+    Attrib restecg=0    -0.09971048363618733
+    Attrib restecg=1    -0.1678092217570075
+    Attrib restecg=2    -0.47308186096384675
+    Attrib thalach    -3.490114688124867
+    Attrib exang=1    4.878757766572602
+    Attrib oldpeak='(0.75-inf)'    -2.14223151955685
+    Attrib slope=1    2.0662760702107175
+    Attrib slope=2    -3.43055788669186
+    Attrib slope=3    0.464232938126949
+    Attrib ca    3.4619218214307526
+    Attrib thal=3    -0.4959590377662466
+    Attrib thal=6    -0.8181925007197037
+    Attrib thal=7    0.6746450951840705
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -0.4382032421394605
+    Attrib age    0.16712079547264722
+    Attrib sex=1    2.688685085283516
+    Attrib cp=1    0.5601193081365771
+    Attrib cp=2    1.3004518489609576
+    Attrib cp=3    -0.1515760710786045
+    Attrib cp=4    -0.8420870315505052
+    Attrib trestbps    3.691925676368546
+    Attrib chol    0.5324626456059598
+    Attrib fbs=1    -0.7759787757734151
+    Attrib restecg=0    0.21002944634829732
+    Attrib restecg=1    0.6345484420512961
+    Attrib restecg=2    -0.41597247937602594
+    Attrib thalach    -1.865650921917822
+    Attrib exang=1    -0.9333741876959813
+    Attrib oldpeak='(0.75-inf)'    2.963200876510146
+    Attrib slope=1    -0.6729358964295535
+    Attrib slope=2    0.5537725047247644
+    Attrib slope=3    0.552904585467049
+    Attrib ca    1.6637429933977876
+    Attrib thal=3    -0.8627198637835185
+    Attrib thal=6    -0.6590159840209929
+    Attrib thal=7    2.214699785875277
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -0.09581975193634756
+    Attrib age    2.850697044804037
+    Attrib sex=1    0.8808068872637442
+    Attrib cp=1    -1.7844142741870135
+    Attrib cp=2    1.1527254847796617
+    Attrib cp=3    0.3777503267169017
+    Attrib cp=4    0.4151858610743909
+    Attrib trestbps    5.6012414246730335
+    Attrib chol    2.6123739263423578
+    Attrib fbs=1    0.6738904143497817
+    Attrib restecg=0    -1.8198486948215922
+    Attrib restecg=1    0.3145295900895824
+    Attrib restecg=2    1.4713574262188245
+    Attrib thalach    -0.3981760371385762
+    Attrib exang=1    1.0978212718075906
+    Attrib oldpeak='(0.75-inf)'    0.5557214238219071
+    Attrib slope=1    0.6955947189680612
+    Attrib slope=2    -1.0751300155981542
+    Attrib slope=3    0.38237181244138857
+    Attrib ca    -4.428939473912336
+    Attrib thal=3    -1.6183147104215694
+    Attrib thal=6    0.6121287020848487
+    Attrib thal=7    1.1486893228478046
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -0.25739046697499623
+    Attrib age    -0.9006379457635695
+    Attrib sex=1    -2.3035396478998518
+    Attrib cp=1    0.6133880892268723
+    Attrib cp=2    -1.0166924017998251
+    Attrib cp=3    1.238430119057155
+    Attrib cp=4    -0.3377281717932602
+    Attrib trestbps    -2.1862902935496633
+    Attrib chol    -0.5095585770679156
+    Attrib fbs=1    1.6463526167951965
+    Attrib restecg=0    -1.0159613075607266
+    Attrib restecg=1    0.29167717809035226
+    Attrib restecg=2    1.0890922140388626
+    Attrib thalach    1.0046250458838206
+    Attrib exang=1    0.5048951949010508
+    Attrib oldpeak='(0.75-inf)'    0.17918055445845002
+    Attrib slope=1    1.9346980576819452
+    Attrib slope=2    -1.9253235234633852
+    Attrib slope=3    0.24890657477645678
+    Attrib ca    -3.664161878022697
+    Attrib thal=3    0.16252698770034596
+    Attrib thal=6    -0.053699588619113434
+    Attrib thal=7    0.14016319144670067
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    0.4699359206330695
+    Attrib age    -2.798776832784559
+    Attrib sex=1    3.812060159207145
+    Attrib cp=1    -2.339321584294542
+    Attrib cp=2    1.6611561338468068
+    Attrib cp=3    -1.1649704917587584
+    Attrib cp=4    0.8401484229657723
+    Attrib trestbps    -0.5431132222142788
+    Attrib chol    0.47309527591576983
+    Attrib fbs=1    1.9463516584511529
+    Attrib restecg=0    -0.5129699283812886
+    Attrib restecg=1    -0.12999820761349024
+    Attrib restecg=2    0.17011530271754388
+    Attrib thalach    -2.628828629236378
+    Attrib exang=1    -0.03897988981045195
+    Attrib oldpeak='(0.75-inf)'    -0.4762615227848265
+    Attrib slope=1    -0.28628611537416015
+    Attrib slope=2    -0.6832007928972016
+    Attrib slope=3    0.5219145924913356
+    Attrib ca    5.5180998917300625
+    Attrib thal=3    -0.7598214394108468
+    Attrib thal=6    -0.5057516572994779
+    Attrib thal=7    1.0429564000331017
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -1.0672783687222462
+    Attrib age    3.183863617132106
+    Attrib sex=1    1.8405049446175172
+    Attrib cp=1    1.3720819032230251
+    Attrib cp=2    0.9744727802591525
+    Attrib cp=3    1.5182591376311012
+    Attrib cp=4    -1.7132006971384015
+    Attrib trestbps    2.453627614565473
+    Attrib chol    -4.003934464160918
+    Attrib fbs=1    1.8980489091709347
+    Attrib restecg=0    0.6389752154648581
+    Attrib restecg=1    1.2721630176284544
+    Attrib restecg=2    -0.7937993045186688
+    Attrib thalach    -0.6233988748553257
+    Attrib exang=1    0.9532405348700144
+    Attrib oldpeak='(0.75-inf)'    -0.7177821428866928
+    Attrib slope=1    2.1325188437040206
+    Attrib slope=2    -2.4227393796395895
+    Attrib slope=3    1.393288249611589
+    Attrib ca    -4.695290859913329
+    Attrib thal=3    0.3785719763277869
+    Attrib thal=6    -0.22082508307260257
+    Attrib thal=7    0.8640298357806143
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+=== Classifier model ===
+
+Scheme:   MultilayerPerceptron
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -1.595392522344664
+    Node 2    -5.075387344374827
+    Node 3    -4.6171674363882
+    Node 4    0.32459896515050757
+    Node 5    7.495592375904759
+    Node 6    3.701361339025123
+    Node 7    4.547281957087752
+    Node 8    -4.1504881351536165
+    Node 9    -3.133244550602734
+    Node 10    -3.7325456987589227
+    Node 11    3.2561546121253118
+    Node 12    -4.71109366623051
+    Node 13    4.983180218173289
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    1.5965421589699877
+    Node 2    5.074486112472289
+    Node 3    4.615804181135712
+    Node 4    -0.3268307572248173
+    Node 5    -7.49438608093974
+    Node 6    -3.691164585252905
+    Node 7    -4.549269679732248
+    Node 8    4.154644440593528
+    Node 9    3.1299485865353147
+    Node 10    3.738271140007547
+    Node 11    -3.2547143661552496
+    Node 12    4.707134663949526
+    Node 13    -4.992778378107577
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    1.0288363274874028
+    Attrib age    -4.361185276569708
+    Attrib sex=1    0.952213795825391
+    Attrib cp=1    -0.6448900180181998
+    Attrib cp=2    0.30103617550941797
+    Attrib cp=3    -2.149465425149657
+    Attrib cp=4    0.5148981338658517
+    Attrib trestbps    1.075484547567875
+    Attrib chol    4.6453881716684675
+    Attrib fbs=1    -0.09374833737597141
+    Attrib restecg=0    -0.8660620621495805
+    Attrib restecg=1    -0.8807280438014349
+    Attrib restecg=2    0.731295215039748
+    Attrib thalach    0.1562907314550316
+    Attrib exang=1    1.9595065512049312
+    Attrib oldpeak='(0.75-inf)'    -1.7058394158323806
+    Attrib slope=1    0.14023171975081145
+    Attrib slope=2    -1.990215064027086
+    Attrib slope=3    0.7790278414432119
+    Attrib ca    2.593230417456354
+    Attrib thal=3    -2.404438335125674
+    Attrib thal=6    0.15472610896191674
+    Attrib thal=7    1.2984938393894945
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    0.43290341767412077
+    Attrib age    -0.3990079390008529
+    Attrib sex=1    -0.8393387642918054
+    Attrib cp=1    0.03371573506960139
+    Attrib cp=2    -0.9699004512011935
+    Attrib cp=3    0.9621564888872904
+    Attrib cp=4    -0.9620099096282829
+    Attrib trestbps    0.38207382691567626
+    Attrib chol    0.8064651166521783
+    Attrib fbs=1    -0.8408353756966981
+    Attrib restecg=0    1.018493840607876
+    Attrib restecg=1    -0.4826174117192452
+    Attrib restecg=2    -0.9451032402967491
+    Attrib thalach    -0.798662525561451
+    Attrib exang=1    -0.14099881474140588
+    Attrib oldpeak='(0.75-inf)'    -0.22626336070181266
+    Attrib slope=1    -0.5147188657010506
+    Attrib slope=2    -0.6893628356046092
+    Attrib slope=3    0.7893128558166155
+    Attrib ca    0.5033978994703358
+    Attrib thal=3    1.3376082979151604
+    Attrib thal=6    -1.3384128090426068
+    Attrib thal=7    -0.29890503930913054
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -0.42407170772335095
+    Attrib age    0.023611510479990678
+    Attrib sex=1    -0.30643586093758746
+    Attrib cp=1    0.2835428369932741
+    Attrib cp=2    0.3781148365002103
+    Attrib cp=3    0.3756556091648777
+    Attrib cp=4    -0.29905040562585217
+    Attrib trestbps    -0.16825691048336092
+    Attrib chol    0.05669484262382534
+    Attrib fbs=1    0.19113428029262955
+    Attrib restecg=0    0.2100718034973877
+    Attrib restecg=1    0.2963636883464911
+    Attrib restecg=2    -0.15311593971645635
+    Attrib thalach    0.19976317728692056
+    Attrib exang=1    -0.1445218917951307
+    Attrib oldpeak='(0.75-inf)'    0.1600993188142757
+    Attrib slope=1    0.5636264484439745
+    Attrib slope=2    -0.3692038460173565
+    Attrib slope=3    0.13084658827828732
+    Attrib ca    -0.5156704495666374
+    Attrib thal=3    -0.012238484301742118
+    Attrib thal=6    0.47548859841508195
+    Attrib thal=7    -0.03998491692610594
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -1.0884852913575993
+    Attrib age    -2.2912187462190925
+    Attrib sex=1    -1.5040449666776599
+    Attrib cp=1    3.9451265840657816
+    Attrib cp=2    -1.4206051912245934
+    Attrib cp=3    0.29421755175963926
+    Attrib cp=4    -0.6305543530656028
+    Attrib trestbps    -4.918575777651126
+    Attrib chol    1.0046696073060581
+    Attrib fbs=1    -0.5568619999991276
+    Attrib restecg=0    -0.3998306446737095
+    Attrib restecg=1    0.6441420576522353
+    Attrib restecg=2    0.8393607349978432
+    Attrib thalach    1.0869690260288751
+    Attrib exang=1    0.8150978006965048
+    Attrib oldpeak='(0.75-inf)'    -2.9252495508616527
+    Attrib slope=1    -0.6334412112608867
+    Attrib slope=2    0.30275367086749927
+    Attrib slope=3    1.3566702880111323
+    Attrib ca    -8.258394206889731
+    Attrib thal=3    -1.3581150522931253
+    Attrib thal=6    2.122915244750206
+    Attrib thal=7    -0.861100001756685
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.692412480610545
+    Attrib age    1.0589039347245928
+    Attrib sex=1    -2.948934037717839
+    Attrib cp=1    0.13243147873512293
+    Attrib cp=2    0.988122582260598
+    Attrib cp=3    1.1766984423434625
+    Attrib cp=4    -0.82867171712038
+    Attrib trestbps    -1.2386585895196551
+    Attrib chol    0.34978596606565854
+    Attrib fbs=1    1.0743234872616552
+    Attrib restecg=0    0.5488840152545651
+    Attrib restecg=1    0.5230875615972619
+    Attrib restecg=2    -0.34794398648925484
+    Attrib thalach    9.422300031929302E-5
+    Attrib exang=1    -1.2937366591973838
+    Attrib oldpeak='(0.75-inf)'    0.6433268418659313
+    Attrib slope=1    2.2610379562124776
+    Attrib slope=2    -1.8738622754482843
+    Attrib slope=3    0.3207044996149162
+    Attrib ca    -3.547438354581409
+    Attrib thal=3    0.27184773423822245
+    Attrib thal=6    0.3538552975459494
+    Attrib thal=7    0.033275425674651304
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -0.6391430849518419
+    Attrib age    3.5735888232563116
+    Attrib sex=1    -2.8315849190408735
+    Attrib cp=1    0.8970224941571117
+    Attrib cp=2    -1.0845740127016599
+    Attrib cp=3    0.6010316535418384
+    Attrib cp=4    0.7586458295677655
+    Attrib trestbps    -2.0694424264199833
+    Attrib chol    -3.5362233353861865
+    Attrib fbs=1    2.8179337405899085
+    Attrib restecg=0    0.3603474551527836
+    Attrib restecg=1    0.31308906666718245
+    Attrib restecg=2    -0.08873801202692724
+    Attrib thalach    0.02193014848642227
+    Attrib exang=1    1.3795036366489548
+    Attrib oldpeak='(0.75-inf)'    -1.2788575371284412
+    Attrib slope=1    -0.08554398441237088
+    Attrib slope=2    0.21854824786078778
+    Attrib slope=3    0.566558194848391
+    Attrib ca    -5.50587445455498
+    Attrib thal=3    -0.44890021484046466
+    Attrib thal=6    1.0257215064455536
+    Attrib thal=7    -0.024929093187381204
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    0.22970064650344788
+    Attrib age    -0.007109464152483289
+    Attrib sex=1    -0.9066629669462962
+    Attrib cp=1    1.0270989745773627
+    Attrib cp=2    -1.0088414428181207
+    Attrib cp=3    -0.5570017847737434
+    Attrib cp=4    0.05686347680575919
+    Attrib trestbps    0.3998934664688499
+    Attrib chol    0.5446317479864528
+    Attrib fbs=1    -0.32540209106297613
+    Attrib restecg=0    1.0391419403747437
+    Attrib restecg=1    0.03270891003436727
+    Attrib restecg=2    -1.238097511828841
+    Attrib thalach    -3.382755302497331
+    Attrib exang=1    3.272964525496448
+    Attrib oldpeak='(0.75-inf)'    0.1652753741138238
+    Attrib slope=1    -2.266453102413201
+    Attrib slope=2    1.1563155583726292
+    Attrib slope=3    0.784443570623572
+    Attrib ca    2.7945495129409568
+    Attrib thal=3    -1.4164503353124105
+    Attrib thal=6    1.2357734266733964
+    Attrib thal=7    0.1711012857564278
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    0.17658980385418588
+    Attrib age    -1.8678076644764419
+    Attrib sex=1    -0.32169166250475983
+    Attrib cp=1    0.7449605527832757
+    Attrib cp=2    1.365218558621764
+    Attrib cp=3    -1.9290985281357456
+    Attrib cp=4    -0.5437586207881727
+    Attrib trestbps    0.8542596822224532
+    Attrib chol    0.8311024572096505
+    Attrib fbs=1    0.1264977264412693
+    Attrib restecg=0    -0.9319252468185084
+    Attrib restecg=1    0.009270236513464664
+    Attrib restecg=2    0.7364673733349631
+    Attrib thalach    1.214826577080193
+    Attrib exang=1    -1.6606959986703087
+    Attrib oldpeak='(0.75-inf)'    1.4287568922444538
+    Attrib slope=1    -0.07389323091008054
+    Attrib slope=2    -0.13376812000527705
+    Attrib slope=3    0.026609498683959218
+    Attrib ca    3.4834522926364855
+    Attrib thal=3    -1.7048219737373225
+    Attrib thal=6    -0.8997542921602897
+    Attrib thal=7    2.4914341303556764
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    0.12612893596758282
+    Attrib age    -0.7512908744288523
+    Attrib sex=1    0.37958422761905447
+    Attrib cp=1    -0.7357001329069822
+    Attrib cp=2    -0.3324232025063886
+    Attrib cp=3    -0.513012562508756
+    Attrib cp=4    1.2984859204982335
+    Attrib trestbps    1.2099243629323697
+    Attrib chol    1.9758143614043822
+    Attrib fbs=1    0.6137166708743655
+    Attrib restecg=0    -1.6165991252640621
+    Attrib restecg=1    0.0325296161173074
+    Attrib restecg=2    1.3281591427295882
+    Attrib thalach    0.7504104683593918
+    Attrib exang=1    -0.40001101854394827
+    Attrib oldpeak='(0.75-inf)'    0.04637225395013861
+    Attrib slope=1    -0.2476713813653594
+    Attrib slope=2    0.6331533993148794
+    Attrib slope=3    -0.6045941900421401
+    Attrib ca    4.266354241516186
+    Attrib thal=3    -0.542690293886247
+    Attrib thal=6    0.029536078976790368
+    Attrib thal=7    0.49945152623766803
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -1.0058699325247953
+    Attrib age    -0.1312354650511176
+    Attrib sex=1    -1.850783922403175
+    Attrib cp=1    -0.3440671233913299
+    Attrib cp=2    0.8399096639411293
+    Attrib cp=3    1.4477313769880655
+    Attrib cp=4    0.0507826482526298
+    Attrib trestbps    -1.4172768052343483
+    Attrib chol    0.35514710292116486
+    Attrib fbs=1    -0.40208626324235036
+    Attrib restecg=0    0.8853295137277463
+    Attrib restecg=1    0.8853438972253829
+    Attrib restecg=2    -0.6573858608348532
+    Attrib thalach    1.1364893677968673
+    Attrib exang=1    0.05592987869726402
+    Attrib oldpeak='(0.75-inf)'    2.243015093215533
+    Attrib slope=1    2.302577188667378
+    Attrib slope=2    -0.6223220685798493
+    Attrib slope=3    -0.6734945455426539
+    Attrib ca    -1.806630652215774
+    Attrib thal=3    0.4083213535703032
+    Attrib thal=6    1.1096526744733626
+    Attrib thal=7    -0.49803870188556987
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    0.15751938439365135
+    Attrib age    1.2346956844394197
+    Attrib sex=1    -1.1191903743612743
+    Attrib cp=1    0.05231487036852598
+    Attrib cp=2    -0.28963581531454335
+    Attrib cp=3    -0.7547892963414843
+    Attrib cp=4    0.6139557945255933
+    Attrib trestbps    1.1769771302905567
+    Attrib chol    -0.09669519801004563
+    Attrib fbs=1    1.3407360590261035
+    Attrib restecg=0    1.0587539199906342
+    Attrib restecg=1    0.07871210530905157
+    Attrib restecg=2    -1.297902322337539
+    Attrib thalach    -2.0634631477018908
+    Attrib exang=1    3.878984197993215
+    Attrib oldpeak='(0.75-inf)'    -0.02432229530929658
+    Attrib slope=1    -2.0323467576094343
+    Attrib slope=2    1.107208159241436
+    Attrib slope=3    0.7899828188273682
+    Attrib ca    3.323448820673666
+    Attrib thal=3    -1.2476412276871407
+    Attrib thal=6    1.3787776904919575
+    Attrib thal=7    -0.2427549986730142
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -0.4960098776140975
+    Attrib age    -2.3759581985748444
+    Attrib sex=1    -3.83676672677638
+    Attrib cp=1    -0.4783603934325451
+    Attrib cp=2    0.0761618981398796
+    Attrib cp=3    2.2078764933183748
+    Attrib cp=4    -0.7966018562672084
+    Attrib trestbps    -1.3136565507925546
+    Attrib chol    1.14843903187877
+    Attrib fbs=1    0.5268126891333773
+    Attrib restecg=0    -0.5664736316396867
+    Attrib restecg=1    0.3316299995051254
+    Attrib restecg=2    0.7809140696010428
+    Attrib thalach    1.8589743240499013
+    Attrib exang=1    0.35387203768365677
+    Attrib oldpeak='(0.75-inf)'    1.2769478243623535
+    Attrib slope=1    2.8822809595538508
+    Attrib slope=2    -2.8060056625582637
+    Attrib slope=3    0.4555239255722153
+    Attrib ca    -3.7519709688284792
+    Attrib thal=3    0.8036188726126102
+    Attrib thal=6    -0.18848190670033377
+    Attrib thal=7    -0.11424099430660155
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+=== Classifier model ===
+
+Scheme:   MultilayerPerceptron
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.4232603194657442
+    Node 2    -8.903731273667349
+    Node 3    -2.3929587682105695
+    Node 4    -2.942420079937676
+    Node 5    4.24011224052457
+    Node 6    1.5622063660049859
+    Node 7    4.296137131033568
+    Node 8    -4.317985283679484
+    Node 9    -4.007002357158216
+    Node 10    -3.378218447627032
+    Node 11    6.188549135315597
+    Node 12    -4.772138377664747
+    Node 13    3.0187035242539393
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.4231600869691987
+    Node 2    8.906252440616173
+    Node 3    2.3922224586301066
+    Node 4    2.94050345916895
+    Node 5    -4.239312794431623
+    Node 6    -1.5430931601873528
+    Node 7    -4.2993238423542115
+    Node 8    4.320192134498134
+    Node 9    4.006712618151927
+    Node 10    3.3741268782549954
+    Node 11    -6.187587392934486
+    Node 12    4.771099036477453
+    Node 13    -3.0337324809219184
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -0.6360240278621749
+    Attrib age    -0.544309837832241
+    Attrib sex=1    2.9890491718356276
+    Attrib cp=1    1.538049132985671
+    Attrib cp=2    -2.2779270822410043
+    Attrib cp=3    0.6656243950393881
+    Attrib cp=4    1.4255531311224048
+    Attrib trestbps    2.785871390065497
+    Attrib chol    6.617332910477491
+    Attrib fbs=1    1.1950473347973878
+    Attrib restecg=0    -1.5494567666351466
+    Attrib restecg=1    0.8180381770248935
+    Attrib restecg=2    1.3807840540485823
+    Attrib thalach    3.19791220556589
+    Attrib exang=1    -2.8196482560957326
+    Attrib oldpeak='(0.75-inf)'    -2.6250144998303737
+    Attrib slope=1    1.5676789836206642
+    Attrib slope=2    0.004449569369118448
+    Attrib slope=3    -0.9782237004732341
+    Attrib ca    6.023126054441757
+    Attrib thal=3    0.6150526754930584
+    Attrib thal=6    0.015654650018787162
+    Attrib thal=7    0.05994981978035988
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.45441459523881034
+    Attrib age    -2.519805001584052
+    Attrib sex=1    3.1415520053785326
+    Attrib cp=1    1.7027274447419538
+    Attrib cp=2    1.282178402801323
+    Attrib cp=3    -1.3076425536309493
+    Attrib cp=4    -0.8386654049590208
+    Attrib trestbps    -0.20766026389765918
+    Attrib chol    0.8878767254252652
+    Attrib fbs=1    -1.3818012538537658
+    Attrib restecg=0    -0.005088927430484813
+    Attrib restecg=1    0.5432951763531563
+    Attrib restecg=2    -0.06011504741784343
+    Attrib thalach    -0.132682438002042
+    Attrib exang=1    -1.1704659669103576
+    Attrib oldpeak='(0.75-inf)'    1.5672786607498488
+    Attrib slope=1    0.694670767962295
+    Attrib slope=2    -0.26289477105696407
+    Attrib slope=3    0.040773170518536836
+    Attrib ca    3.0582053257061133
+    Attrib thal=3    0.045992183928991855
+    Attrib thal=6    -0.6199896206161297
+    Attrib thal=7    1.031006896009089
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -0.5255586248873768
+    Attrib age    -0.522591242830813
+    Attrib sex=1    0.16766083283982214
+    Attrib cp=1    1.1125527282949166
+    Attrib cp=2    0.7746311507106224
+    Attrib cp=3    -0.8717242363799727
+    Attrib cp=4    -0.07422293126500118
+    Attrib trestbps    1.4567118721097618
+    Attrib chol    -0.07101540844277926
+    Attrib fbs=1    -1.0066740069250273
+    Attrib restecg=0    1.6974242184456454
+    Attrib restecg=1    0.6115536777007834
+    Attrib restecg=2    -1.8541714268549714
+    Attrib thalach    -2.13645372469259
+    Attrib exang=1    1.4762065313028907
+    Attrib oldpeak='(0.75-inf)'    0.08865628313427881
+    Attrib slope=1    -0.45713468539908647
+    Attrib slope=2    -0.19071366766072193
+    Attrib slope=3    1.074604460928734
+    Attrib ca    1.0160750829574197
+    Attrib thal=3    0.6086635874153956
+    Attrib thal=6    -0.6506731360707171
+    Attrib thal=7    0.9202120262754343
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -0.2242888053789612
+    Attrib age    0.34331157341460206
+    Attrib sex=1    -3.570637392221748
+    Attrib cp=1    2.818478358696935
+    Attrib cp=2    -2.592091029533235
+    Attrib cp=3    2.5334560019914307
+    Attrib cp=4    -2.3000517115771704
+    Attrib trestbps    -0.7227715846752726
+    Attrib chol    1.3162104606286857
+    Attrib fbs=1    1.219351332905477
+    Attrib restecg=0    -0.7841425980544803
+    Attrib restecg=1    0.026096204239855838
+    Attrib restecg=2    0.9775220558123181
+    Attrib thalach    1.1308573765685201
+    Attrib exang=1    1.1113616728337719
+    Attrib oldpeak='(0.75-inf)'    -1.7853735019185015
+    Attrib slope=1    1.8975685459070337
+    Attrib slope=2    -2.4482334574628375
+    Attrib slope=3    0.7124511731949024
+    Attrib ca    -4.5746333752820325
+    Attrib thal=3    0.8569637055193883
+    Attrib thal=6    -1.7657736608080228
+    Attrib thal=7    1.1233378316702745
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.3555318796644204
+    Attrib age    0.34456864679323335
+    Attrib sex=1    -0.5395295131482031
+    Attrib cp=1    -0.3632822135666243
+    Attrib cp=2    0.8848725941231703
+    Attrib cp=3    1.0696386924751504
+    Attrib cp=4    -0.7964094887050805
+    Attrib trestbps    -1.1858362636591049
+    Attrib chol    -1.1044448618723093
+    Attrib fbs=1    1.1663838757617466
+    Attrib restecg=0    1.3072462555045574
+    Attrib restecg=1    0.3011515416592361
+    Attrib restecg=2    -1.2212508077473365
+    Attrib thalach    0.47157641497185815
+    Attrib exang=1    -0.8131656230586055
+    Attrib oldpeak='(0.75-inf)'    0.013664380042778208
+    Attrib slope=1    0.5961291751452787
+    Attrib slope=2    -0.02046058773770722
+    Attrib slope=3    -0.2046690079745085
+    Attrib ca    -1.0964517242898029
+    Attrib thal=3    -0.7799349717630759
+    Attrib thal=6    1.0564480086686734
+    Attrib thal=7    -0.09552122070202987
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -0.4153803296630291
+    Attrib age    0.8151727169451207
+    Attrib sex=1    -3.674738633773898
+    Attrib cp=1    2.9901906118251604
+    Attrib cp=2    -1.9194920431041798
+    Attrib cp=3    1.2642956915705768
+    Attrib cp=4    -1.6103938063042174
+    Attrib trestbps    0.8907044085190243
+    Attrib chol    0.19192739653347138
+    Attrib fbs=1    1.2208089343235797
+    Attrib restecg=0    -0.15500547932379008
+    Attrib restecg=1    -0.06356738023905735
+    Attrib restecg=2    0.5795086140670735
+    Attrib thalach    1.8394303285159044
+    Attrib exang=1    -0.49260852923847015
+    Attrib oldpeak='(0.75-inf)'    1.3237741090403148
+    Attrib slope=1    1.730662270691018
+    Attrib slope=2    -1.8969295203295384
+    Attrib slope=3    0.6420669526465237
+    Attrib ca    -4.813413151563735
+    Attrib thal=3    2.075109723909116
+    Attrib thal=6    -0.1621765575654374
+    Attrib thal=7    -1.6516795975695107
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    0.7450756481493751
+    Attrib age    -1.4358584484751435
+    Attrib sex=1    -1.5132617519302816
+    Attrib cp=1    -1.679231104664716
+    Attrib cp=2    0.18694217988329134
+    Attrib cp=3    0.4580106671889223
+    Attrib cp=4    -0.4783525219081475
+    Attrib trestbps    2.113875428308041
+    Attrib chol    0.04019682102161394
+    Attrib fbs=1    0.8696682782414822
+    Attrib restecg=0    -0.07141668929607004
+    Attrib restecg=1    -0.4148389422138613
+    Attrib restecg=2    -0.19536603155574453
+    Attrib thalach    -0.056387710148051516
+    Attrib exang=1    2.777593976178707
+    Attrib oldpeak='(0.75-inf)'    -0.4884548225658358
+    Attrib slope=1    -2.724705461520572
+    Attrib slope=2    0.9126457947491681
+    Attrib slope=3    0.9709906917086247
+    Attrib ca    3.2898578237513343
+    Attrib thal=3    -0.6848879828479877
+    Attrib thal=6    -0.15042297420312595
+    Attrib thal=7    0.5073434017091102
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    0.11369311176609104
+    Attrib age    1.3094924845403608
+    Attrib sex=1    2.208588259915465
+    Attrib cp=1    -0.16844215610031296
+    Attrib cp=2    1.5987633474087903
+    Attrib cp=3    -0.9664300974540847
+    Attrib cp=4    -0.7007757471970655
+    Attrib trestbps    2.590434503301204
+    Attrib chol    -0.556023173133621
+    Attrib fbs=1    0.8061910165360165
+    Attrib restecg=0    0.46683144592920156
+    Attrib restecg=1    0.1381024984601606
+    Attrib restecg=2    -0.7282248892713618
+    Attrib thalach    -3.3262415127165696
+    Attrib exang=1    -0.5912203414092726
+    Attrib oldpeak='(0.75-inf)'    3.5520922909043473
+    Attrib slope=1    -1.382970557798841
+    Attrib slope=2    -0.0717020785896896
+    Attrib slope=3    1.3365174762452652
+    Attrib ca    1.566862262848586
+    Attrib thal=3    -0.909567213028578
+    Attrib thal=6    -0.8743031602721487
+    Attrib thal=7    2.1097900192440218
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -0.021893881794437138
+    Attrib age    -2.5942063499109316
+    Attrib sex=1    -0.055065865521206965
+    Attrib cp=1    -1.5278155319227995
+    Attrib cp=2    0.5443658498360074
+    Attrib cp=3    1.131773549757427
+    Attrib cp=4    -0.13492820957052246
+    Attrib trestbps    1.6507551677940175
+    Attrib chol    0.37644254407683303
+    Attrib fbs=1    -0.03984671836079886
+    Attrib restecg=0    0.5169951504991689
+    Attrib restecg=1    0.22137417415263236
+    Attrib restecg=2    -0.846256873306943
+    Attrib thalach    -0.7252764906862392
+    Attrib exang=1    -0.13080507869517405
+    Attrib oldpeak='(0.75-inf)'    1.8921453571652191
+    Attrib slope=1    -0.32736959736090315
+    Attrib slope=2    -0.1360746417571717
+    Attrib slope=3    0.39235488478746633
+    Attrib ca    2.456157260886227
+    Attrib thal=3    -1.9612260553692118
+    Attrib thal=6    0.212491535583381
+    Attrib thal=7    2.122459011430784
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    0.04899313810472108
+    Attrib age    -1.828806691039635
+    Attrib sex=1    2.640909433471695
+    Attrib cp=1    -0.06564962538521861
+    Attrib cp=2    -0.012597723693968717
+    Attrib cp=3    0.6730107931925776
+    Attrib cp=4    -0.7101330195819126
+    Attrib trestbps    -2.024610508425734
+    Attrib chol    0.5355683434343439
+    Attrib fbs=1    1.5282072864866747
+    Attrib restecg=0    0.2775722115481523
+    Attrib restecg=1    -0.10521601571326465
+    Attrib restecg=2    -0.11393171634614069
+    Attrib thalach    4.319253799543892
+    Attrib exang=1    -0.29052728646098014
+    Attrib oldpeak='(0.75-inf)'    1.9743884213842073
+    Attrib slope=1    -1.246171888367266
+    Attrib slope=2    0.501266597484236
+    Attrib slope=3    0.696802794798385
+    Attrib ca    -1.542327559539569
+    Attrib thal=3    0.12123451945167579
+    Attrib thal=6    0.8333098574006541
+    Attrib thal=7    -1.0148708883768598
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    0.20381187868514397
+    Attrib age    1.1476387778915336
+    Attrib sex=1    -0.7230342273951196
+    Attrib cp=1    -2.2732289919471946
+    Attrib cp=2    1.6111057050255968
+    Attrib cp=3    0.9377652850958366
+    Attrib cp=4    -0.7463814335192391
+    Attrib trestbps    1.613110156881938
+    Attrib chol    0.4213302751386689
+    Attrib fbs=1    1.3265660820874519
+    Attrib restecg=0    -0.10579478653655895
+    Attrib restecg=1    0.12498095954910467
+    Attrib restecg=2    -0.22591496434187305
+    Attrib thalach    -1.2721367780328972
+    Attrib exang=1    1.0663046154454945
+    Attrib oldpeak='(0.75-inf)'    1.9769685628378406
+    Attrib slope=1    -2.876901307119216
+    Attrib slope=2    1.9557037731352682
+    Attrib slope=3    0.7397492601518998
+    Attrib ca    3.435199266086948
+    Attrib thal=3    0.3496134453952176
+    Attrib thal=6    -0.5339851353428919
+    Attrib thal=7    0.5229856398167307
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -0.4296376698357508
+    Attrib age    0.42450978881224993
+    Attrib sex=1    0.608139820436108
+    Attrib cp=1    -0.7390871922718935
+    Attrib cp=2    1.1687095358165513
+    Attrib cp=3    1.647361854820959
+    Attrib cp=4    -1.200652472163833
+    Attrib trestbps    -1.726213039591456
+    Attrib chol    -1.477216652511208
+    Attrib fbs=1    2.256552988411092
+    Attrib restecg=0    1.4498157458155299
+    Attrib restecg=1    0.3837890225077285
+    Attrib restecg=2    -1.3539065386351175
+    Attrib thalach    0.4547648703309566
+    Attrib exang=1    -1.0238263625487354
+    Attrib oldpeak='(0.75-inf)'    -1.4874854430241895
+    Attrib slope=1    0.8464575581604261
+    Attrib slope=2    0.2868784089449217
+    Attrib slope=3    -0.6679089523158549
+    Attrib ca    -1.7623674942010055
+    Attrib thal=3    -0.7014007878470402
+    Attrib thal=6    1.4649257503187447
+    Attrib thal=7    -0.5757428754483621
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+=== Classifier model ===
+
+Scheme:   MultilayerPerceptron
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.06789267777024104
+    Node 2    -6.016236813043781
+    Node 3    -2.6336560439452663
+    Node 4    -5.874564579245167
+    Node 5    4.694933911155795
+    Node 6    5.315799897609522
+    Node 7    5.237294372996667
+    Node 8    -5.637127723651139
+    Node 9    -4.312610746128247
+    Node 10    -4.4764118912265625
+    Node 11    6.847342392075488
+    Node 12    -5.254082018301791
+    Node 13    3.718583562962561
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    0.06746086551180507
+    Node 2    6.01806639166889
+    Node 3    2.634028505681189
+    Node 4    5.874255083342963
+    Node 5    -4.695211178557102
+    Node 6    -5.3161544205323885
+    Node 7    -5.238182380300658
+    Node 8    5.636156855283503
+    Node 9    4.319722080025263
+    Node 10    4.477764494182228
+    Node 11    -6.8475534159111975
+    Node 12    5.246806299979395
+    Node 13    -3.7184237125086117
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    0.10474160628586303
+    Attrib age    0.7175954396661672
+    Attrib sex=1    1.7253687550063952
+    Attrib cp=1    -1.995580233696459
+    Attrib cp=2    2.8109618943309527
+    Attrib cp=3    -0.6572239747399451
+    Attrib cp=4    -0.2883893772840502
+    Attrib trestbps    0.9970976628944427
+    Attrib chol    3.4028507265698145
+    Attrib fbs=1    0.6971901454288232
+    Attrib restecg=0    -1.4808264629618872
+    Attrib restecg=1    0.13258939289174704
+    Attrib restecg=2    1.2568369003604063
+    Attrib thalach    -1.93109344872769
+    Attrib exang=1    -0.7326086408067944
+    Attrib oldpeak='(0.75-inf)'    -3.6591624205798574
+    Attrib slope=1    1.6402039535598498
+    Attrib slope=2    -2.468303932866406
+    Attrib slope=3    0.6812391976750656
+    Attrib ca    2.881138618267262
+    Attrib thal=3    0.1423304000999347
+    Attrib thal=6    -0.8125955229262184
+    Attrib thal=7    0.6589635384549779
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.6446263695665042
+    Attrib age    0.37179193204089483
+    Attrib sex=1    -0.1617431037254787
+    Attrib cp=1    0.2545396591393683
+    Attrib cp=2    2.1417701047522484
+    Attrib cp=3    -1.325798944970677
+    Attrib cp=4    0.14851061868780208
+    Attrib trestbps    1.6648935033331016
+    Attrib chol    4.372740147630544
+    Attrib fbs=1    -0.1597296486136446
+    Attrib restecg=0    -1.6553193758051317
+    Attrib restecg=1    0.7049352948431232
+    Attrib restecg=2    1.6186870567945455
+    Attrib thalach    -0.7347239977557947
+    Attrib exang=1    1.3270099034098082
+    Attrib oldpeak='(0.75-inf)'    -1.8701213122887856
+    Attrib slope=1    1.495714239715035
+    Attrib slope=2    -1.483924929327099
+    Attrib slope=3    0.6509716313636722
+    Attrib ca    -0.8278804130692464
+    Attrib thal=3    -1.1431576432008566
+    Attrib thal=6    0.003846612188345979
+    Attrib thal=7    1.8199655216196242
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    0.04810309707755869
+    Attrib age    2.913302053306476
+    Attrib sex=1    -1.489350466707623
+    Attrib cp=1    1.6276347791357426
+    Attrib cp=2    -1.3382358793644396
+    Attrib cp=3    0.3759082017486526
+    Attrib cp=4    -0.8713938340893181
+    Attrib trestbps    2.137790388320233
+    Attrib chol    6.677728016137179
+    Attrib fbs=1    0.11287172637815358
+    Attrib restecg=0    1.5290676675293415
+    Attrib restecg=1    -0.1192169720977398
+    Attrib restecg=2    -1.5287059481050926
+    Attrib thalach    -0.06448365300901007
+    Attrib exang=1    0.3268525148782078
+    Attrib oldpeak='(0.75-inf)'    0.47651893057284334
+    Attrib slope=1    0.9322183857278888
+    Attrib slope=2    -0.6008644803910227
+    Attrib slope=3    -0.4782595194328678
+    Attrib ca    -3.9133080800149895
+    Attrib thal=3    -0.04402865793397332
+    Attrib thal=6    -0.19884464973507784
+    Attrib thal=7    0.32637597769363164
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    0.38962560925170975
+    Attrib age    0.8486850878410386
+    Attrib sex=1    -3.1329050793877258
+    Attrib cp=1    0.8462439927757437
+    Attrib cp=2    2.898141837875548
+    Attrib cp=3    -1.0753261930239026
+    Attrib cp=4    -3.4370968473107557
+    Attrib trestbps    -1.6080133963467387
+    Attrib chol    0.6965218052850717
+    Attrib fbs=1    2.8283653309775825
+    Attrib restecg=0    -2.1440926750535367
+    Attrib restecg=1    -0.8566847622200368
+    Attrib restecg=2    2.6063386846406167
+    Attrib thalach    3.654939067250596
+    Attrib exang=1    -0.7689684636125893
+    Attrib oldpeak='(0.75-inf)'    1.0860122767513691
+    Attrib slope=1    -0.5528001713283239
+    Attrib slope=2    0.2007324001982741
+    Attrib slope=3    -0.1000603818615199
+    Attrib ca    -4.765717588531718
+    Attrib thal=3    0.6994809417102541
+    Attrib thal=6    0.31940272112176205
+    Attrib thal=7    -1.7994782006688916
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.5174364419570594
+    Attrib age    1.5989792661837643
+    Attrib sex=1    -0.20916170810059556
+    Attrib cp=1    0.3179895104852384
+    Attrib cp=2    -0.4978501693414118
+    Attrib cp=3    1.154199752353806
+    Attrib cp=4    0.14428961541425672
+    Attrib trestbps    -0.5472743642121656
+    Attrib chol    -0.5484796610700824
+    Attrib fbs=1    0.7542187446848249
+    Attrib restecg=0    0.22322770160559452
+    Attrib restecg=1    0.4551910020677159
+    Attrib restecg=2    -0.1293671519642185
+    Attrib thalach    0.9093661461718417
+    Attrib exang=1    3.6766446707887797
+    Attrib oldpeak='(0.75-inf)'    0.1922647348524267
+    Attrib slope=1    -0.00633291116369508
+    Attrib slope=2    -0.3293946712928183
+    Attrib slope=3    0.8686317241822078
+    Attrib ca    -3.4396728582678353
+    Attrib thal=3    -1.7229439864020568
+    Attrib thal=6    0.6589894918316588
+    Attrib thal=7    1.4453775161264473
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -0.6203663037370595
+    Attrib age    3.316087597637616
+    Attrib sex=1    -5.023474450311546
+    Attrib cp=1    1.965565940944815
+    Attrib cp=2    -1.1050883274368546
+    Attrib cp=3    1.6985112489062701
+    Attrib cp=4    -1.424416460278777
+    Attrib trestbps    -0.8617996941349344
+    Attrib chol    -4.483843388618343
+    Attrib fbs=1    4.134987976207547
+    Attrib restecg=0    0.031239124969880062
+    Attrib restecg=1    0.30977843551575684
+    Attrib restecg=2    0.224904168092619
+    Attrib thalach    -1.7525567536226987
+    Attrib exang=1    -1.55212717620988
+    Attrib oldpeak='(0.75-inf)'    -0.8034351446064234
+    Attrib slope=1    2.8820199199175995
+    Attrib slope=2    -3.3940888052585687
+    Attrib slope=3    1.1928545624230762
+    Attrib ca    -8.783001166974392
+    Attrib thal=3    0.3399518221446264
+    Attrib thal=6    -0.5117789163111298
+    Attrib thal=7    0.6519134330565425
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -0.4427121993032456
+    Attrib age    -4.777942537745745
+    Attrib sex=1    -1.684001537963985
+    Attrib cp=1    -1.4939014698666222
+    Attrib cp=2    -0.25858933869882617
+    Attrib cp=3    1.3998351227812054
+    Attrib cp=4    1.2156006011888518
+    Attrib trestbps    1.2556584753287081
+    Attrib chol    -0.3119229088847666
+    Attrib fbs=1    -0.6617756653802198
+    Attrib restecg=0    -0.41142548477410573
+    Attrib restecg=1    0.8436656281843801
+    Attrib restecg=2    0.07392604097666275
+    Attrib thalach    2.103215151868461
+    Attrib exang=1    1.0202713341524534
+    Attrib oldpeak='(0.75-inf)'    2.347436494552705
+    Attrib slope=1    -0.6340506785858998
+    Attrib slope=2    0.22464882873517106
+    Attrib slope=3    0.7561207222405023
+    Attrib ca    1.6621748282938391
+    Attrib thal=3    -1.7226758151177033
+    Attrib thal=6    0.49167078075052423
+    Attrib thal=7    2.4729798883458973
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -0.2845548504036055
+    Attrib age    -1.2472912349951977
+    Attrib sex=1    1.2194073696010115
+    Attrib cp=1    -1.300546690852647
+    Attrib cp=2    2.7167980309906756
+    Attrib cp=3    0.4454325537671232
+    Attrib cp=4    -1.3020726229083521
+    Attrib trestbps    2.0549011448429453
+    Attrib chol    0.7689511776949175
+    Attrib fbs=1    0.7581708435371903
+    Attrib restecg=0    -0.862719676648174
+    Attrib restecg=1    0.5060517177973488
+    Attrib restecg=2    0.631624976138549
+    Attrib thalach    0.2823457460743879
+    Attrib exang=1    0.1775332932890245
+    Attrib oldpeak='(0.75-inf)'    1.5021558848870813
+    Attrib slope=1    -1.710473618628327
+    Attrib slope=2    2.558143596992419
+    Attrib slope=3    -0.5675771763377029
+    Attrib ca    2.365670465074564
+    Attrib thal=3    -0.4734717411777252
+    Attrib thal=6    0.4955683164467013
+    Attrib thal=7    0.5587571283432237
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    0.3029466141193705
+    Attrib age    -0.7941937196825735
+    Attrib sex=1    -1.834944771631958
+    Attrib cp=1    -1.720790901676285
+    Attrib cp=2    0.6143415117762318
+    Attrib cp=3    -0.01231586763581795
+    Attrib cp=4    0.4824799238083774
+    Attrib trestbps    1.9200672783617738
+    Attrib chol    0.3896788839042876
+    Attrib fbs=1    2.8636614388303236
+    Attrib restecg=0    -0.19472727709173382
+    Attrib restecg=1    -0.0551063073957197
+    Attrib restecg=2    -0.18289446008148288
+    Attrib thalach    1.850716703417982
+    Attrib exang=1    3.3770050159987073
+    Attrib oldpeak='(0.75-inf)'    1.4617698960190297
+    Attrib slope=1    -1.1168984550837955
+    Attrib slope=2    -0.5917609239178673
+    Attrib slope=3    1.3127295287572518
+    Attrib ca    1.2620161934704248
+    Attrib thal=3    -0.9130669672122111
+    Attrib thal=6    0.28694599850745894
+    Attrib thal=7    0.7027535974664539
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -1.8096004098521299
+    Attrib age    -1.3484385082203043
+    Attrib sex=1    -2.7399943223756664
+    Attrib cp=1    -0.3204152552301515
+    Attrib cp=2    2.7997192021029518
+    Attrib cp=3    0.08108519607096047
+    Attrib cp=4    1.0414283775013724
+    Attrib trestbps    -4.117602704104123
+    Attrib chol    2.625748686716353
+    Attrib fbs=1    -2.279463040689545
+    Attrib restecg=0    1.061476774582917
+    Attrib restecg=1    1.8459806241854948
+    Attrib restecg=2    -0.9904393713228149
+    Attrib thalach    3.2490749472214646
+    Attrib exang=1    -3.4865807862872904
+    Attrib oldpeak='(0.75-inf)'    -1.4263309564310276
+    Attrib slope=1    -1.084618490400618
+    Attrib slope=2    2.137331832672943
+    Attrib slope=3    0.7577777095998484
+    Attrib ca    0.7310213696118923
+    Attrib thal=3    -0.5418665499685944
+    Attrib thal=6    2.7998676747083167
+    Attrib thal=7    -0.6663101245986309
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    -0.5111346861251291
+    Attrib age    -0.24474697051840152
+    Attrib sex=1    0.9329069015731679
+    Attrib cp=1    -1.8459610985098627
+    Attrib cp=2    3.4408145863252577
+    Attrib cp=3    0.20770999397340117
+    Attrib cp=4    -0.8434097875131926
+    Attrib trestbps    2.243816549815221
+    Attrib chol    -0.43832549891918915
+    Attrib fbs=1    1.1467186407674834
+    Attrib restecg=0    -1.986376053434549
+    Attrib restecg=1    0.8005047344925521
+    Attrib restecg=2    1.6940890924229393
+    Attrib thalach    0.25234159285244645
+    Attrib exang=1    0.13193048040550492
+    Attrib oldpeak='(0.75-inf)'    2.6010616258039616
+    Attrib slope=1    -1.7129652049533721
+    Attrib slope=2    1.411250141237884
+    Attrib slope=3    0.8352133546936478
+    Attrib ca    2.9626969180811193
+    Attrib thal=3    -0.07841685866763852
+    Attrib thal=6    1.346321589757271
+    Attrib thal=7    -0.37872196397671554
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -1.522114401755013
+    Attrib age    -2.367654662230942
+    Attrib sex=1    0.5761623449754024
+    Attrib cp=1    -0.7594682301796154
+    Attrib cp=2    1.422910874272683
+    Attrib cp=3    2.882610150752735
+    Attrib cp=4    -0.48476760480535447
+    Attrib trestbps    -0.8608236175172066
+    Attrib chol    -1.0789595536971963
+    Attrib fbs=1    1.4375089255269504
+    Attrib restecg=0    0.32511470999825476
+    Attrib restecg=1    1.5186181889786838
+    Attrib restecg=2    -0.2715579373695306
+    Attrib thalach    1.2758460343361373
+    Attrib exang=1    2.0840964249146783
+    Attrib oldpeak='(0.75-inf)'    0.6870075194703688
+    Attrib slope=1    2.6861046841430247
+    Attrib slope=2    -1.8473694223154122
+    Attrib slope=3    0.7191684848811714
+    Attrib ca    -3.9845941720334888
+    Attrib thal=3    1.7164282485614133
+    Attrib thal=6    -0.6952537962201955
+    Attrib thal=7    0.297027037970913
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+=== Classifier model ===
+
+Scheme:   MultilayerPerceptron
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    1.6879424282481756
+    Node 2    -5.950473789540959
+    Node 3    -5.846402496604206
+    Node 4    -1.5212813680279758
+    Node 5    5.038925789876278
+    Node 6    3.353359447292848
+    Node 7    5.82568072721219
+    Node 8    -5.680241968547954
+    Node 9    -6.716085946313858
+    Node 10    -3.8888175673101766
+    Node 11    1.9032724692200191
+    Node 12    -3.78953905157077
+    Node 13    4.182269912978529
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -1.6894368681300953
+    Node 2    5.956570721799282
+    Node 3    5.846786601197668
+    Node 4    1.52286046267257
+    Node 5    -5.044091164059473
+    Node 6    -3.3513485344609144
+    Node 7    -5.818956482474116
+    Node 8    5.681374580448945
+    Node 9    6.715903275040159
+    Node 10    3.8807299314196184
+    Node 11    -1.891857995788576
+    Node 12    3.791779159932661
+    Node 13    -4.192952856407965
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -0.5038308116510968
+    Attrib age    2.842469665309591
+    Attrib sex=1    -1.7241762418810327
+    Attrib cp=1    -0.8602600916422548
+    Attrib cp=2    1.903338994936155
+    Attrib cp=3    -2.177018220500654
+    Attrib cp=4    2.220852461691215
+    Attrib trestbps    5.5336788682289475
+    Attrib chol    0.1418851305751729
+    Attrib fbs=1    -1.3681736768203827
+    Attrib restecg=0    -2.598080618844356
+    Attrib restecg=1    0.7582999136785571
+    Attrib restecg=2    2.3569529533930202
+    Attrib thalach    -4.4549005731362845
+    Attrib exang=1    -0.904200504407491
+    Attrib oldpeak='(0.75-inf)'    -3.038332649119384
+    Attrib slope=1    2.1468667271421897
+    Attrib slope=2    -0.44078400941057744
+    Attrib slope=3    -1.2443710814261735
+    Attrib ca    4.7106756547147075
+    Attrib thal=3    -1.7580901829155369
+    Attrib thal=6    -0.4443323115224156
+    Attrib thal=7    2.7272620356480584
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.5177749325914782
+    Attrib age    4.350162387796349
+    Attrib sex=1    0.7956482749568324
+    Attrib cp=1    1.2607622973521855
+    Attrib cp=2    -2.7760314596156026
+    Attrib cp=3    0.7037120052941725
+    Attrib cp=4    1.7768757206279988
+    Attrib trestbps    4.446339533927544
+    Attrib chol    4.845445677903961
+    Attrib fbs=1    -0.49684886181527876
+    Attrib restecg=0    1.1298664168583397
+    Attrib restecg=1    0.5028013773080419
+    Attrib restecg=2    -1.0912162553088807
+    Attrib thalach    -0.7033270015659013
+    Attrib exang=1    1.735164886877732
+    Attrib oldpeak='(0.75-inf)'    0.2977380062744857
+    Attrib slope=1    0.617927154059138
+    Attrib slope=2    -1.611638108972753
+    Attrib slope=3    1.5296204596902558
+    Attrib ca    -4.912941262179833
+    Attrib thal=3    0.25529827335233835
+    Attrib thal=6    -2.5458625129225547
+    Attrib thal=7    3.1512412355959
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -0.24047647872671338
+    Attrib age    0.9621994986403777
+    Attrib sex=1    -0.4662006341288389
+    Attrib cp=1    0.09499848666727032
+    Attrib cp=2    0.8986410142740131
+    Attrib cp=3    0.16725177719796439
+    Attrib cp=4    -0.7898188590999781
+    Attrib trestbps    1.0574771201248596
+    Attrib chol    1.1105815954850762
+    Attrib fbs=1    -0.308106615920651
+    Attrib restecg=0    0.662671149431383
+    Attrib restecg=1    0.18219947749279677
+    Attrib restecg=2    -0.6751463037933939
+    Attrib thalach    -0.10743358831482752
+    Attrib exang=1    0.16196603321312325
+    Attrib oldpeak='(0.75-inf)'    -0.22748263235354868
+    Attrib slope=1    0.11413203120180221
+    Attrib slope=2    -0.3065942201497316
+    Attrib slope=3    0.3341361506561935
+    Attrib ca    -1.0803139900127865
+    Attrib thal=3    0.9860304411671985
+    Attrib thal=6    -0.5737095815600851
+    Attrib thal=7    -0.08023129199810705
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -0.04816800898751117
+    Attrib age    -2.75581439436193
+    Attrib sex=1    -2.3853559960548933
+    Attrib cp=1    -0.12754228177810017
+    Attrib cp=2    -1.6491594175820183
+    Attrib cp=3    -0.12335893930563463
+    Attrib cp=4    2.0076106654607497
+    Attrib trestbps    -0.09946595854584088
+    Attrib chol    1.277827239677853
+    Attrib fbs=1    0.6883131244257689
+    Attrib restecg=0    -0.723040279255281
+    Attrib restecg=1    0.1426406416678882
+    Attrib restecg=2    0.6237545031936423
+    Attrib thalach    1.6540320357053269
+    Attrib exang=1    -5.519358949531963
+    Attrib oldpeak='(0.75-inf)'    -2.3170221746474504
+    Attrib slope=1    1.3891201074264012
+    Attrib slope=2    -1.190582677172976
+    Attrib slope=3    -0.21287196500578856
+    Attrib ca    -2.4345114986787757
+    Attrib thal=3    -0.7816122779734164
+    Attrib thal=6    0.35355170359507354
+    Attrib thal=7    0.4586230895011232
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.6494863535572878
+    Attrib age    -0.7206083974736798
+    Attrib sex=1    0.8469108443297114
+    Attrib cp=1    1.2043323626352207
+    Attrib cp=2    0.3328960098791613
+    Attrib cp=3    0.9239509419867924
+    Attrib cp=4    -1.078450782388863
+    Attrib trestbps    -1.3950643829421747
+    Attrib chol    -1.331100644222894
+    Attrib fbs=1    0.336451211485702
+    Attrib restecg=0    -0.5230614187154479
+    Attrib restecg=1    0.6212400014621776
+    Attrib restecg=2    0.5829228805625777
+    Attrib thalach    -0.053184130665687925
+    Attrib exang=1    2.9778777943473544
+    Attrib oldpeak='(0.75-inf)'    -0.20652273726775977
+    Attrib slope=1    0.32854954366063654
+    Attrib slope=2    -0.6976637714411715
+    Attrib slope=3    1.0340682811064519
+    Attrib ca    -2.873127548897557
+    Attrib thal=3    -0.06021243186389103
+    Attrib thal=6    0.9640046890679259
+    Attrib thal=7    -0.3766302224135785
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -0.121002667272906
+    Attrib age    -3.1109259527378703
+    Attrib sex=1    -2.0292304445247695
+    Attrib cp=1    0.4443645969637006
+    Attrib cp=2    -0.8438590320406348
+    Attrib cp=3    0.5695138328249396
+    Attrib cp=4    -0.034174268540835946
+    Attrib trestbps    -0.047857817615909626
+    Attrib chol    1.1066965360328027
+    Attrib fbs=1    0.9231715887185726
+    Attrib restecg=0    -0.86387693671362
+    Attrib restecg=1    0.2073600304117166
+    Attrib restecg=2    0.7230749984160099
+    Attrib thalach    2.007133325120041
+    Attrib exang=1    -4.149676039880222
+    Attrib oldpeak='(0.75-inf)'    -3.7624769542799745
+    Attrib slope=1    2.2939235701926863
+    Attrib slope=2    -1.7468141800064307
+    Attrib slope=3    -0.36568734956841237
+    Attrib ca    -3.9973116469042793
+    Attrib thal=3    -0.4384287837858206
+    Attrib thal=6    -0.21057370802053063
+    Attrib thal=7    0.7527403900948162
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    0.12629067576748415
+    Attrib age    -6.849494429927975
+    Attrib sex=1    1.2143676433783668
+    Attrib cp=1    0.8968707169753539
+    Attrib cp=2    -0.08887635463562184
+    Attrib cp=3    0.5602826692435602
+    Attrib cp=4    -1.6433378663201639
+    Attrib trestbps    0.6591183284129495
+    Attrib chol    2.9933337355753182
+    Attrib fbs=1    -3.637051688643543
+    Attrib restecg=0    0.6832609589676111
+    Attrib restecg=1    0.8418372120353915
+    Attrib restecg=2    -1.5879348616868365
+    Attrib thalach    0.7067236965342365
+    Attrib exang=1    0.22965779970347366
+    Attrib oldpeak='(0.75-inf)'    0.028610083648303312
+    Attrib slope=1    -0.08811507791614867
+    Attrib slope=2    -1.143014141849634
+    Attrib slope=3    1.0088452170848434
+    Attrib ca    2.2715464677421626
+    Attrib thal=3    -1.5540733656285113
+    Attrib thal=6    -0.0592631253745083
+    Attrib thal=7    1.7884277605182184
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -0.4522799244752167
+    Attrib age    -0.27537838954480726
+    Attrib sex=1    3.204500262928126
+    Attrib cp=1    -2.3184562277892677
+    Attrib cp=2    1.4031678763566944
+    Attrib cp=3    1.1979524553061143
+    Attrib cp=4    0.6123973152663813
+    Attrib trestbps    -0.16115149486189842
+    Attrib chol    0.14621844841573678
+    Attrib fbs=1    2.251467135788727
+    Attrib restecg=0    -2.0934296610740084
+    Attrib restecg=1    0.6182300436570765
+    Attrib restecg=2    1.9178817087761755
+    Attrib thalach    -0.49859942770460997
+    Attrib exang=1    -1.9747111737737384
+    Attrib oldpeak='(0.75-inf)'    -0.5160789744858009
+    Attrib slope=1    -1.2976524421286186
+    Attrib slope=2    1.1203495105108965
+    Attrib slope=3    0.6251208077156944
+    Attrib ca    6.023682501428348
+    Attrib thal=3    0.6196533544726538
+    Attrib thal=6    0.13348650368999965
+    Attrib thal=7    -0.194002014655196
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -0.07451948354307465
+    Attrib age    0.7103483155877278
+    Attrib sex=1    -0.10386921659138174
+    Attrib cp=1    -1.6380969056485273
+    Attrib cp=2    2.520440522303152
+    Attrib cp=3    -1.9488647026156063
+    Attrib cp=4    1.185167947558304
+    Attrib trestbps    1.9317359369982967
+    Attrib chol    3.7923978200582544
+    Attrib fbs=1    -0.7058935727121675
+    Attrib restecg=0    -1.5009634335969784
+    Attrib restecg=1    0.4306228382517683
+    Attrib restecg=2    1.015078648438723
+    Attrib thalach    -0.7833066769175218
+    Attrib exang=1    0.08962051435390257
+    Attrib oldpeak='(0.75-inf)'    -1.5784256702777466
+    Attrib slope=1    0.6372266003795766
+    Attrib slope=2    -0.8590412542878159
+    Attrib slope=3    0.2033509013262703
+    Attrib ca    3.263554280821497
+    Attrib thal=3    -0.9131498862211271
+    Attrib thal=6    -0.9165873537941452
+    Attrib thal=7    1.8685790887075997
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -0.8935829609053074
+    Attrib age    0.5453079970454852
+    Attrib sex=1    -0.006207113472960208
+    Attrib cp=1    0.15739807095422684
+    Attrib cp=2    0.6955264997754358
+    Attrib cp=3    2.275193956572968
+    Attrib cp=4    -1.3583359047510726
+    Attrib trestbps    -1.1573753937477393
+    Attrib chol    -0.6463378181624929
+    Attrib fbs=1    0.4125344702736475
+    Attrib restecg=0    0.7416868069848321
+    Attrib restecg=1    1.0400466521340597
+    Attrib restecg=2    -0.7807328806201235
+    Attrib thalach    -0.5367675881767855
+    Attrib exang=1    1.5136343886695116
+    Attrib oldpeak='(0.75-inf)'    -1.3183407572208607
+    Attrib slope=1    1.701361869754832
+    Attrib slope=2    -1.1783869843812416
+    Attrib slope=3    0.371498717551766
+    Attrib ca    -2.0022668918403004
+    Attrib thal=3    0.45869881617969166
+    Attrib thal=6    -0.3658288960089155
+    Attrib thal=7    0.8462489475044414
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    -0.041350890326168795
+    Attrib age    -1.5077978891587298
+    Attrib sex=1    0.859576341303219
+    Attrib cp=1    -2.5762257332539344
+    Attrib cp=2    1.4748185762529034
+    Attrib cp=3    0.5892281620928965
+    Attrib cp=4    0.5317650975858637
+    Attrib trestbps    1.2518400452139153
+    Attrib chol    -0.11255706928158907
+    Attrib fbs=1    1.2007777824436447
+    Attrib restecg=0    -0.4310910173560419
+    Attrib restecg=1    0.45966269546448063
+    Attrib restecg=2    0.00986229957356168
+    Attrib thalach    -0.8768602691914079
+    Attrib exang=1    0.6430791939408951
+    Attrib oldpeak='(0.75-inf)'    1.0477562854710052
+    Attrib slope=1    -1.3083866917248332
+    Attrib slope=2    0.20459265165884805
+    Attrib slope=3    1.1675085352451464
+    Attrib ca    2.755177247359751
+    Attrib thal=3    -1.4475387961559671
+    Attrib thal=6    0.34662810608013644
+    Attrib thal=7    1.7909560421793094
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -0.8451795305773194
+    Attrib age    4.130339725310008
+    Attrib sex=1    0.039345920272302104
+    Attrib cp=1    1.238423114198693
+    Attrib cp=2    0.9363020384388757
+    Attrib cp=3    1.7822050149871798
+    Attrib cp=4    -2.2495147199397745
+    Attrib trestbps    -0.5384341553949553
+    Attrib chol    -3.3096304004432033
+    Attrib fbs=1    1.57787395768089
+    Attrib restecg=0    0.8133747611660147
+    Attrib restecg=1    1.0337214225161921
+    Attrib restecg=2    -0.9518560932525095
+    Attrib thalach    -2.1553207069202047
+    Attrib exang=1    1.4203914943785263
+    Attrib oldpeak='(0.75-inf)'    -1.317853558713664
+    Attrib slope=1    1.05495262330681
+    Attrib slope=2    -1.8251684206164736
+    Attrib slope=3    1.6511846728407407
+    Attrib ca    -3.8506274636927627
+    Attrib thal=3    -2.3585111346825807E-4
+    Attrib thal=6    -1.3789048089889924
+    Attrib thal=7    2.233354571180685
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+=== Classifier model ===
+
+Scheme:   MultilayerPerceptron
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -4.908660317727014
+    Node 2    5.5969819972782595
+    Node 3    -6.309383752444562
+    Node 4    2.92601873463602
+    Node 5    1.6780254294480912
+    Node 6    -8.075632864946053
+    Node 7    5.619040288652091
+    Node 8    6.538043141473059
+    Node 9    4.668290533547974
+    Node 10    -4.309700273965922
+    Node 11    5.246309474582043
+    Node 12    1.8150258467384253
+    Node 13    3.860425603902062
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    4.9078049717632775
+    Node 2    -5.595558664337504
+    Node 3    6.3155930161366225
+    Node 4    -2.9343330078336143
+    Node 5    -1.6791820324174536
+    Node 6    8.07425156808805
+    Node 7    -5.6176002142135175
+    Node 8    -6.538940807595745
+    Node 9    -4.667372872508125
+    Node 10    4.3038825772112945
+    Node 11    -5.244185464154321
+    Node 12    -1.8196920160868613
+    Node 13    -3.856098499866642
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -1.3389249873782576
+    Attrib age    -0.39693545266188374
+    Attrib sex=1    2.038220552202829
+    Attrib cp=1    0.7658657678292629
+    Attrib cp=2    1.5087384877118435
+    Attrib cp=3    0.7121296469605479
+    Attrib cp=4    -0.4520724336663947
+    Attrib trestbps    0.13840049560628345
+    Attrib chol    -4.064393763053662
+    Attrib fbs=1    2.998515077976222
+    Attrib restecg=0    -1.477727570656767
+    Attrib restecg=1    1.2639621580905844
+    Attrib restecg=2    1.4054434434719727
+    Attrib thalach    3.37349509436989
+    Attrib exang=1    -0.6725990455158815
+    Attrib oldpeak='(0.75-inf)'    2.587773957760711
+    Attrib slope=1    -0.16922200061733206
+    Attrib slope=2    0.8011894611538577
+    Attrib slope=3    0.5968959456791498
+    Attrib ca    -5.050429870930316
+    Attrib thal=3    1.0546482231773313
+    Attrib thal=6    2.479529178605916
+    Attrib thal=7    -2.1728768050248246
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    0.1328211430481281
+    Attrib age    -3.0254075990131684
+    Attrib sex=1    -2.7450557510246125
+    Attrib cp=1    -2.3613439171718054
+    Attrib cp=2    1.9406066285558987
+    Attrib cp=3    -2.089570983707715
+    Attrib cp=4    2.282127748210453
+    Attrib trestbps    1.6825839944402043
+    Attrib chol    -0.4654103905105871
+    Attrib fbs=1    0.8595454817349284
+    Attrib restecg=0    -2.1765706265200775
+    Attrib restecg=1    -0.16323972421525593
+    Attrib restecg=2    2.1568765598147497
+    Attrib thalach    0.7010040495359497
+    Attrib exang=1    3.6536152062090834
+    Attrib oldpeak='(0.75-inf)'    0.7381806198509556
+    Attrib slope=1    -0.2059317890652893
+    Attrib slope=2    -0.3469927895059273
+    Attrib slope=3    0.458570097709445
+    Attrib ca    1.0175561791040109
+    Attrib thal=3    -0.2146181440817156
+    Attrib thal=6    0.03462985643172624
+    Attrib thal=7    0.04527546466878688
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -1.5672868219885978
+    Attrib age    -2.0012121928042306
+    Attrib sex=1    -0.2793917225239329
+    Attrib cp=1    1.1060086148262434
+    Attrib cp=2    1.2335228106821436
+    Attrib cp=3    1.330579097764741
+    Attrib cp=4    -0.44422144574595934
+    Attrib trestbps    -1.0143281811373983
+    Attrib chol    -1.0762440480346978
+    Attrib fbs=1    -0.8866639322956709
+    Attrib restecg=0    -1.198299077353812
+    Attrib restecg=1    1.2448375741501807
+    Attrib restecg=2    1.5331539858689756
+    Attrib thalach    -0.7114055082096871
+    Attrib exang=1    2.6935662667383644
+    Attrib oldpeak='(0.75-inf)'    -0.34971184005393025
+    Attrib slope=1    0.8226600183213759
+    Attrib slope=2    -0.42773679397401876
+    Attrib slope=3    1.1949153329454578
+    Attrib ca    -1.9708237438376295
+    Attrib thal=3    0.6892660787368675
+    Attrib thal=6    0.31791899189831624
+    Attrib thal=7    0.6357367031520277
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -0.3174064719938665
+    Attrib age    1.3509790483611601
+    Attrib sex=1    -2.852963106340366
+    Attrib cp=1    0.1784213772011386
+    Attrib cp=2    0.5003497592746112
+    Attrib cp=3    1.1639407007531277
+    Attrib cp=4    -1.3151055182295077
+    Attrib trestbps    1.6190003057231537
+    Attrib chol    1.1087393480839967
+    Attrib fbs=1    2.5754349714028764
+    Attrib restecg=0    0.1851982885448944
+    Attrib restecg=1    0.3363136314434746
+    Attrib restecg=2    -0.18869089364270686
+    Attrib thalach    -1.562017595380679
+    Attrib exang=1    -0.6553095543800775
+    Attrib oldpeak='(0.75-inf)'    0.6049988500883512
+    Attrib slope=1    3.3970980091133898
+    Attrib slope=2    -2.817372574536598
+    Attrib slope=3    -0.2698112200071293
+    Attrib ca    -7.395162553586481
+    Attrib thal=3    0.32167701967195333
+    Attrib thal=6    0.2150897553824658
+    Attrib thal=7    -0.2562706614323635
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    0.4551499709364684
+    Attrib age    1.7353252825867913
+    Attrib sex=1    1.3735403219067592
+    Attrib cp=1    -2.5808274064820025
+    Attrib cp=2    1.1680182617823782
+    Attrib cp=3    0.1228634984808525
+    Attrib cp=4    0.348628314360488
+    Attrib trestbps    2.9967078802144016
+    Attrib chol    -2.8548009315672496
+    Attrib fbs=1    -1.1125566893376457
+    Attrib restecg=0    0.07094825291616723
+    Attrib restecg=1    -0.5139241346926163
+    Attrib restecg=2    -0.011479774835833536
+    Attrib thalach    -1.0894178668202803
+    Attrib exang=1    3.97532879725034
+    Attrib oldpeak='(0.75-inf)'    2.8048911780450876
+    Attrib slope=1    -3.7489293469108476
+    Attrib slope=2    1.8507969530681712
+    Attrib slope=3    1.5031483297590202
+    Attrib ca    6.860434777598251
+    Attrib thal=3    -0.6310549181658794
+    Attrib thal=6    -0.12163726244234321
+    Attrib thal=7    0.2950543749248755
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -1.4877876784974091
+    Attrib age    5.509639915866427
+    Attrib sex=1    -3.0219866331323297
+    Attrib cp=1    1.6563206713205816
+    Attrib cp=2    -0.3632199702259655
+    Attrib cp=3    -0.9668856866851092
+    Attrib cp=4    2.6670778914552464
+    Attrib trestbps    2.9382574379592192
+    Attrib chol    -5.3780329741296615
+    Attrib fbs=1    -0.8767667067982281
+    Attrib restecg=0    0.2862752218474812
+    Attrib restecg=1    1.5134578357019426
+    Attrib restecg=2    -0.3018153019961031
+    Attrib thalach    -2.61226606486845
+    Attrib exang=1    1.5343046017186184
+    Attrib oldpeak='(0.75-inf)'    -1.1738366693212205
+    Attrib slope=1    0.39770927297837216
+    Attrib slope=2    0.3341904676983815
+    Attrib slope=3    0.7646609026559196
+    Attrib ca    -5.458876006278869
+    Attrib thal=3    1.4219927094390066
+    Attrib thal=6    1.1513853677700876
+    Attrib thal=7    -1.1077523838417473
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -0.13263878168999682
+    Attrib age    -3.325426150458798
+    Attrib sex=1    -3.3279057851764957
+    Attrib cp=1    0.3210813219904759
+    Attrib cp=2    -1.9159715972767934
+    Attrib cp=3    -0.7348478233325776
+    Attrib cp=4    2.414030141077286
+    Attrib trestbps    0.19302019443051258
+    Attrib chol    -2.6743433921922892
+    Attrib fbs=1    2.810664484356503
+    Attrib restecg=0    0.6282896529722672
+    Attrib restecg=1    0.1066151450004979
+    Attrib restecg=2    -0.6470253704210998
+    Attrib thalach    -0.7092796962790866
+    Attrib exang=1    1.52958634923487
+    Attrib oldpeak='(0.75-inf)'    -0.3682751926430218
+    Attrib slope=1    -0.8333350096712614
+    Attrib slope=2    1.6407028227541887
+    Attrib slope=3    -0.6954719932237416
+    Attrib ca    3.6207929263390746
+    Attrib thal=3    0.85166797812419
+    Attrib thal=6    -0.7308791177341777
+    Attrib thal=7    -0.03933223912343801
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -0.729309792551933
+    Attrib age    -1.3339143238697573
+    Attrib sex=1    -1.731622732166196
+    Attrib cp=1    0.07404391590591722
+    Attrib cp=2    -0.12310334186013329
+    Attrib cp=3    1.3522281624200483
+    Attrib cp=4    0.22108188911590457
+    Attrib trestbps    -2.0227535587953804
+    Attrib chol    1.4516391550443983
+    Attrib fbs=1    0.9323822058699105
+    Attrib restecg=0    -1.6794213765925115
+    Attrib restecg=1    0.18022347608183534
+    Attrib restecg=2    2.251238041623123
+    Attrib thalach    1.9585730806436492
+    Attrib exang=1    0.13820426427345575
+    Attrib oldpeak='(0.75-inf)'    2.3189782258590883
+    Attrib slope=1    2.40973080387914
+    Attrib slope=2    -2.0791425254606963
+    Attrib slope=3    0.30101379115690896
+    Attrib ca    -2.4479237724902543
+    Attrib thal=3    -1.3326068080049809
+    Attrib thal=6    0.0035777373762937888
+    Attrib thal=7    2.0176084705850235
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -0.637637283106723
+    Attrib age    -1.597243259888946
+    Attrib sex=1    -1.981594174119719
+    Attrib cp=1    -1.194875351099162
+    Attrib cp=2    0.48429803101321384
+    Attrib cp=3    -1.5812700109720836
+    Attrib cp=4    3.493204859763877
+    Attrib trestbps    0.32780436047184386
+    Attrib chol    0.7763743058455602
+    Attrib fbs=1    -0.9226585117068844
+    Attrib restecg=0    -1.641493228811954
+    Attrib restecg=1    0.7153307149142754
+    Attrib restecg=2    1.5980344952317187
+    Attrib thalach    1.237273284197045
+    Attrib exang=1    2.7870557629256343
+    Attrib oldpeak='(0.75-inf)'    -1.3751367339713616
+    Attrib slope=1    0.9639995375382173
+    Attrib slope=2    -0.9508837593618971
+    Attrib slope=3    0.677126177256404
+    Attrib ca    0.10212287911981124
+    Attrib thal=3    1.0422311894302985
+    Attrib thal=6    0.24955332896720475
+    Attrib thal=7    -0.6326151440117472
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -1.2707033548499187
+    Attrib age    2.055605029082721
+    Attrib sex=1    -2.85471269098674
+    Attrib cp=1    0.2416569932811979
+    Attrib cp=2    1.6812264774374028
+    Attrib cp=3    0.8975661344440675
+    Attrib cp=4    -0.244890635980565
+    Attrib trestbps    -0.931447843469818
+    Attrib chol    -1.3761744949452022
+    Attrib fbs=1    -1.8258456354162063
+    Attrib restecg=0    0.7790517755817135
+    Attrib restecg=1    1.2635918240944497
+    Attrib restecg=2    -0.7816558302803083
+    Attrib thalach    0.7478121605036163
+    Attrib exang=1    1.7526714518685755
+    Attrib oldpeak='(0.75-inf)'    -2.8902862666572973
+    Attrib slope=1    -2.4117599230993916
+    Attrib slope=2    2.800263697933309
+    Attrib slope=3    0.956395111359897
+    Attrib ca    -0.7351902571427219
+    Attrib thal=3    1.172083683802157
+    Attrib thal=6    0.24548313854814768
+    Attrib thal=7    -0.0868798626151019
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    -0.8160156388009719
+    Attrib age    -1.4259283499753008
+    Attrib sex=1    -0.8370765914026518
+    Attrib cp=1    -0.2105948419513269
+    Attrib cp=2    1.921892898820681
+    Attrib cp=3    -0.26197110613680824
+    Attrib cp=4    0.3332391163877184
+    Attrib trestbps    -0.9582967833503988
+    Attrib chol    -0.39480184199289375
+    Attrib fbs=1    0.08216727791063043
+    Attrib restecg=0    0.5478301758129713
+    Attrib restecg=1    0.6857643765626881
+    Attrib restecg=2    -0.3115171755893714
+    Attrib thalach    0.44377919293062784
+    Attrib exang=1    0.7627661598868133
+    Attrib oldpeak='(0.75-inf)'    1.6672237695598549
+    Attrib slope=1    0.4450802128289883
+    Attrib slope=2    -0.009304595085000701
+    Attrib slope=3    0.3968712895551066
+    Attrib ca    -0.29538868364201554
+    Attrib thal=3    1.0765848616959244
+    Attrib thal=6    1.0731988267019639
+    Attrib thal=7    -1.2754148948302089
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -1.328901463589725
+    Attrib age    -8.413042232396899
+    Attrib sex=1    -0.33795001537023317
+    Attrib cp=1    0.30962896275355967
+    Attrib cp=2    0.5138226804930657
+    Attrib cp=3    1.8600970575302107
+    Attrib cp=4    -0.10174891936019798
+    Attrib trestbps    -4.265046725832791
+    Attrib chol    -1.1996450698128818
+    Attrib fbs=1    0.044837449342223216
+    Attrib restecg=0    -0.3575966167935394
+    Attrib restecg=1    0.9557029026757105
+    Attrib restecg=2    0.7336933724653214
+    Attrib thalach    1.9607205652505815
+    Attrib exang=1    1.9550212202734218
+    Attrib oldpeak='(0.75-inf)'    -1.6212499327436551
+    Attrib slope=1    1.3409092652054027
+    Attrib slope=2    -0.6263435844812542
+    Attrib slope=3    0.5974859838419384
+    Attrib ca    -0.8437204887860215
+    Attrib thal=3    0.8762541540230476
+    Attrib thal=6    -0.476169958643887
+    Attrib thal=7    0.9493884565030944
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1

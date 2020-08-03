@@ -1,0 +1,329 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     processed.cleveland-weka.filters.unsupervised.attribute.NumericToNominal-R2-weka.filters.unsupervised.attribute.NumericToNominal-R2-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14
+Instances:    303
+Attributes:   14
+              age
+              sex
+              cp
+              trestbps
+              chol
+              fbs
+              restecg
+              thalach
+              exang
+              oldpeak
+              slope
+              ca
+              thal
+              num
+Test mode:    evaluate on training data
+
+=== Classifier model (full training set) ===
+
+
+RandomTree
+==========
+
+thal = 3
+|   age < 53.5
+|   |   oldpeak < 3.55
+|   |   |   trestbps < 119
+|   |   |   |   ca < 0.5
+|   |   |   |   |   trestbps < 109
+|   |   |   |   |   |   trestbps < 106.5 : 0 (5/0)
+|   |   |   |   |   |   trestbps >= 106.5
+|   |   |   |   |   |   |   age < 45.5 : 0 (1/0)
+|   |   |   |   |   |   |   age >= 45.5 : 1 (1/0)
+|   |   |   |   |   trestbps >= 109 : 0 (11/0)
+|   |   |   |   ca >= 0.5
+|   |   |   |   |   cp = 1 : 0 (0/0)
+|   |   |   |   |   cp = 2 : 0 (1/0)
+|   |   |   |   |   cp = 3
+|   |   |   |   |   |   age < 46.5 : 0 (1/0)
+|   |   |   |   |   |   age >= 46.5 : 1 (1/0)
+|   |   |   |   |   cp = 4
+|   |   |   |   |   |   chol < 282.5 : 1 (3/0)
+|   |   |   |   |   |   chol >= 282.5 : 2 (1/0)
+|   |   |   trestbps >= 119
+|   |   |   |   fbs = 0 : 0 (52.55/0)
+|   |   |   |   fbs = 1
+|   |   |   |   |   chol < 204.5 : 0 (1.55/0.55)
+|   |   |   |   |   chol >= 204.5 : 0 (4/0)
+|   |   oldpeak >= 3.55 : 1 (1/-0)
+|   age >= 53.5
+|   |   ca < 0.5
+|   |   |   oldpeak < 2.8
+|   |   |   |   slope = 1
+|   |   |   |   |   age < 58.5 : 0 (11/0)
+|   |   |   |   |   age >= 58.5
+|   |   |   |   |   |   trestbps < 129 : 0 (3/0)
+|   |   |   |   |   |   trestbps >= 129
+|   |   |   |   |   |   |   exang = 0
+|   |   |   |   |   |   |   |   oldpeak < 0.4
+|   |   |   |   |   |   |   |   |   age < 67
+|   |   |   |   |   |   |   |   |   |   thalach < 170.5 : 1 (4/0)
+|   |   |   |   |   |   |   |   |   |   thalach >= 170.5 : 0 (2/0)
+|   |   |   |   |   |   |   |   |   age >= 67 : 0 (1/0)
+|   |   |   |   |   |   |   |   oldpeak >= 0.4 : 0 (4/0)
+|   |   |   |   |   |   |   exang = 1 : 0 (2/0)
+|   |   |   |   slope = 2
+|   |   |   |   |   oldpeak < 0.2 : 1 (2/0)
+|   |   |   |   |   oldpeak >= 0.2
+|   |   |   |   |   |   chol < 243.5
+|   |   |   |   |   |   |   chol < 225.5 : 0 (6/0)
+|   |   |   |   |   |   |   chol >= 225.5
+|   |   |   |   |   |   |   |   thalach < 104 : 2 (1/0)
+|   |   |   |   |   |   |   |   thalach >= 104 : 0 (1/0)
+|   |   |   |   |   |   chol >= 243.5
+|   |   |   |   |   |   |   trestbps < 145
+|   |   |   |   |   |   |   |   age < 57 : 0 (2/0)
+|   |   |   |   |   |   |   |   age >= 57
+|   |   |   |   |   |   |   |   |   thalach < 158.5 : 0 (3/0)
+|   |   |   |   |   |   |   |   |   thalach >= 158.5 : 1 (1/0)
+|   |   |   |   |   |   |   trestbps >= 145 : 1 (1/0)
+|   |   |   |   slope = 3 : 0 (2/0)
+|   |   |   oldpeak >= 2.8
+|   |   |   |   age < 57.5 : 2 (1/0)
+|   |   |   |   age >= 57.5 : 1 (1/0)
+|   |   ca >= 0.5
+|   |   |   cp = 1
+|   |   |   |   sex = 0 : 0 (1/0)
+|   |   |   |   sex = 1
+|   |   |   |   |   oldpeak < 0.45 : 0 (1/0)
+|   |   |   |   |   oldpeak >= 0.45
+|   |   |   |   |   |   age < 60 : 1 (1/0)
+|   |   |   |   |   |   age >= 60
+|   |   |   |   |   |   |   restecg = 0 : 2 (1/0)
+|   |   |   |   |   |   |   restecg = 1 : 0 (0/0)
+|   |   |   |   |   |   |   restecg = 2 : 1 (1/0)
+|   |   |   cp = 2
+|   |   |   |   age < 57.5
+|   |   |   |   |   sex = 0
+|   |   |   |   |   |   trestbps < 131 : 1 (1/0)
+|   |   |   |   |   |   trestbps >= 131 : 0 (1/0)
+|   |   |   |   |   sex = 1 : 1 (1/0)
+|   |   |   |   age >= 57.5
+|   |   |   |   |   chol < 310.5 : 0 (3/0)
+|   |   |   |   |   chol >= 310.5 : 3 (1/0)
+|   |   |   cp = 3 : 0 (7/0)
+|   |   |   cp = 4
+|   |   |   |   ca < 2.5
+|   |   |   |   |   oldpeak < 2.1
+|   |   |   |   |   |   exang = 0 : 0 (3/0)
+|   |   |   |   |   |   exang = 1
+|   |   |   |   |   |   |   thalach < 128.5 : 3 (2/0)
+|   |   |   |   |   |   |   thalach >= 128.5
+|   |   |   |   |   |   |   |   oldpeak < 0.65 : 2 (1/0)
+|   |   |   |   |   |   |   |   oldpeak >= 0.65 : 1 (2/0)
+|   |   |   |   |   oldpeak >= 2.1
+|   |   |   |   |   |   chol < 206 : 4 (1/0)
+|   |   |   |   |   |   chol >= 206 : 3 (3/0)
+|   |   |   |   ca >= 2.5
+|   |   |   |   |   oldpeak < 0.75 : 4 (1/0)
+|   |   |   |   |   oldpeak >= 0.75
+|   |   |   |   |   |   age < 68.5 : 2 (2/0)
+|   |   |   |   |   |   age >= 68.5 : 1 (1/0)
+thal = 6
+|   thalach < 113.5
+|   |   trestbps < 157 : 1 (2/0)
+|   |   trestbps >= 157 : 3 (1/0)
+|   thalach >= 113.5
+|   |   ca < 0.5
+|   |   |   exang = 0 : 0 (5.06/0)
+|   |   |   exang = 1
+|   |   |   |   age < 54.5 : 2 (2.06/0)
+|   |   |   |   age >= 54.5 : 0 (1/0)
+|   |   ca >= 0.5
+|   |   |   trestbps < 112 : 1 (1/0)
+|   |   |   trestbps >= 112
+|   |   |   |   fbs = 0
+|   |   |   |   |   age < 65 : 4 (2/0)
+|   |   |   |   |   age >= 65 : 2 (1/0)
+|   |   |   |   fbs = 1 : 2 (3/0)
+thal = 7
+|   cp = 1
+|   |   trestbps < 115 : 1 (1/0)
+|   |   trestbps >= 115
+|   |   |   age < 39 : 4 (1/0)
+|   |   |   age >= 39
+|   |   |   |   trestbps < 161 : 0 (3/0)
+|   |   |   |   trestbps >= 161
+|   |   |   |   |   thalach < 157 : 0 (2/0)
+|   |   |   |   |   thalach >= 157 : 1 (1/0)
+|   cp = 2
+|   |   age < 60
+|   |   |   trestbps < 109 : 0 (2/0)
+|   |   |   trestbps >= 109
+|   |   |   |   slope = 1
+|   |   |   |   |   age < 49 : 0 (1/0)
+|   |   |   |   |   age >= 49
+|   |   |   |   |   |   restecg = 0 : 1 (1/0)
+|   |   |   |   |   |   restecg = 1 : 0 (0/0)
+|   |   |   |   |   |   restecg = 2
+|   |   |   |   |   |   |   chol < 252 : 0 (1/0)
+|   |   |   |   |   |   |   chol >= 252 : 1 (1/0)
+|   |   |   |   slope = 2 : 0 (1/0)
+|   |   |   |   slope = 3 : 1 (1/0)
+|   |   age >= 60 : 3 (1/0)
+|   cp = 3
+|   |   trestbps < 119
+|   |   |   thalach < 162.5 : 0 (4/0)
+|   |   |   thalach >= 162.5 : 4 (1/0)
+|   |   trestbps >= 119
+|   |   |   age < 67.5
+|   |   |   |   sex = 0
+|   |   |   |   |   oldpeak < 0.7 : 0 (1.39/0)
+|   |   |   |   |   oldpeak >= 0.7 : 2 (1/0)
+|   |   |   |   sex = 1
+|   |   |   |   |   thalach < 164
+|   |   |   |   |   |   chol < 193.5 : 3 (1/0)
+|   |   |   |   |   |   chol >= 193.5
+|   |   |   |   |   |   |   fbs = 0
+|   |   |   |   |   |   |   |   trestbps < 122.5 : 0 (1/0)
+|   |   |   |   |   |   |   |   trestbps >= 122.5
+|   |   |   |   |   |   |   |   |   thalach < 148
+|   |   |   |   |   |   |   |   |   |   chol < 270 : 0 (1/0)
+|   |   |   |   |   |   |   |   |   |   chol >= 270 : 1 (1/0)
+|   |   |   |   |   |   |   |   |   thalach >= 148 : 1 (3/0)
+|   |   |   |   |   |   |   fbs = 1 : 0 (1/0)
+|   |   |   |   |   thalach >= 164
+|   |   |   |   |   |   chol < 228
+|   |   |   |   |   |   |   age < 57.5 : 0 (1/0)
+|   |   |   |   |   |   |   age >= 57.5 : 3 (1/0)
+|   |   |   |   |   |   chol >= 228 : 0 (2/0)
+|   |   |   age >= 67.5
+|   |   |   |   exang = 0 : 2 (1/0)
+|   |   |   |   exang = 1 : 3 (2/0)
+|   cp = 4
+|   |   oldpeak < 0.65
+|   |   |   slope = 1
+|   |   |   |   chol < 244.5
+|   |   |   |   |   age < 42 : 1 (2/0)
+|   |   |   |   |   age >= 42
+|   |   |   |   |   |   restecg = 0
+|   |   |   |   |   |   |   ca < 0.5 : 0 (3/0)
+|   |   |   |   |   |   |   ca >= 0.5
+|   |   |   |   |   |   |   |   thalach < 151.5 : 0 (1/0)
+|   |   |   |   |   |   |   |   thalach >= 151.5 : 2 (3/0)
+|   |   |   |   |   |   restecg = 1 : 0 (0/0)
+|   |   |   |   |   |   restecg = 2 : 0 (1/0)
+|   |   |   |   chol >= 244.5
+|   |   |   |   |   age < 50
+|   |   |   |   |   |   age < 41.5 : 1 (1/0)
+|   |   |   |   |   |   age >= 41.5 : 3 (1/0)
+|   |   |   |   |   age >= 50 : 1 (2/0)
+|   |   |   slope = 2
+|   |   |   |   age < 58
+|   |   |   |   |   chol < 260.5 : 1 (2/0)
+|   |   |   |   |   chol >= 260.5 : 3 (2/0)
+|   |   |   |   age >= 58
+|   |   |   |   |   age < 65.5 : 0 (2/0)
+|   |   |   |   |   age >= 65.5 : 3 (1/0)
+|   |   |   slope = 3 : 0 (0/0)
+|   |   oldpeak >= 0.65
+|   |   |   thalach < 134.5
+|   |   |   |   trestbps < 144.5
+|   |   |   |   |   thalach < 128
+|   |   |   |   |   |   age < 59.5
+|   |   |   |   |   |   |   oldpeak < 1.9
+|   |   |   |   |   |   |   |   oldpeak < 1.3 : 3 (2/0)
+|   |   |   |   |   |   |   |   oldpeak >= 1.3 : 2 (3/0)
+|   |   |   |   |   |   |   oldpeak >= 1.9
+|   |   |   |   |   |   |   |   thalach < 110
+|   |   |   |   |   |   |   |   |   trestbps < 123.5 : 3 (1/0)
+|   |   |   |   |   |   |   |   |   trestbps >= 123.5 : 1 (1/0)
+|   |   |   |   |   |   |   |   thalach >= 110 : 3 (5/0)
+|   |   |   |   |   |   age >= 59.5
+|   |   |   |   |   |   |   thalach < 113 : 1 (1/0)
+|   |   |   |   |   |   |   thalach >= 113 : 2 (1/0)
+|   |   |   |   |   thalach >= 128
+|   |   |   |   |   |   thalach < 131.5
+|   |   |   |   |   |   |   restecg = 0 : 1 (1/0)
+|   |   |   |   |   |   |   restecg = 1 : 3 (1/0)
+|   |   |   |   |   |   |   restecg = 2
+|   |   |   |   |   |   |   |   chol < 244 : 1 (2/0)
+|   |   |   |   |   |   |   |   chol >= 244 : 3 (1/0)
+|   |   |   |   |   |   thalach >= 131.5
+|   |   |   |   |   |   |   trestbps < 131
+|   |   |   |   |   |   |   |   ca < 2.5 : 4 (1/0)
+|   |   |   |   |   |   |   |   ca >= 2.5 : 3 (1/0)
+|   |   |   |   |   |   |   trestbps >= 131 : 3 (1/0)
+|   |   |   |   trestbps >= 144.5
+|   |   |   |   |   slope = 1 : 3 (1/0)
+|   |   |   |   |   slope = 2
+|   |   |   |   |   |   trestbps < 148 : 1 (1/0)
+|   |   |   |   |   |   trestbps >= 148
+|   |   |   |   |   |   |   restecg = 0 : 1 (1/0)
+|   |   |   |   |   |   |   restecg = 1 : 0 (0/0)
+|   |   |   |   |   |   |   restecg = 2 : 4 (3/0)
+|   |   |   |   |   slope = 3
+|   |   |   |   |   |   age < 63 : 3 (1/0)
+|   |   |   |   |   |   age >= 63 : 4 (1/0)
+|   |   |   thalach >= 134.5
+|   |   |   |   chol < 259
+|   |   |   |   |   ca < 1.5
+|   |   |   |   |   |   exang = 0
+|   |   |   |   |   |   |   thalach < 142 : 3 (1/0)
+|   |   |   |   |   |   |   thalach >= 142
+|   |   |   |   |   |   |   |   chol < 251.5 : 1 (1/0)
+|   |   |   |   |   |   |   |   chol >= 251.5 : 2 (1/0)
+|   |   |   |   |   |   exang = 1
+|   |   |   |   |   |   |   trestbps < 117.5 : 2 (1/0)
+|   |   |   |   |   |   |   trestbps >= 117.5
+|   |   |   |   |   |   |   |   oldpeak < 1.2 : 2 (0.39/0)
+|   |   |   |   |   |   |   |   oldpeak >= 1.2 : 1 (4/0)
+|   |   |   |   |   ca >= 1.5
+|   |   |   |   |   |   sex = 0 : 3 (3/0)
+|   |   |   |   |   |   sex = 1
+|   |   |   |   |   |   |   age < 56 : 3 (1/0)
+|   |   |   |   |   |   |   age >= 56 : 2 (3/0)
+|   |   |   |   chol >= 259
+|   |   |   |   |   thalach < 144 : 2 (6/0)
+|   |   |   |   |   thalach >= 144
+|   |   |   |   |   |   ca < 0.5 : 1 (2/0)
+|   |   |   |   |   |   ca >= 0.5
+|   |   |   |   |   |   |   age < 55.5 : 4 (1/0)
+|   |   |   |   |   |   |   age >= 55.5
+|   |   |   |   |   |   |   |   age < 61.5 : 2 (2/0)
+|   |   |   |   |   |   |   |   age >= 61.5 : 4 (1/0)
+
+Size of the tree : 263
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on training set ===
+
+Time taken to test model on training data: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         303              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.0009
+Root mean squared error                  0.0183
+Relative absolute error                  0.3625 %
+Root relative squared error              5.086  %
+Total Number of Instances              303     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     0
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     1
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     2
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     3
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     4
+Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+ 164   0   0   0   0 |   a = 0
+   0  55   0   0   0 |   b = 1
+   0   0  36   0   0 |   c = 2
+   0   0   0  35   0 |   d = 3
+   0   0   0   0  13 |   e = 4
+

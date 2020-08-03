@@ -1,8 +1,8 @@
 === Run information ===
 
 Scheme:       weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
-Relation:     processed.cleveland-weka.filters.unsupervised.attribute.NumericToNominal-R2-weka.filters.unsupervised.attribute.NumericToNominal-R2-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14
-Instances:    303
+Relation:     processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-unset-class-temporarily-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+Instances:    299
 Attributes:   14
               age
               sex
@@ -33,321 +33,35 @@ BinarySMO
 
 Machine linear: showing attribute weights, not support vectors.
 
-        -0.2746 * (normalized) age
- +       0.4817 * (normalized) sex=1
- +      -0.5922 * (normalized) cp=1
- +       0.1742 * (normalized) cp=2
- +      -0.2451 * (normalized) cp=3
- +       0.6632 * (normalized) cp=4
- +       1.0189 * (normalized) trestbps
- +       0.0963 * (normalized) chol
- +      -0.2653 * (normalized) fbs=1
- +      -0.1234 * (normalized) restecg=0
- +       0.1234 * (normalized) restecg=2
- +      -0.1699 * (normalized) thalach
- +       0.6673 * (normalized) exang=1
- +       0.339  * (normalized) oldpeak
- +      -0.3579 * (normalized) slope=1
- +       0.306  * (normalized) slope=2
- +       0.0519 * (normalized) slope=3
- +       1.4728 * (normalized) ca
- +      -0.2208 * (normalized) thal=3
- +      -0.3326 * (normalized) thal=6
- +       0.5535 * (normalized) thal=7
- -       1.7908
+        -0.0951 * (normalized) age
+ +       0.6197 * (normalized) sex=1
+ +      -0.6919 * (normalized) cp=1
+ +       0.1535 * (normalized) cp=2
+ +      -0.238  * (normalized) cp=3
+ +       0.7764 * (normalized) cp=4
+ +       1.082  * (normalized) trestbps
+ +       0.0673 * (normalized) chol
+ +      -0.391  * (normalized) fbs=1
+ +      -0.3256 * (normalized) restecg=0
+ +       0.301  * (normalized) restecg=1
+ +       0.0246 * (normalized) restecg=2
+ +      -0.6024 * (normalized) thalach
+ +       0.5191 * (normalized) exang=1
+ +       0.4008 * (normalized) oldpeak='(0.75-inf)'
+ +      -0.402  * (normalized) slope=1
+ +       0.3822 * (normalized) slope=2
+ +       0.0198 * (normalized) slope=3
+ +       2.2445 * (normalized) ca
+ +      -0.6244 * (normalized) thal=3
+ +       0      * (normalized) thal=6
+ +       0.6244 * (normalized) thal=7
+ -       1.4015
 
-Number of kernel evaluations: 11907 (82.951% cached)
-
-Classifier for classes: 0, 2
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
-        -0.0826 * (normalized) age
- +       0.3244 * (normalized) sex=1
- +      -0.5272 * (normalized) cp=1
- +      -0.4139 * (normalized) cp=2
- +       0.014  * (normalized) cp=3
- +       0.927  * (normalized) cp=4
- +       0.1685 * (normalized) trestbps
- +       0.5013 * (normalized) chol
- +       0.3709 * (normalized) fbs=1
- +      -0.2306 * (normalized) restecg=0
- +       0.5978 * (normalized) restecg=1
- +      -0.3671 * (normalized) restecg=2
- +      -1.1373 * (normalized) thalach
- +       0.4534 * (normalized) exang=1
- +       1.0656 * (normalized) oldpeak
- +      -0.5657 * (normalized) slope=1
- +       0.3227 * (normalized) slope=2
- +       0.243  * (normalized) slope=3
- +       1.7641 * (normalized) ca
- +      -0.5921 * (normalized) thal=3
- +       0.3175 * (normalized) thal=6
- +       0.2746 * (normalized) thal=7
- -       1.2152
-
-Number of kernel evaluations: 4957 (91.127% cached)
-
-Classifier for classes: 0, 3
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
-         0.3189 * (normalized) age
- +       0.4522 * (normalized) sex=1
- +      -1      * (normalized) cp=1
- +       0.4385 * (normalized) cp=2
- +      -0.2665 * (normalized) cp=3
- +       0.828  * (normalized) cp=4
- +       0.4866 * (normalized) trestbps
- +       0.1342 * (normalized) chol
- +       0.5169 * (normalized) fbs=1
- +      -0.4972 * (normalized) restecg=0
- +       0.0272 * (normalized) restecg=1
- +       0.47   * (normalized) restecg=2
- +      -0.8339 * (normalized) thalach
- +       0.599  * (normalized) exang=1
- +       1.141  * (normalized) oldpeak
- +      -0.5353 * (normalized) slope=1
- +       0.2    * (normalized) slope=2
- +       0.3353 * (normalized) slope=3
- +       1.8419 * (normalized) ca
- +      -0.4869 * (normalized) thal=3
- +      -0.3449 * (normalized) thal=6
- +       0.8319 * (normalized) thal=7
- -       2.4458
-
-Number of kernel evaluations: 4235 (84.839% cached)
-
-Classifier for classes: 0, 4
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
-         0.3184 * (normalized) age
- +       0.4032 * (normalized) sex=1
- +      -0.3021 * (normalized) cp=1
- +       0      * (normalized) cp=2
- +      -0.4463 * (normalized) cp=3
- +       0.7484 * (normalized) cp=4
- +       0.3388 * (normalized) trestbps
- +      -0.1768 * (normalized) chol
- +      -0.0972 * (normalized) fbs=1
- +      -0.6128 * (normalized) restecg=0
- +       0.1144 * (normalized) restecg=1
- +       0.4984 * (normalized) restecg=2
- +       0.4761 * (normalized) thalach
- +       0.4354 * (normalized) exang=1
- +       1.023  * (normalized) oldpeak
- +      -0.5778 * (normalized) slope=1
- +       0.4634 * (normalized) slope=2
- +       0.1144 * (normalized) slope=3
- +       1.5501 * (normalized) ca
- +      -0.4721 * (normalized) thal=3
- +       0.1181 * (normalized) thal=6
- +       0.354  * (normalized) thal=7
- -       3.3212
-
-Number of kernel evaluations: 1613 (79.739% cached)
-
-Classifier for classes: 1, 2
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
-         0.8283 * (normalized) age
- +      -0.3492 * (normalized) sex=1
- +      -0.3314 * (normalized) cp=1
- +      -0.1821 * (normalized) cp=2
- +      -0.1868 * (normalized) cp=3
- +       0.7002 * (normalized) cp=4
- +       0.2392 * (normalized) trestbps
- +       0.922  * (normalized) chol
- +       0.8356 * (normalized) fbs=1
- +      -0.1256 * (normalized) restecg=0
- +       0.8147 * (normalized) restecg=1
- +      -0.6891 * (normalized) restecg=2
- +      -0.8339 * (normalized) thalach
- +      -0.7452 * (normalized) exang=1
- +       1.4335 * (normalized) oldpeak
- +      -0.5391 * (normalized) slope=1
- +      -0.1754 * (normalized) slope=2
- +       0.7145 * (normalized) slope=3
- +       1.6352 * (normalized) ca
- +      -0.6697 * (normalized) thal=3
- +       0.6969 * (normalized) thal=6
- +      -0.0272 * (normalized) thal=7
- -       0.4831
-
-Number of kernel evaluations: 2957 (87.286% cached)
-
-Classifier for classes: 1, 3
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
-        -0.4975 * (normalized) age
- +      -0.0971 * (normalized) sex=1
- +      -0.7098 * (normalized) cp=1
- +       0.2966 * (normalized) cp=2
- +      -0.011  * (normalized) cp=3
- +       0.4241 * (normalized) cp=4
- +       0.1233 * (normalized) trestbps
- +       0.0138 * (normalized) chol
- +       0.8922 * (normalized) fbs=1
- +      -0.3111 * (normalized) restecg=0
- +       0.4673 * (normalized) restecg=1
- +      -0.1562 * (normalized) restecg=2
- +      -1.1678 * (normalized) thalach
- +      -0.2204 * (normalized) exang=1
- +       1.254  * (normalized) oldpeak
- +      -0.4875 * (normalized) slope=1
- +      -0.0118 * (normalized) slope=2
- +       0.4993 * (normalized) slope=3
- +       1.6408 * (normalized) ca
- +      -0.0482 * (normalized) thal=3
- +      -0.5577 * (normalized) thal=6
- +       0.6059 * (normalized) thal=7
- -       0.4633
-
-Number of kernel evaluations: 2817 (87.737% cached)
-
-Classifier for classes: 1, 4
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
-        -0.0584 * (normalized) age
- +      -0.3152 * (normalized) sex=1
- +      -0.0412 * (normalized) cp=1
- +      -0.1168 * (normalized) cp=2
- +      -0.0987 * (normalized) cp=3
- +       0.2567 * (normalized) cp=4
- +       0.8825 * (normalized) trestbps
- +      -0.0617 * (normalized) chol
- +      -0.0412 * (normalized) fbs=1
- +      -0.2339 * (normalized) restecg=0
- +       0.3023 * (normalized) restecg=1
- +      -0.0684 * (normalized) restecg=2
- +       0.0907 * (normalized) thalach
- +      -0.599  * (normalized) exang=1
- +       1.0189 * (normalized) oldpeak
- +      -0.3894 * (normalized) slope=1
- +       0.0871 * (normalized) slope=2
- +       0.3023 * (normalized) slope=3
- +       0.8766 * (normalized) ca
- +      -0.1598 * (normalized) thal=3
- +       0.0569 * (normalized) thal=6
- +       0.103  * (normalized) thal=7
- -       1.3552
-
-Number of kernel evaluations: 1386 (94.148% cached)
-
-Classifier for classes: 2, 3
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
-        -1.0556 * (normalized) age
- +       0.3986 * (normalized) sex=1
- +      -0.2421 * (normalized) cp=1
- +       0.2642 * (normalized) cp=2
- +       0.3665 * (normalized) cp=3
- +      -0.3887 * (normalized) cp=4
- +       0.059  * (normalized) trestbps
- +      -1.0413 * (normalized) chol
- +       0.201  * (normalized) fbs=1
- +      -0.5278 * (normalized) restecg=0
- +       0.0994 * (normalized) restecg=1
- +       0.4284 * (normalized) restecg=2
- +      -0.8186 * (normalized) thalach
- +       0.3454 * (normalized) exang=1
- +       0.1504 * (normalized) oldpeak
- +      -0.4549 * (normalized) slope=1
- +      -0.2372 * (normalized) slope=2
- +       0.692  * (normalized) slope=3
- +       0.837  * (normalized) ca
- +       0.1257 * (normalized) thal=3
- +      -0.9757 * (normalized) thal=6
- +       0.85   * (normalized) thal=7
- +       0.2629
-
-Number of kernel evaluations: 1892 (90.255% cached)
-
-Classifier for classes: 2, 4
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
-        -0.0255 * (normalized) age
- +       0.0432 * (normalized) sex=1
- +       0.0792 * (normalized) cp=1
- +      -0.0728 * (normalized) cp=3
- +      -0.0064 * (normalized) cp=4
- +      -0.2211 * (normalized) trestbps
- +      -0.2453 * (normalized) chol
- +      -0.15   * (normalized) fbs=1
- +      -0.5134 * (normalized) restecg=0
- +       0.5515 * (normalized) restecg=1
- +      -0.038  * (normalized) restecg=2
- +      -0.0126 * (normalized) thalach
- +      -0.4598 * (normalized) exang=1
- +       0.1152 * (normalized) oldpeak
- +      -0.2462 * (normalized) slope=1
- +      -0.0569 * (normalized) slope=2
- +       0.3031 * (normalized) slope=3
- +       0.5236 * (normalized) ca
- +      -0.2261 * (normalized) thal=3
- +       0.2304 * (normalized) thal=6
- +      -0.0042 * (normalized) thal=7
- -       0.556 
-
-Number of kernel evaluations: 724 (89.441% cached)
-
-Classifier for classes: 3, 4
-
-BinarySMO
-
-Machine linear: showing attribute weights, not support vectors.
-
-         0.6381 * (normalized) age
- +       0.591  * (normalized) sex=1
- +       1      * (normalized) cp=1
- +      -0.4305 * (normalized) cp=2
- +      -0.4163 * (normalized) cp=3
- +      -0.1532 * (normalized) cp=4
- +       0.4297 * (normalized) trestbps
- +       0.1022 * (normalized) chol
- +      -0.4619 * (normalized) fbs=1
- +      -0.2359 * (normalized) restecg=0
- +       0.3914 * (normalized) restecg=1
- +      -0.1555 * (normalized) restecg=2
- +       0.4744 * (normalized) thalach
- +      -0.2685 * (normalized) exang=1
- +       0.153  * (normalized) oldpeak
- +      -0.1822 * (normalized) slope=1
- +       0.1094 * (normalized) slope=2
- +       0.0728 * (normalized) slope=3
- +      -0.0067 * (normalized) ca
- +      -0.35   * (normalized) thal=3
- +       0.7142 * (normalized) thal=6
- +      -0.3643 * (normalized) thal=7
- -       1.4784
-
-Number of kernel evaluations: 929 (94.216% cached)
+Number of kernel evaluations: 25553 (83.023% cached)
 
 
 
-Time taken to build model: 0.1 seconds
+Time taken to build model: 0.03 seconds
 
 === Evaluation on training set ===
 
@@ -355,31 +69,25 @@ Time taken to test model on training data: 0 seconds
 
 === Summary ===
 
-Correctly Classified Instances         199               65.6766 %
-Incorrectly Classified Instances       104               34.3234 %
-Kappa statistic                          0.4369
-Mean absolute error                      0.2611
-Root mean squared error                  0.3478
-Relative absolute error                100.8482 %
-Root relative squared error             96.8368 %
-Total Number of Instances              303     
+Correctly Classified Instances         257               85.9532 %
+Incorrectly Classified Instances        42               14.0468 %
+Kappa statistic                          0.715 
+Mean absolute error                      0.1405
+Root mean squared error                  0.3748
+Relative absolute error                 28.2598 %
+Root relative squared error             75.1809 %
+Total Number of Instances              299     
 
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 0.933    0.266    0.805      0.933    0.864      0.687    0.857     0.808     0
-                 0.255    0.089    0.389      0.255    0.308      0.198    0.609     0.243     1
-                 0.333    0.071    0.387      0.333    0.358      0.280    0.804     0.307     2
-                 0.543    0.097    0.422      0.543    0.475      0.401    0.871     0.377     3
-                 0.077    0.000    1.000      0.077    0.143      0.272    0.812     0.261     4
-Weighted Avg.    0.657    0.180    0.644      0.657    0.627      0.499    0.805     0.572     
+                 0.919    0.210    0.836      0.919    0.876      0.719    0.855     0.812     0
+                 0.790    0.081    0.893      0.790    0.838      0.719    0.855     0.803     1
+Weighted Avg.    0.860    0.150    0.863      0.860    0.859      0.719    0.855     0.808     
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   <-- classified as
- 153   6   4   1   0 |   a = 0
-  26  14   7   8   0 |   b = 1
-   8   4  12  12   0 |   c = 2
-   1   9   6  19   0 |   d = 3
-   2   3   2   5   1 |   e = 4
+   a   b   <-- classified as
+ 148  13 |   a = 0
+  29 109 |   b = 1
 

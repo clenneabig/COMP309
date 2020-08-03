@@ -1,8 +1,8 @@
 === Run information ===
 
 Scheme:       weka.classifiers.bayes.NaiveBayes 
-Relation:     processed.cleveland-weka.filters.unsupervised.attribute.NumericToNominal-R2-weka.filters.unsupervised.attribute.NumericToNominal-R2-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14
-Instances:    303
+Relation:     processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-unset-class-temporarily-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+Instances:    299
 Attributes:   14
               age
               sex
@@ -24,85 +24,84 @@ Test mode:    evaluate on training data
 
 Naive Bayes Classifier
 
-                  Class
-Attribute             0        1        2        3        4
-                 (0.54)   (0.18)   (0.12)   (0.12)   (0.05)
-============================================================
+                     Class
+Attribute                0        1
+                    (0.54)   (0.46)
+====================================
 age
-  mean           52.5512  55.3745  58.0667  55.9886  59.6308
-  std. dev.       9.4937   7.9481   7.1458   7.7075   8.8355
-  weight sum         164       55       36       35       13
-  precision          1.2      1.2      1.2      1.2      1.2
+  mean              52.6137  56.7217
+  std. dev.          9.5078   7.8564
+  weight sum            161      138
+  precision             1.2      1.2
 
 sex
-  0                 73.0     10.0      8.0      8.0      3.0
-  1                 93.0     47.0     30.0     29.0     12.0
-  [total]          166.0     57.0     38.0     37.0     15.0
+  0                    73.0     26.0
+  1                    90.0    114.0
+  [total]             163.0    140.0
 
 cp
-  1                 17.0      6.0      2.0      1.0      2.0
-  2                 42.0      7.0      2.0      3.0      1.0
-  3                 69.0     10.0      5.0      5.0      2.0
-  4                 40.0     36.0     31.0     30.0     12.0
-  [total]          168.0     59.0     40.0     39.0     17.0
+  1                    17.0      8.0
+  2                    41.0     10.0
+  3                    67.0     19.0
+  4                    40.0    105.0
+  [total]             165.0    142.0
 
 trestbps
-  mean          129.1364 133.1785 134.1825 135.3586 138.6154
-  std. dev.       16.212  17.8424   17.835  21.3043  16.2652
-  weight sum         164       55       36       35       13
-  precision       2.1633   2.1633   2.1633   2.1633   2.1633
+  mean             129.0435 134.5143
+  std. dev.         16.3265   18.771
+  weight sum            161      138
+  precision          2.1633   2.1633
 
 chol
-  mean          242.5944 248.9296 259.4481 246.6392 253.6964
-  std. dev.      53.2799  40.5191  53.0223  50.9134  63.7599
-  weight sum         164       55       36       35       13
-  precision       2.9007   2.9007   2.9007   2.9007   2.9007
+  mean             243.2773 251.5589
+  std. dev.         53.4476   49.533
+  weight sum            161      138
+  precision          2.9007   2.9007
 
 fbs
-  0                142.0     52.0     28.0     28.0     13.0
-  1                 24.0      5.0     10.0      9.0      2.0
-  [total]          166.0     57.0     38.0     37.0     15.0
+  0                   139.0    118.0
+  1                    24.0     22.0
+  [total]             163.0    140.0
 
 restecg
-  0                 96.0     24.0     20.0     13.0      3.0
-  1                  2.0      1.0      2.0      2.0      2.0
-  2                 69.0     33.0     17.0     23.0     11.0
-  [total]          167.0     58.0     39.0     38.0     16.0
+  0                    93.0     57.0
+  1                     2.0      4.0
+  2                    69.0     80.0
+  [total]             164.0    141.0
 
 thalach
-  mean          158.3272 145.9525 135.6093 131.9981 140.6291
-  std. dev.      19.1147  22.6677   20.546  22.3411  19.0427
-  weight sum         164       55       36       35       13
-  precision       1.4556   1.4556   1.4556   1.4556   1.4556
+  mean             158.2578 139.2376
+  std. dev.         19.2056  22.5932
+  weight sum            161      138
+  precision          1.4556   1.4556
 
 exang
-  0                142.0     31.0     15.0     13.0      8.0
-  1                 24.0     26.0     23.0     24.0      7.0
-  [total]          166.0     57.0     38.0     37.0     15.0
+  0                   139.0     64.0
+  1                    24.0     76.0
+  [total]             163.0    140.0
 
 oldpeak
-  mean            0.5903   1.0117   1.7929   1.9713   2.3602
-  std. dev.       0.7754     0.99   1.1357   1.4953   1.3284
-  weight sum         164       55       36       35       13
-  precision        0.159    0.159    0.159    0.159    0.159
+  '(-inf-0.75]'       109.0     39.0
+  '(0.75-inf)'         54.0    101.0
+  [total]             163.0    140.0
 
 slope
-  1                107.0     23.0      8.0      7.0      2.0
-  2                 50.0     32.0     27.0     25.0     11.0
-  3                 10.0      3.0      4.0      6.0      3.0
-  [total]          167.0     58.0     39.0     38.0     16.0
+  1                   105.0     37.0
+  2                    49.0     91.0
+  3                    10.0     13.0
+  [total]             164.0    141.0
 
 ca
-  mean            0.2733   0.7407   1.2222   1.4571   1.6923
-  std. dev.       0.6304   0.8646   0.9461   0.9955   1.2016
-  weight sum         161       54       36       35       13
-  precision            1        1        1        1        1
+  mean               0.2733   1.1377
+  std. dev.          0.6304   1.0158
+  weight sum            161      138
+  precision               1        1
 
 thal
-  3                130.0     23.0      8.0      7.0      3.0
-  6                  7.0      4.0      7.0      2.0      3.0
-  7                 29.0     31.0     23.0     29.0     10.0
-  [total]          166.0     58.0     38.0     38.0     16.0
+  3                   128.0     38.0
+  6                     7.0     13.0
+  7                    28.0     89.0
+  [total]             163.0    140.0
 
 
 
@@ -114,31 +113,25 @@ Time taken to test model on training data: 0 seconds
 
 === Summary ===
 
-Correctly Classified Instances         194               64.0264 %
-Incorrectly Classified Instances       109               35.9736 %
-Kappa statistic                          0.4351
-Mean absolute error                      0.1623
-Root mean squared error                  0.3029
-Relative absolute error                 62.6749 %
-Root relative squared error             84.3395 %
-Total Number of Instances              303     
+Correctly Classified Instances         249               83.2776 %
+Incorrectly Classified Instances        50               16.7224 %
+Kappa statistic                          0.6629
+Mean absolute error                      0.1812
+Root mean squared error                  0.3526
+Relative absolute error                 36.4459 %
+Root relative squared error             70.7259 %
+Total Number of Instances              299     
 
 === Detailed Accuracy By Class ===
 
                  TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
-                 0.878    0.180    0.852      0.878    0.865      0.701    0.916     0.927     0
-                 0.364    0.145    0.357      0.364    0.360      0.217    0.738     0.356     1
-                 0.417    0.086    0.395      0.417    0.405      0.323    0.863     0.437     2
-                 0.371    0.063    0.433      0.371    0.400      0.330    0.892     0.510     3
-                 0.154    0.028    0.200      0.154    0.174      0.143    0.925     0.350     4
-Weighted Avg.    0.640    0.142    0.632      0.640    0.635      0.501    0.875     0.692     
+                 0.857    0.196    0.836      0.857    0.847      0.663    0.914     0.923     0
+                 0.804    0.143    0.828      0.804    0.816      0.663    0.914     0.908     1
+Weighted Avg.    0.833    0.171    0.833      0.833    0.833      0.663    0.914     0.916     
 
 === Confusion Matrix ===
 
-   a   b   c   d   e   <-- classified as
- 144  12   4   1   3 |   a = 0
-  21  20   8   5   1 |   b = 1
-   3  10  15   7   1 |   c = 2
-   1   9   9  13   3 |   d = 3
-   0   5   2   4   2 |   e = 4
+   a   b   <-- classified as
+ 138  23 |   a = 0
+  27 111 |   b = 1
 

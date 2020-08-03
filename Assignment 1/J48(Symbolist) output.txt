@@ -1,0 +1,113 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-unset-class-temporarily-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+Instances:    299
+Attributes:   14
+              age
+              sex
+              cp
+              trestbps
+              chol
+              fbs
+              restecg
+              thalach
+              exang
+              oldpeak
+              slope
+              ca
+              thal
+              num
+Test mode:    evaluate on training data
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+ca <= 0
+|   exang = 0
+|   |   thal = 3: 0 (98.75/9.0)
+|   |   thal = 6: 0 (5.04)
+|   |   thal = 7
+|   |   |   fbs = 0
+|   |   |   |   age <= 52: 1 (10.0/2.0)
+|   |   |   |   age > 52: 0 (14.21/3.0)
+|   |   |   fbs = 1: 0 (4.0)
+|   exang = 1
+|   |   oldpeak = '(-inf-0.75]'
+|   |   |   slope = 1: 0 (9.0/1.0)
+|   |   |   slope = 2
+|   |   |   |   restecg = 0: 1 (3.0)
+|   |   |   |   restecg = 1: 0 (0.0)
+|   |   |   |   restecg = 2: 0 (3.0)
+|   |   |   slope = 3: 0 (0.0)
+|   |   oldpeak = '(0.75-inf)'
+|   |   |   thal = 3
+|   |   |   |   chol <= 243: 0 (5.25/0.25)
+|   |   |   |   chol > 243: 1 (2.0)
+|   |   |   thal = 6: 1 (3.11/1.0)
+|   |   |   thal = 7: 1 (18.64/1.0)
+ca > 0
+|   cp = 1
+|   |   trestbps <= 138: 1 (4.0/1.0)
+|   |   trestbps > 138: 0 (3.0)
+|   cp = 2
+|   |   restecg = 0: 0 (5.0/1.0)
+|   |   restecg = 1: 0 (0.0)
+|   |   restecg = 2
+|   |   |   exang = 0: 1 (5.0)
+|   |   |   exang = 1: 0 (2.0)
+|   cp = 3
+|   |   thal = 3: 0 (13.0/1.0)
+|   |   thal = 6: 1 (2.0)
+|   |   thal = 7
+|   |   |   slope = 1: 0 (4.0/1.0)
+|   |   |   slope = 2: 1 (8.0/1.0)
+|   |   |   slope = 3: 1 (0.0)
+|   cp = 4
+|   |   oldpeak = '(-inf-0.75]'
+|   |   |   sex = 0: 0 (2.0)
+|   |   |   sex = 1
+|   |   |   |   restecg = 0
+|   |   |   |   |   thalach <= 151: 0 (2.0)
+|   |   |   |   |   thalach > 151: 1 (6.0)
+|   |   |   |   restecg = 1: 1 (0.0)
+|   |   |   |   restecg = 2: 1 (10.0)
+|   |   oldpeak = '(0.75-inf)': 1 (57.0/1.0)
+
+Number of Leaves  : 	31
+
+Size of the tree : 	51
+
+
+Time taken to build model: 0 seconds
+
+=== Evaluation on training set ===
+
+Time taken to test model on training data: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         276               92.3077 %
+Incorrectly Classified Instances        23                7.6923 %
+Kappa statistic                          0.8445
+Mean absolute error                      0.1336
+Root mean squared error                  0.2575
+Relative absolute error                 26.8852 %
+Root relative squared error             51.6592 %
+Total Number of Instances              299     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.957    0.116    0.906      0.957    0.931      0.846    0.951     0.935     0
+                 0.884    0.043    0.946      0.884    0.914      0.846    0.951     0.946     1
+Weighted Avg.    0.923    0.082    0.924      0.923    0.923      0.846    0.951     0.940     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 154   7 |   a = 0
+  16 122 |   b = 1
+

@@ -1,0 +1,521 @@
+=== Classifier model ===
+
+Scheme:   J48
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+J48 pruned tree
+------------------
+
+ca <= 0
+|   exang = 0: 0 (115.0/15.0)
+|   exang = 1
+|   |   thal = 3
+|   |   |   restecg = 0
+|   |   |   |   cp = 1: 0 (0.0)
+|   |   |   |   cp = 2: 0 (1.0)
+|   |   |   |   cp = 3: 0 (3.0)
+|   |   |   |   cp = 4: 1 (4.4/1.0)
+|   |   |   restecg = 1: 1 (1.0)
+|   |   |   restecg = 2: 0 (7.0)
+|   |   thal = 6: 1 (3.08/1.0)
+|   |   thal = 7
+|   |   |   oldpeak = '(-inf-0.75]'
+|   |   |   |   chol <= 233: 0 (2.0)
+|   |   |   |   chol > 233: 1 (2.0)
+|   |   |   oldpeak = '(0.75-inf)': 1 (17.52/1.0)
+ca > 0
+|   sex = 0
+|   |   thal = 3: 0 (22.0/5.0)
+|   |   thal = 6: 1 (1.0)
+|   |   thal = 7: 1 (7.0)
+|   sex = 1: 1 (83.0/11.0)
+
+Number of Leaves  : 	15
+
+Size of the tree : 	24
+=== Classifier model ===
+
+Scheme:   J48
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+J48 pruned tree
+------------------
+
+ca <= 0
+|   exang = 0
+|   |   thal = 3: 0 (91.76/8.0)
+|   |   thal = 6: 0 (4.03)
+|   |   thal = 7
+|   |   |   fbs = 0
+|   |   |   |   age <= 52: 1 (7.0/1.0)
+|   |   |   |   age > 52: 0 (13.2/3.0)
+|   |   |   fbs = 1: 0 (4.0)
+|   exang = 1
+|   |   thal = 3
+|   |   |   restecg = 0
+|   |   |   |   slope = 1: 0 (4.0)
+|   |   |   |   slope = 2
+|   |   |   |   |   cp = 1: 1 (0.0)
+|   |   |   |   |   cp = 2: 1 (0.0)
+|   |   |   |   |   cp = 3: 0 (2.0)
+|   |   |   |   |   cp = 4: 1 (3.42)
+|   |   |   |   slope = 3: 0 (0.0)
+|   |   |   restecg = 1: 1 (1.0)
+|   |   |   restecg = 2: 0 (6.0)
+|   |   thal = 6: 1 (2.05/1.0)
+|   |   thal = 7
+|   |   |   oldpeak = '(-inf-0.75]'
+|   |   |   |   chol <= 240: 0 (2.0)
+|   |   |   |   chol > 240: 1 (2.0)
+|   |   |   oldpeak = '(0.75-inf)': 1 (16.53/1.0)
+ca > 0
+|   cp = 1
+|   |   trestbps <= 138: 1 (4.0/1.0)
+|   |   trestbps > 138: 0 (3.0)
+|   cp = 2
+|   |   restecg = 0: 0 (4.0/1.0)
+|   |   restecg = 1: 1 (0.0)
+|   |   restecg = 2
+|   |   |   exang = 0: 1 (5.0)
+|   |   |   exang = 1: 0 (2.0)
+|   cp = 3
+|   |   thal = 3: 0 (11.0)
+|   |   thal = 6: 1 (1.0)
+|   |   thal = 7
+|   |   |   slope = 1: 0 (4.0/1.0)
+|   |   |   slope = 2: 1 (7.0)
+|   |   |   slope = 3: 1 (0.0)
+|   cp = 4: 1 (69.0/3.0)
+
+Number of Leaves  : 	29
+
+Size of the tree : 	46
+=== Classifier model ===
+
+Scheme:   J48
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+J48 pruned tree
+------------------
+
+ca <= 0
+|   exang = 0: 0 (116.0/17.0)
+|   exang = 1
+|   |   thal = 3
+|   |   |   restecg = 0
+|   |   |   |   cp = 1: 0 (0.0)
+|   |   |   |   cp = 2: 0 (1.0)
+|   |   |   |   cp = 3: 0 (3.0)
+|   |   |   |   cp = 4: 1 (4.41/1.0)
+|   |   |   restecg = 1: 1 (1.0)
+|   |   |   restecg = 2: 0 (7.0)
+|   |   thal = 6: 1 (2.05)
+|   |   thal = 7
+|   |   |   oldpeak = '(-inf-0.75]'
+|   |   |   |   chol <= 240: 0 (3.0)
+|   |   |   |   chol > 240: 1 (2.0)
+|   |   |   oldpeak = '(0.75-inf)': 1 (16.54/1.0)
+ca > 0
+|   cp = 1
+|   |   trestbps <= 138: 1 (4.0/1.0)
+|   |   trestbps > 138: 0 (3.0)
+|   cp = 2
+|   |   restecg = 0: 0 (4.0/1.0)
+|   |   restecg = 1: 1 (0.0)
+|   |   restecg = 2
+|   |   |   exang = 0: 1 (5.0)
+|   |   |   exang = 1: 0 (2.0)
+|   cp = 3
+|   |   thal = 3: 0 (13.0/1.0)
+|   |   thal = 6: 1 (1.0)
+|   |   thal = 7
+|   |   |   slope = 1: 0 (4.0/1.0)
+|   |   |   slope = 2: 1 (7.0/1.0)
+|   |   |   slope = 3: 1 (0.0)
+|   cp = 4
+|   |   oldpeak = '(-inf-0.75]'
+|   |   |   sex = 0: 0 (2.0)
+|   |   |   sex = 1
+|   |   |   |   restecg = 0
+|   |   |   |   |   thalach <= 153: 0 (2.0)
+|   |   |   |   |   thalach > 153: 1 (5.0)
+|   |   |   |   restecg = 1: 1 (0.0)
+|   |   |   |   restecg = 2: 1 (8.0)
+|   |   oldpeak = '(0.75-inf)': 1 (53.0/1.0)
+
+Number of Leaves  : 	28
+
+Size of the tree : 	45
+=== Classifier model ===
+
+Scheme:   J48
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+J48 pruned tree
+------------------
+
+thal = 3
+|   ca <= 0
+|   |   trestbps <= 152: 0 (97.55/7.55)
+|   |   trestbps > 152
+|   |   |   age <= 62: 1 (4.0)
+|   |   |   age > 62: 0 (2.0)
+|   ca > 0
+|   |   slope = 1
+|   |   |   sex = 0: 0 (13.0)
+|   |   |   sex = 1
+|   |   |   |   fbs = 0
+|   |   |   |   |   oldpeak = '(-inf-0.75]': 1 (4.0)
+|   |   |   |   |   oldpeak = '(0.75-inf)'
+|   |   |   |   |   |   ca <= 1: 0 (3.0)
+|   |   |   |   |   |   ca > 1: 1 (3.0/1.0)
+|   |   |   |   fbs = 1: 0 (2.0)
+|   |   slope = 2: 1 (16.0/3.0)
+|   |   slope = 3: 1 (3.0/1.0)
+thal = 6
+|   ca <= 0
+|   |   exang = 0: 0 (5.0)
+|   |   exang = 1: 1 (3.07/1.0)
+|   ca > 0: 1 (10.0)
+thal = 7
+|   oldpeak = '(-inf-0.75]'
+|   |   fbs = 0
+|   |   |   ca <= 0
+|   |   |   |   cp = 1: 1 (1.0)
+|   |   |   |   cp = 2: 0 (4.0/1.0)
+|   |   |   |   cp = 3: 0 (3.0)
+|   |   |   |   cp = 4
+|   |   |   |   |   age <= 42: 1 (3.0)
+|   |   |   |   |   age > 42
+|   |   |   |   |   |   chol <= 237: 0 (5.0)
+|   |   |   |   |   |   chol > 237: 1 (2.0)
+|   |   |   ca > 0: 1 (11.0/2.0)
+|   |   fbs = 1: 0 (3.0)
+|   oldpeak = '(0.75-inf)': 1 (71.38/8.0)
+
+Number of Leaves  : 	22
+
+Size of the tree : 	39
+=== Classifier model ===
+
+Scheme:   J48
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+J48 pruned tree
+------------------
+
+ca <= 0
+|   thal = 3: 0 (104.32/11.66)
+|   thal = 6: 0 (5.06/1.03)
+|   thal = 7
+|   |   oldpeak = '(-inf-0.75]'
+|   |   |   age <= 42: 1 (3.0)
+|   |   |   age > 42
+|   |   |   |   chol <= 259: 0 (11.31)
+|   |   |   |   chol > 259
+|   |   |   |   |   restecg = 0: 0 (4.0/1.0)
+|   |   |   |   |   restecg = 1: 0 (0.0)
+|   |   |   |   |   restecg = 2: 1 (2.0)
+|   |   oldpeak = '(0.75-inf)'
+|   |   |   cp = 1: 0 (5.0/1.0)
+|   |   |   cp = 2: 1 (1.0)
+|   |   |   cp = 3
+|   |   |   |   thalach <= 155: 1 (3.0)
+|   |   |   |   thalach > 155: 0 (3.0)
+|   |   |   cp = 4: 1 (16.31)
+ca > 0
+|   slope = 1
+|   |   sex = 0: 0 (14.0/1.0)
+|   |   sex = 1
+|   |   |   cp = 1: 0 (3.0/1.0)
+|   |   |   cp = 2: 1 (3.0/1.0)
+|   |   |   cp = 3
+|   |   |   |   restecg = 0: 0 (3.0)
+|   |   |   |   restecg = 1: 0 (0.0)
+|   |   |   |   restecg = 2: 1 (3.0/1.0)
+|   |   |   cp = 4: 1 (16.0/1.0)
+|   slope = 2: 1 (65.0/6.0)
+|   slope = 3: 1 (4.0)
+
+Number of Leaves  : 	21
+
+Size of the tree : 	33
+=== Classifier model ===
+
+Scheme:   J48
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+J48 pruned tree
+------------------
+
+ca <= 0
+|   exang = 0
+|   |   thal = 3: 0 (89.75/8.0)
+|   |   thal = 6: 0 (5.04)
+|   |   thal = 7
+|   |   |   oldpeak = '(-inf-0.75]'
+|   |   |   |   trestbps <= 122: 0 (5.0)
+|   |   |   |   trestbps > 122
+|   |   |   |   |   chol <= 247: 0 (5.21/1.0)
+|   |   |   |   |   chol > 247: 1 (4.0/1.0)
+|   |   |   oldpeak = '(0.75-inf)'
+|   |   |   |   thalach <= 156: 1 (5.0)
+|   |   |   |   thalach > 156: 0 (6.0/1.0)
+|   exang = 1
+|   |   oldpeak = '(-inf-0.75]'
+|   |   |   thalach <= 147: 1 (4.0/1.0)
+|   |   |   thalach > 147: 0 (9.0)
+|   |   oldpeak = '(0.75-inf)'
+|   |   |   trestbps <= 115: 0 (5.0/1.0)
+|   |   |   trestbps > 115: 1 (22.0/2.0)
+ca > 0
+|   cp = 1
+|   |   trestbps <= 138: 1 (4.0/1.0)
+|   |   trestbps > 138: 0 (2.0)
+|   cp = 2
+|   |   restecg = 0: 0 (5.0/1.0)
+|   |   restecg = 1: 0 (0.0)
+|   |   restecg = 2
+|   |   |   exang = 0: 1 (5.0)
+|   |   |   exang = 1: 0 (2.0)
+|   cp = 3
+|   |   sex = 0: 0 (7.0)
+|   |   sex = 1
+|   |   |   slope = 1
+|   |   |   |   restecg = 0: 0 (5.0)
+|   |   |   |   restecg = 1: 0 (0.0)
+|   |   |   |   restecg = 2: 1 (2.0)
+|   |   |   slope = 2: 1 (9.0/1.0)
+|   |   |   slope = 3: 0 (1.0)
+|   cp = 4
+|   |   oldpeak = '(-inf-0.75]'
+|   |   |   sex = 0: 0 (2.0)
+|   |   |   sex = 1
+|   |   |   |   restecg = 0
+|   |   |   |   |   thalach <= 151: 0 (2.0)
+|   |   |   |   |   thalach > 151: 1 (5.0)
+|   |   |   |   restecg = 1: 1 (0.0)
+|   |   |   |   restecg = 2: 1 (10.0)
+|   |   oldpeak = '(0.75-inf)': 1 (48.0)
+
+Number of Leaves  : 	29
+
+Size of the tree : 	50
+=== Classifier model ===
+
+Scheme:   J48
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+J48 pruned tree
+------------------
+
+ca <= 0
+|   exang = 0
+|   |   thal = 3: 0 (87.73/9.0)
+|   |   thal = 6: 0 (5.04)
+|   |   thal = 7
+|   |   |   fbs = 0
+|   |   |   |   age <= 52: 1 (9.0/1.0)
+|   |   |   |   age > 52: 0 (14.23/3.0)
+|   |   |   fbs = 1: 0 (4.0)
+|   exang = 1
+|   |   oldpeak = '(-inf-0.75]'
+|   |   |   slope = 1: 0 (9.0/1.0)
+|   |   |   slope = 2
+|   |   |   |   restecg = 0: 1 (3.0)
+|   |   |   |   restecg = 1: 0 (0.0)
+|   |   |   |   restecg = 2: 0 (3.0)
+|   |   |   slope = 3: 0 (0.0)
+|   |   oldpeak = '(0.75-inf)'
+|   |   |   thal = 3: 0 (5.2/1.2)
+|   |   |   thal = 6: 1 (3.12/1.0)
+|   |   |   thal = 7: 1 (17.68/1.0)
+ca > 0
+|   cp = 1
+|   |   slope = 1: 0 (2.0)
+|   |   slope = 2: 1 (3.0/1.0)
+|   |   slope = 3: 0 (0.0)
+|   cp = 2
+|   |   restecg = 0: 0 (4.0)
+|   |   restecg = 1: 0 (0.0)
+|   |   restecg = 2: 1 (5.0/1.0)
+|   cp = 3
+|   |   slope = 1: 0 (13.0/1.0)
+|   |   slope = 2
+|   |   |   thal = 3: 0 (2.0)
+|   |   |   thal = 6: 1 (2.0)
+|   |   |   thal = 7: 1 (8.0/1.0)
+|   |   slope = 3: 0 (1.0)
+|   cp = 4: 1 (68.0/4.0)
+
+Number of Leaves  : 	25
+
+Size of the tree : 	39
+=== Classifier model ===
+
+Scheme:   J48
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+J48 pruned tree
+------------------
+
+ca <= 0
+|   exang = 0
+|   |   thal = 3: 0 (89.74/9.0)
+|   |   thal = 6: 0 (5.04)
+|   |   thal = 7
+|   |   |   sex = 0: 0 (2.22)
+|   |   |   sex = 1
+|   |   |   |   thalach <= 144: 1 (5.0)
+|   |   |   |   thalach > 144: 0 (19.0/5.0)
+|   exang = 1
+|   |   oldpeak = '(-inf-0.75]'
+|   |   |   slope = 1: 0 (9.0/1.0)
+|   |   |   slope = 2
+|   |   |   |   trestbps <= 138: 0 (2.0)
+|   |   |   |   trestbps > 138: 1 (2.0)
+|   |   |   slope = 3: 0 (0.0)
+|   |   oldpeak = '(0.75-inf)'
+|   |   |   thal = 3
+|   |   |   |   chol <= 243: 0 (5.28/0.28)
+|   |   |   |   chol > 243: 1 (2.0)
+|   |   |   thal = 6: 1 (3.12/1.0)
+|   |   |   thal = 7: 1 (15.6/1.0)
+ca > 0
+|   cp = 1
+|   |   trestbps <= 138: 1 (4.0/1.0)
+|   |   trestbps > 138: 0 (3.0)
+|   cp = 2
+|   |   slope = 1
+|   |   |   restecg = 0: 0 (3.0)
+|   |   |   restecg = 1: 0 (0.0)
+|   |   |   restecg = 2: 1 (3.0/1.0)
+|   |   slope = 2: 1 (3.0)
+|   |   slope = 3: 1 (0.0)
+|   cp = 3
+|   |   thal = 3: 0 (10.0/1.0)
+|   |   thal = 6: 1 (2.0)
+|   |   thal = 7
+|   |   |   slope = 1: 0 (4.0/1.0)
+|   |   |   slope = 2: 1 (7.0/1.0)
+|   |   |   slope = 3: 1 (0.0)
+|   cp = 4
+|   |   oldpeak = '(-inf-0.75]'
+|   |   |   sex = 0: 0 (2.0)
+|   |   |   sex = 1
+|   |   |   |   restecg = 0
+|   |   |   |   |   thalach <= 151: 0 (2.0)
+|   |   |   |   |   thalach > 151: 1 (6.0)
+|   |   |   |   restecg = 1: 1 (0.0)
+|   |   |   |   restecg = 2: 1 (8.0)
+|   |   oldpeak = '(0.75-inf)': 1 (52.0/1.0)
+
+Number of Leaves  : 	31
+
+Size of the tree : 	51
+=== Classifier model ===
+
+Scheme:   J48
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+J48 pruned tree
+------------------
+
+thal = 3
+|   ca <= 0
+|   |   trestbps <= 156: 0 (99.09/9.55)
+|   |   trestbps > 156
+|   |   |   age <= 62: 1 (4.0)
+|   |   |   age > 62: 0 (2.0)
+|   ca > 0
+|   |   sex = 0
+|   |   |   fbs = 0: 0 (14.0/1.0)
+|   |   |   fbs = 1
+|   |   |   |   ca <= 1: 0 (3.0)
+|   |   |   |   ca > 1: 1 (2.0)
+|   |   sex = 1
+|   |   |   cp = 1
+|   |   |   |   age <= 55: 0 (2.0)
+|   |   |   |   age > 55: 1 (3.0/1.0)
+|   |   |   cp = 2: 1 (1.0)
+|   |   |   cp = 3: 0 (5.0/1.0)
+|   |   |   cp = 4: 1 (12.0)
+thal = 6
+|   ca <= 0
+|   |   exang = 0: 0 (5.07)
+|   |   exang = 1: 1 (3.07/1.0)
+|   ca > 0: 1 (10.0)
+thal = 7
+|   oldpeak = '(-inf-0.75]'
+|   |   ca <= 0
+|   |   |   age <= 42: 1 (3.0)
+|   |   |   age > 42
+|   |   |   |   chol <= 240: 0 (10.39)
+|   |   |   |   chol > 240
+|   |   |   |   |   trestbps <= 122: 0 (3.0)
+|   |   |   |   |   trestbps > 122: 1 (4.0)
+|   |   ca > 0
+|   |   |   restecg = 0
+|   |   |   |   cp = 1: 1 (0.0)
+|   |   |   |   cp = 2: 1 (0.0)
+|   |   |   |   cp = 3: 0 (2.0)
+|   |   |   |   cp = 4: 1 (6.0/1.0)
+|   |   |   restecg = 1: 1 (0.0)
+|   |   |   restecg = 2: 1 (5.0)
+|   oldpeak = '(0.75-inf)': 1 (70.39/8.0)
+
+Number of Leaves  : 	25
+
+Size of the tree : 	43
+=== Classifier model ===
+
+Scheme:   J48
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+J48 pruned tree
+------------------
+
+thal = 3
+|   ca <= 0: 0 (103.56/12.0)
+|   ca > 0
+|   |   cp = 1
+|   |   |   restecg = 0: 1 (3.0/1.0)
+|   |   |   restecg = 1: 0 (0.0)
+|   |   |   restecg = 2: 0 (3.0)
+|   |   cp = 2
+|   |   |   restecg = 0: 0 (4.0)
+|   |   |   restecg = 1: 0 (0.0)
+|   |   |   restecg = 2
+|   |   |   |   exang = 0: 1 (3.0)
+|   |   |   |   exang = 1: 0 (2.0)
+|   |   cp = 3: 0 (13.0/1.0)
+|   |   cp = 4
+|   |   |   sex = 0
+|   |   |   |   oldpeak = '(-inf-0.75]': 0 (2.0)
+|   |   |   |   oldpeak = '(0.75-inf)': 1 (4.0/1.0)
+|   |   |   sex = 1: 1 (13.0)
+thal = 6
+|   ca <= 0
+|   |   exang = 0: 0 (4.06)
+|   |   exang = 1: 1 (3.0/1.0)
+|   ca > 0: 1 (10.0)
+thal = 7
+|   oldpeak = '(-inf-0.75]'
+|   |   cp = 1: 0 (2.0/1.0)
+|   |   cp = 2
+|   |   |   trestbps <= 122: 0 (2.0)
+|   |   |   trestbps > 122: 1 (3.0/1.0)
+|   |   cp = 3: 0 (6.38/1.0)
+|   |   cp = 4
+|   |   |   restecg = 0
+|   |   |   |   exang = 0
+|   |   |   |   |   chol <= 233: 0 (3.0)
+|   |   |   |   |   chol > 233: 1 (3.0/1.0)
+|   |   |   |   exang = 1: 1 (4.0/1.0)
+|   |   |   restecg = 1: 1 (0.0)
+|   |   |   restecg = 2: 1 (6.0/1.0)
+|   oldpeak = '(0.75-inf)': 1 (73.0/8.0)
+
+Number of Leaves  : 	25
+
+Size of the tree : 	41

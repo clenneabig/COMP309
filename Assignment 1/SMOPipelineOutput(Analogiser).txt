@@ -2083,3 +2083,420 @@ Machine linear: showing attribute weights, not support vectors.
 
 Number of kernel evaluations: 18155 (84.328% cached)
 
+=== Classifier model ===
+
+Scheme:   SMO
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0172 * (normalized) age
+ +       0.5294 * (normalized) sex=1
+ +      -0.6698 * (normalized) cp=1
+ +       0.0574 * (normalized) cp=2
+ +      -0.1447 * (normalized) cp=3
+ +       0.757  * (normalized) cp=4
+ +       0.7083 * (normalized) trestbps
+ +      -0.3883 * (normalized) chol
+ +      -0.2665 * (normalized) fbs=1
+ +      -0.3853 * (normalized) restecg=0
+ +       0.4895 * (normalized) restecg=1
+ +      -0.1041 * (normalized) restecg=2
+ +      -0.7151 * (normalized) thalach
+ +       0.5081 * (normalized) exang=1
+ +       0.401  * (normalized) oldpeak='(0.75-inf)'
+ +      -0.3591 * (normalized) slope=1
+ +       0.3591 * (normalized) slope=2
+ +       0      * (normalized) slope=3
+ +       2.3286 * (normalized) ca
+ +      -0.6679 * (normalized) thal=3
+ +       0.0087 * (normalized) thal=6
+ +       0.6592 * (normalized) thal=7
+ -       1.0015
+
+Number of kernel evaluations: 17330 (83.05% cached)
+
+=== Classifier model ===
+
+Scheme:   SMO
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.1161 * (normalized) age
+ +       0.5178 * (normalized) sex=1
+ +      -0.8412 * (normalized) cp=1
+ +       0.1551 * (normalized) cp=2
+ +      -0.187  * (normalized) cp=3
+ +       0.8731 * (normalized) cp=4
+ +       1.0361 * (normalized) trestbps
+ +      -0.3977 * (normalized) chol
+ +      -0.4541 * (normalized) fbs=1
+ +      -0.3619 * (normalized) restecg=0
+ +       0.3933 * (normalized) restecg=1
+ +      -0.0314 * (normalized) restecg=2
+ +      -0.1464 * (normalized) thalach
+ +       0.6224 * (normalized) exang=1
+ +       0.2796 * (normalized) oldpeak='(0.75-inf)'
+ +      -0.3511 * (normalized) slope=1
+ +       0.343  * (normalized) slope=2
+ +       0.0081 * (normalized) slope=3
+ +       2.2347 * (normalized) ca
+ +      -0.6769 * (normalized) thal=3
+ +       0      * (normalized) thal=6
+ +       0.6769 * (normalized) thal=7
+ -       1.393 
+
+Number of kernel evaluations: 21133 (82.763% cached)
+
+=== Classifier model ===
+
+Scheme:   SMO
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0038 * (normalized) age
+ +       0.4668 * (normalized) sex=1
+ +      -0.5459 * (normalized) cp=1
+ +       0.1165 * (normalized) cp=2
+ +      -0.3456 * (normalized) cp=3
+ +       0.775  * (normalized) cp=4
+ +       0.9725 * (normalized) trestbps
+ +      -0.1229 * (normalized) chol
+ +      -0.3601 * (normalized) fbs=1
+ +      -0.2909 * (normalized) restecg=0
+ +       0.2888 * (normalized) restecg=1
+ +       0.0021 * (normalized) restecg=2
+ +      -0.1851 * (normalized) thalach
+ +       0.5731 * (normalized) exang=1
+ +       0.4117 * (normalized) oldpeak='(0.75-inf)'
+ +      -0.5282 * (normalized) slope=1
+ +       0.3714 * (normalized) slope=2
+ +       0.1567 * (normalized) slope=3
+ +       2.0594 * (normalized) ca
+ +      -0.6273 * (normalized) thal=3
+ +      -0      * (normalized) thal=6
+ +       0.6273 * (normalized) thal=7
+ -       1.4919
+
+Number of kernel evaluations: 16496 (82.174% cached)
+
+=== Classifier model ===
+
+Scheme:   SMO
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1949 * (normalized) age
+ +       0.6936 * (normalized) sex=1
+ +      -0.6778 * (normalized) cp=1
+ +       0.0912 * (normalized) cp=2
+ +      -0.2392 * (normalized) cp=3
+ +       0.8257 * (normalized) cp=4
+ +       0.9318 * (normalized) trestbps
+ +       0.5229 * (normalized) chol
+ +      -0.4911 * (normalized) fbs=1
+ +      -0.3267 * (normalized) restecg=0
+ +       0.3073 * (normalized) restecg=1
+ +       0.0194 * (normalized) restecg=2
+ +      -0.401  * (normalized) thalach
+ +       0.4628 * (normalized) exang=1
+ +       0.3852 * (normalized) oldpeak='(0.75-inf)'
+ +      -0.4875 * (normalized) slope=1
+ +       0.4102 * (normalized) slope=2
+ +       0.0773 * (normalized) slope=3
+ +       2.2555 * (normalized) ca
+ +      -0.6435 * (normalized) thal=3
+ +       0.6435 * (normalized) thal=7
+ -       1.8207
+
+Number of kernel evaluations: 16767 (81.776% cached)
+
+=== Classifier model ===
+
+Scheme:   SMO
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.1963 * (normalized) age
+ +       0.8005 * (normalized) sex=1
+ +      -0.9058 * (normalized) cp=1
+ +       0.2454 * (normalized) cp=2
+ +      -0.2041 * (normalized) cp=3
+ +       0.8646 * (normalized) cp=4
+ +       1.0702 * (normalized) trestbps
+ +       0.0899 * (normalized) chol
+ +      -0.1408 * (normalized) fbs=1
+ +      -0.3929 * (normalized) restecg=0
+ +       0.3415 * (normalized) restecg=1
+ +       0.0514 * (normalized) restecg=2
+ +      -0.9304 * (normalized) thalach
+ +       0.4206 * (normalized) exang=1
+ +       0.5289 * (normalized) oldpeak='(0.75-inf)'
+ +      -0.2458 * (normalized) slope=1
+ +       0.2458 * (normalized) slope=2
+ +       2.0819 * (normalized) ca
+ +      -0.4996 * (normalized) thal=3
+ +      -0      * (normalized) thal=6
+ +       0.4996 * (normalized) thal=7
+ -       1.3789
+
+Number of kernel evaluations: 19999 (88.59% cached)
+
+=== Classifier model ===
+
+Scheme:   SMO
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.2137 * (normalized) age
+ +       0.8283 * (normalized) sex=1
+ +      -0.4583 * (normalized) cp=1
+ +       0.1372 * (normalized) cp=2
+ +      -0.4333 * (normalized) cp=3
+ +       0.7543 * (normalized) cp=4
+ +       1.4039 * (normalized) trestbps
+ +       0.4639 * (normalized) chol
+ +      -0.1188 * (normalized) fbs=1
+ +      -0.1835 * (normalized) restecg=0
+ +       0.2023 * (normalized) restecg=1
+ +      -0.0188 * (normalized) restecg=2
+ +      -0.5212 * (normalized) thalach
+ +       0.3092 * (normalized) exang=1
+ +       0.4361 * (normalized) oldpeak='(0.75-inf)'
+ +      -0.5385 * (normalized) slope=1
+ +       0.4506 * (normalized) slope=2
+ +       0.0878 * (normalized) slope=3
+ +       2.5311 * (normalized) ca
+ +      -0.3566 * (normalized) thal=3
+ +      -0.2304 * (normalized) thal=6
+ +       0.587  * (normalized) thal=7
+ -       1.8482
+
+Number of kernel evaluations: 19728 (84.168% cached)
+
+=== Classifier model ===
+
+Scheme:   SMO
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.2586 * (normalized) age
+ +       0.7337 * (normalized) sex=1
+ +      -0.8033 * (normalized) cp=1
+ +       0.1739 * (normalized) cp=2
+ +      -0.1209 * (normalized) cp=3
+ +       0.7503 * (normalized) cp=4
+ +       0.5109 * (normalized) trestbps
+ +       0.2322 * (normalized) chol
+ +      -0.3027 * (normalized) fbs=1
+ +      -0.2888 * (normalized) restecg=0
+ +       0.3954 * (normalized) restecg=1
+ +      -0.1066 * (normalized) restecg=2
+ +      -0.9977 * (normalized) thalach
+ +       0.7111 * (normalized) exang=1
+ +       0.1204 * (normalized) oldpeak='(0.75-inf)'
+ +      -0.3662 * (normalized) slope=1
+ +       0.3662 * (normalized) slope=2
+ +      -0      * (normalized) slope=3
+ +       2.0825 * (normalized) ca
+ +      -0.566  * (normalized) thal=3
+ +      -0      * (normalized) thal=6
+ +       0.566  * (normalized) thal=7
+ -       0.8794
+
+Number of kernel evaluations: 18990 (81.39% cached)
+
+=== Classifier model ===
+
+Scheme:   SMO
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.3246 * (normalized) age
+ +       0.661  * (normalized) sex=1
+ +      -0.7936 * (normalized) cp=1
+ +       0.1544 * (normalized) cp=2
+ +      -0.1184 * (normalized) cp=3
+ +       0.7576 * (normalized) cp=4
+ +       1.0626 * (normalized) trestbps
+ +       0.1851 * (normalized) chol
+ +      -0.2874 * (normalized) fbs=1
+ +      -0.2093 * (normalized) restecg=0
+ +       0.1876 * (normalized) restecg=1
+ +       0.0218 * (normalized) restecg=2
+ +      -0.645  * (normalized) thalach
+ +       0.5319 * (normalized) exang=1
+ +       0.5345 * (normalized) oldpeak='(0.75-inf)'
+ +      -0.249  * (normalized) slope=1
+ +       0.3894 * (normalized) slope=2
+ +      -0.1404 * (normalized) slope=3
+ +       2.1486 * (normalized) ca
+ +      -0.4696 * (normalized) thal=3
+ +      -0      * (normalized) thal=6
+ +       0.4696 * (normalized) thal=7
+ -       1.4752
+
+Number of kernel evaluations: 17444 (87.085% cached)
+
+=== Classifier model ===
+
+Scheme:   SMO
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.2616 * (normalized) age
+ +       0.6168 * (normalized) sex=1
+ +      -0.6737 * (normalized) cp=1
+ +       0.1825 * (normalized) cp=2
+ +      -0.2402 * (normalized) cp=3
+ +       0.7314 * (normalized) cp=4
+ +       1.0346 * (normalized) trestbps
+ +       0.0165 * (normalized) chol
+ +      -0.2551 * (normalized) fbs=1
+ +      -0.3404 * (normalized) restecg=0
+ +       0.336  * (normalized) restecg=1
+ +       0.0044 * (normalized) restecg=2
+ +      -0.6956 * (normalized) thalach
+ +       0.5227 * (normalized) exang=1
+ +       0.4256 * (normalized) oldpeak='(0.75-inf)'
+ +      -0.3253 * (normalized) slope=1
+ +       0.3253 * (normalized) slope=2
+ +      -0      * (normalized) slope=3
+ +       2.0215 * (normalized) ca
+ +      -0.5955 * (normalized) thal=3
+ +      -0      * (normalized) thal=6
+ +       0.5955 * (normalized) thal=7
+ -       1.2075
+
+Number of kernel evaluations: 21537 (83.406% cached)
+
+=== Classifier model ===
+
+Scheme:   SMO
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.1418 * (normalized) age
+ +       0.6239 * (normalized) sex=1
+ +      -0.954  * (normalized) cp=1
+ +       0.1865 * (normalized) cp=2
+ +      -0.0286 * (normalized) cp=3
+ +       0.7961 * (normalized) cp=4
+ +       0.6823 * (normalized) trestbps
+ +      -0.0682 * (normalized) chol
+ +      -0.2401 * (normalized) fbs=1
+ +      -0.1257 * (normalized) restecg=0
+ +       0.1257 * (normalized) restecg=2
+ +      -0.4075 * (normalized) thalach
+ +       0.5995 * (normalized) exang=1
+ +       0.4097 * (normalized) oldpeak='(0.75-inf)'
+ +      -0.3639 * (normalized) slope=1
+ +       0.3457 * (normalized) slope=2
+ +       0.0182 * (normalized) slope=3
+ +       2.1181 * (normalized) ca
+ +      -0.5474 * (normalized) thal=3
+ +       0      * (normalized) thal=6
+ +       0.5474 * (normalized) thal=7
+ -       1.5526
+
+Number of kernel evaluations: 18155 (84.328% cached)
+

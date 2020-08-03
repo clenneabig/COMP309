@@ -55,29 +55,6 @@
 			"coordinates" : "110,26"
 		},
 		{
-			"class" : "weka.knowledgeflow.steps.Classifier",
-			"properties" : {
-				"classifier" : {
-					"type" : "optionHandler",
-					"class" : "weka.classifiers.trees.RandomTree",
-					"options" : "-K 0 -M 1.0 -V 0.001 -S 1"
-				},
-				"loadClassifierFileName" : "",
-				"name" : "RandomTree",
-				"resetIncrementalClassifier" : false,
-				"updateIncrementalClassifier" : true
-			},
-			"connections" : {
-				"batchClassifier" : [
-					"ClassifierPerformanceEvaluator"
-				],
-				"text" : [
-					"TextSaver"
-				]
-			},
-			"coordinates" : "454,170"
-		},
-		{
 			"class" : "weka.knowledgeflow.steps.Filter",
 			"properties" : {
 				"filter" : {
@@ -138,16 +115,16 @@
 			},
 			"connections" : {
 				"trainingSet" : [
-					"RandomTree",
 					"NaiveBayes",
 					"MultilayerPerceptron",
-					"SMO"
+					"SMO",
+					"J48"
 				],
 				"testSet" : [
-					"RandomTree",
 					"NaiveBayes",
 					"MultilayerPerceptron",
-					"SMO"
+					"SMO",
+					"J48"
 				]
 			},
 			"coordinates" : "587,21"
@@ -170,7 +147,7 @@
 					"TextViewer"
 				]
 			},
-			"coordinates" : "427,277"
+			"coordinates" : "407,320"
 		},
 		{
 			"class" : "weka.knowledgeflow.steps.TextViewer",
@@ -179,7 +156,7 @@
 			},
 			"connections" : {
 			},
-			"coordinates" : "383,368"
+			"coordinates" : "251,376"
 		},
 		{
 			"class" : "weka.knowledgeflow.steps.Classifier",
@@ -202,7 +179,7 @@
 					"TextSaver2"
 				]
 			},
-			"coordinates" : "621,175"
+			"coordinates" : "576,184"
 		},
 		{
 			"class" : "weka.knowledgeflow.steps.Classifier",
@@ -225,7 +202,7 @@
 					"TextSaver3"
 				]
 			},
-			"coordinates" : "719,165"
+			"coordinates" : "756,144"
 		},
 		{
 			"class" : "weka.knowledgeflow.steps.Classifier",
@@ -268,7 +245,7 @@
 					"TextViewer2"
 				]
 			},
-			"coordinates" : "677,313"
+			"coordinates" : "691,307"
 		},
 		{
 			"class" : "weka.knowledgeflow.steps.ClassifierPerformanceEvaluator",
@@ -288,7 +265,7 @@
 					"TextViewer3"
 				]
 			},
-			"coordinates" : "796,235"
+			"coordinates" : "880,310"
 		},
 		{
 			"class" : "weka.knowledgeflow.steps.ClassifierPerformanceEvaluator",
@@ -326,7 +303,7 @@
 			},
 			"connections" : {
 			},
-			"coordinates" : "899,288"
+			"coordinates" : "995,394"
 		},
 		{
 			"class" : "weka.knowledgeflow.steps.TextViewer",
@@ -341,13 +318,13 @@
 			"class" : "weka.knowledgeflow.steps.TextSaver",
 			"properties" : {
 				"append" : true,
-				"file" : "C:/Users/danie/Desktop/UniCode/CompSci/300-level/COMP309/Assignment 1/RandomTreePipelineOutput(Symbolist).txt",
+				"file" : "C:/Users/danie/Desktop/UniCode/CompSci/300-level/COMP309/Assignment 1/J48PipelineOutput(Symbolist).txt",
 				"name" : "TextSaver",
 				"writeTitleString" : false
 			},
 			"connections" : {
 			},
-			"coordinates" : "339,232"
+			"coordinates" : "224,251"
 		},
 		{
 			"class" : "weka.knowledgeflow.steps.TextSaver",
@@ -359,7 +336,7 @@
 			},
 			"connections" : {
 			},
-			"coordinates" : "578,295"
+			"coordinates" : "523,328"
 		},
 		{
 			"class" : "weka.knowledgeflow.steps.TextSaver",
@@ -371,7 +348,7 @@
 			},
 			"connections" : {
 			},
-			"coordinates" : "808,151"
+			"coordinates" : "924,194"
 		},
 		{
 			"class" : "weka.knowledgeflow.steps.TextSaver",
@@ -383,7 +360,30 @@
 			},
 			"connections" : {
 			},
-			"coordinates" : "868,3"
+			"coordinates" : "940,-4"
+		},
+		{
+			"class" : "weka.knowledgeflow.steps.Classifier",
+			"properties" : {
+				"classifier" : {
+					"type" : "optionHandler",
+					"class" : "weka.classifiers.trees.J48",
+					"options" : "-C 0.25 -M 2"
+				},
+				"loadClassifierFileName" : "",
+				"name" : "J48",
+				"resetIncrementalClassifier" : false,
+				"updateIncrementalClassifier" : true
+			},
+			"connections" : {
+				"batchClassifier" : [
+					"ClassifierPerformanceEvaluator"
+				],
+				"text" : [
+					"TextSaver"
+				]
+			},
+			"coordinates" : "404,185"
 		}
 	]
 }

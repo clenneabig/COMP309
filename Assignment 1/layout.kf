@@ -52,7 +52,7 @@
 					"NumericToNominal"
 				]
 			},
-			"coordinates" : "110,26"
+			"coordinates" : "110,25"
 		},
 		{
 			"class" : "weka.knowledgeflow.steps.Filter",
@@ -156,7 +156,7 @@
 			},
 			"connections" : {
 			},
-			"coordinates" : "251,376"
+			"coordinates" : "250,377"
 		},
 		{
 			"class" : "weka.knowledgeflow.steps.Classifier",
@@ -324,7 +324,7 @@
 			},
 			"connections" : {
 			},
-			"coordinates" : "224,251"
+			"coordinates" : "223,252"
 		},
 		{
 			"class" : "weka.knowledgeflow.steps.TextSaver",

@@ -1,0 +1,28 @@
+=== Evaluation result ===
+
+Scheme: NaiveBayes
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+=== Summary ===
+
+Correctly Classified Instances         247               82.6087 %
+Incorrectly Classified Instances        52               17.3913 %
+Kappa statistic                          0.6501
+Mean absolute error                      0.1946
+Root mean squared error                  0.3701
+Relative absolute error                 39.1504 %
+Root relative squared error             74.235  %
+Total Number of Instances              299     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.839    0.188    0.839      0.839    0.839      0.650    0.900     0.911     0
+                 0.812    0.161    0.812      0.812    0.812      0.650    0.900     0.891     1
+Weighted Avg.    0.826    0.176    0.826      0.826    0.826      0.650    0.900     0.901     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 135  26 |   a = 0
+  26 112 |   b = 1

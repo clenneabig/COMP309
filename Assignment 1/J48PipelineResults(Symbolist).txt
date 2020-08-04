@@ -1,0 +1,29 @@
+=== Evaluation result ===
+
+Scheme: J48
+Options: -C 0.25 -M 2
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+=== Summary ===
+
+Correctly Classified Instances         230               76.9231 %
+Incorrectly Classified Instances        69               23.0769 %
+Kappa statistic                          0.5335
+Mean absolute error                      0.2763
+Root mean squared error                  0.4489
+Relative absolute error                 55.5847 %
+Root relative squared error             90.0498 %
+Total Number of Instances              299     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.814    0.283    0.771      0.814    0.792      0.535    0.758     0.701     0
+                 0.717    0.186    0.767      0.717    0.742      0.535    0.758     0.707     1
+Weighted Avg.    0.769    0.238    0.769      0.769    0.768      0.535    0.758     0.704     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 131  30 |   a = 0
+  39  99 |   b = 1

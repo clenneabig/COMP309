@@ -3438,3 +3438,863 @@ thal
   7                    24.0     80.0
   [total]             147.0    128.0
 
+=== Classifier model ===
+
+Scheme:   NaiveBayes
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+Naive Bayes Classifier
+
+                     Class
+Attribute                0        1
+                    (0.54)   (0.46)
+====================================
+age
+  mean              52.2564  56.6252
+  std. dev.          9.4913   7.9512
+  weight sum            144      125
+  precision          1.2308   1.2308
+
+sex
+  0                    67.0     23.0
+  1                    79.0    104.0
+  [total]             146.0    127.0
+
+cp
+  1                    15.0      7.0
+  2                    40.0      7.0
+  3                    57.0     17.0
+  4                    36.0     98.0
+  [total]             148.0    129.0
+
+trestbps
+  mean             129.0955  134.355
+  std. dev.         16.2526  19.1102
+  weight sum            144      125
+  precision          2.2083   2.2083
+
+chol
+  mean             243.4397 249.7151
+  std. dev.         54.3976  49.5379
+  weight sum            144      125
+  precision          3.0629   3.0629
+
+fbs
+  0                   124.0    105.0
+  1                    22.0     22.0
+  [total]             146.0    127.0
+
+restecg
+  0                    84.0     53.0
+  1                     1.0      4.0
+  2                    62.0     71.0
+  [total]             147.0    128.0
+
+thalach
+  mean             159.5796 139.2074
+  std. dev.         18.8445  22.6067
+  weight sum            144      125
+  precision          1.4719   1.4719
+
+exang
+  0                   125.0     55.0
+  1                    21.0     72.0
+  [total]             146.0    127.0
+
+oldpeak
+  '(-inf-0.75]'        98.0     35.0
+  '(0.75-inf)'         48.0     92.0
+  [total]             146.0    127.0
+
+slope
+  1                    96.0     34.0
+  2                    41.0     81.0
+  3                    10.0     13.0
+  [total]             147.0    128.0
+
+ca
+  mean               0.2847    1.152
+  std. dev.          0.6526   1.0044
+  weight sum            144      125
+  precision               1        1
+
+thal
+  3                   116.0     34.0
+  6                     7.0     12.0
+  7                    23.0     81.0
+  [total]             146.0    127.0
+
+=== Classifier model ===
+
+Scheme:   NaiveBayes
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+Naive Bayes Classifier
+
+                     Class
+Attribute                0        1
+                    (0.54)   (0.46)
+====================================
+age
+  mean              52.8331  56.9226
+  std. dev.          9.4813   7.8737
+  weight sum            145      124
+  precision             1.2      1.2
+
+sex
+  0                    66.0     25.0
+  1                    81.0    101.0
+  [total]             147.0    126.0
+
+cp
+  1                    17.0      7.0
+  2                    38.0     10.0
+  3                    59.0     17.0
+  4                    35.0     94.0
+  [total]             149.0    128.0
+
+trestbps
+  mean             129.5043 134.8043
+  std. dev.         16.4699   19.001
+  weight sum            145      124
+  precision          2.3043   2.3043
+
+chol
+  mean             245.9735 251.4619
+  std. dev.         54.3504  49.8078
+  weight sum            145      124
+  precision          3.0845   3.0845
+
+fbs
+  0                   123.0    109.0
+  1                    24.0     17.0
+  [total]             147.0    126.0
+
+restecg
+  0                    82.0     52.0
+  1                     2.0      4.0
+  2                    64.0     71.0
+  [total]             148.0    127.0
+
+thalach
+  mean              158.183 140.8537
+  std. dev.          19.454  21.9732
+  weight sum            145      124
+  precision          1.3256   1.3256
+
+exang
+  0                   125.0     57.0
+  1                    22.0     69.0
+  [total]             147.0    126.0
+
+oldpeak
+  '(-inf-0.75]'        95.0     37.0
+  '(0.75-inf)'         52.0     89.0
+  [total]             147.0    126.0
+
+slope
+  1                    93.0     36.0
+  2                    45.0     79.0
+  3                    10.0     12.0
+  [total]             148.0    127.0
+
+ca
+  mean               0.2414    1.129
+  std. dev.          0.5787   0.9916
+  weight sum            145      124
+  precision               1        1
+
+thal
+  3                   117.0     35.0
+  6                     6.0      9.0
+  7                    24.0     82.0
+  [total]             147.0    126.0
+
+=== Classifier model ===
+
+Scheme:   NaiveBayes
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+Naive Bayes Classifier
+
+                     Class
+Attribute                0        1
+                    (0.54)   (0.46)
+====================================
+age
+  mean               52.411  56.7968
+  std. dev.          9.3822     7.87
+  weight sum            145      124
+  precision             1.2      1.2
+
+sex
+  0                    66.0     24.0
+  1                    81.0    102.0
+  [total]             147.0    126.0
+
+cp
+  1                    13.0      7.0
+  2                    35.0      9.0
+  3                    65.0     16.0
+  4                    36.0     96.0
+  [total]             149.0    128.0
+
+trestbps
+  mean             129.0912 135.0273
+  std. dev.         15.6721  18.8185
+  weight sum            145      124
+  precision          2.3043   2.3043
+
+chol
+  mean             243.8426 248.7684
+  std. dev.         53.4355  48.2811
+  weight sum            145      124
+  precision          3.0207   3.0207
+
+fbs
+  0                   126.0    106.0
+  1                    21.0     20.0
+  [total]             147.0    126.0
+
+restecg
+  0                    80.0     53.0
+  1                     2.0      3.0
+  2                    66.0     71.0
+  [total]             148.0    127.0
+
+thalach
+  mean             159.3496 139.3666
+  std. dev.         18.5214  23.3734
+  weight sum            145      124
+  precision          1.5057   1.5057
+
+exang
+  0                   125.0     55.0
+  1                    22.0     71.0
+  [total]             147.0    126.0
+
+oldpeak
+  '(-inf-0.75]'       102.0     34.0
+  '(0.75-inf)'         45.0     92.0
+  [total]             147.0    126.0
+
+slope
+  1                    96.0     33.0
+  2                    45.0     82.0
+  3                     7.0     12.0
+  [total]             148.0    127.0
+
+ca
+  mean               0.2966    1.121
+  std. dev.          0.6552   0.9886
+  weight sum            145      124
+  precision               1        1
+
+thal
+  3                   116.0     36.0
+  6                     5.0     11.0
+  7                    26.0     79.0
+  [total]             147.0    126.0
+
+=== Classifier model ===
+
+Scheme:   NaiveBayes
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+Naive Bayes Classifier
+
+                     Class
+Attribute                0        1
+                    (0.54)   (0.46)
+====================================
+age
+  mean              52.9407  56.7871
+  std. dev.          9.5642   7.7343
+  weight sum            145      124
+  precision             1.2      1.2
+
+sex
+  0                    67.0     22.0
+  1                    80.0    104.0
+  [total]             147.0    126.0
+
+cp
+  1                    14.0      8.0
+  2                    37.0     10.0
+  3                    62.0     18.0
+  4                    36.0     92.0
+  [total]             149.0    128.0
+
+trestbps
+  mean             128.5555 134.2987
+  std. dev.         15.7486  19.0534
+  weight sum            145      124
+  precision          2.2083   2.2083
+
+chol
+  mean             242.7931 251.2984
+  std. dev.         54.8232  50.0738
+  weight sum            145      124
+  precision               3        3
+
+fbs
+  0                   125.0    106.0
+  1                    22.0     20.0
+  [total]             147.0    126.0
+
+restecg
+  0                    83.0     51.0
+  1                     2.0      4.0
+  2                    63.0     72.0
+  [total]             148.0    127.0
+
+thalach
+  mean             157.8023 139.7912
+  std. dev.         18.8242  22.3196
+  weight sum            145      124
+  precision          1.5595   1.5595
+
+exang
+  0                   125.0     58.0
+  1                    22.0     68.0
+  [total]             147.0    126.0
+
+oldpeak
+  '(-inf-0.75]'        99.0     35.0
+  '(0.75-inf)'         48.0     91.0
+  [total]             147.0    126.0
+
+slope
+  1                    95.0     32.0
+  2                    44.0     82.0
+  3                     9.0     13.0
+  [total]             148.0    127.0
+
+ca
+  mean               0.2483   1.1371
+  std. dev.          0.5817   1.0187
+  weight sum            145      124
+  precision               1        1
+
+thal
+  3                   114.0     33.0
+  6                     7.0     12.0
+  7                    26.0     81.0
+  [total]             147.0    126.0
+
+=== Classifier model ===
+
+Scheme:   NaiveBayes
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+Naive Bayes Classifier
+
+                     Class
+Attribute                0        1
+                    (0.54)   (0.46)
+====================================
+age
+  mean              52.2142  56.5378
+  std. dev.          9.2948   7.4779
+  weight sum            145      124
+  precision          1.1053   1.1053
+
+sex
+  0                    63.0     25.0
+  1                    84.0    101.0
+  [total]             147.0    126.0
+
+cp
+  1                    16.0      8.0
+  2                    38.0      9.0
+  3                    58.0     17.0
+  4                    37.0     94.0
+  [total]             149.0    128.0
+
+trestbps
+  mean             128.0399 135.2464
+  std. dev.         15.8211   19.248
+  weight sum            145      124
+  precision          2.2553   2.2553
+
+chol
+  mean             240.7013 254.4363
+  std. dev.         47.1944  49.1173
+  weight sum            145      124
+  precision           2.035    2.035
+
+fbs
+  0                   124.0    107.0
+  1                    23.0     19.0
+  [total]             147.0    126.0
+
+restecg
+  0                    89.0     53.0
+  1                     2.0      4.0
+  2                    57.0     70.0
+  [total]             148.0    127.0
+
+thalach
+  mean             158.8795 139.0562
+  std. dev.         19.1324  23.2967
+  weight sum            145      124
+  precision          1.3933   1.3933
+
+exang
+  0                   126.0     59.0
+  1                    21.0     67.0
+  [total]             147.0    126.0
+
+oldpeak
+  '(-inf-0.75]'       101.0     34.0
+  '(0.75-inf)'         46.0     92.0
+  [total]             147.0    126.0
+
+slope
+  1                    97.0     31.0
+  2                    42.0     84.0
+  3                     9.0     12.0
+  [total]             148.0    127.0
+
+ca
+  mean               0.2897   1.1452
+  std. dev.           0.653   1.0215
+  weight sum            145      124
+  precision               1        1
+
+thal
+  3                   116.0     33.0
+  6                     7.0     13.0
+  7                    25.0     80.0
+  [total]             148.0    126.0
+
+=== Classifier model ===
+
+Scheme:   NaiveBayes
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+Naive Bayes Classifier
+
+                     Class
+Attribute                0        1
+                    (0.54)   (0.46)
+====================================
+age
+  mean              52.9061  56.9529
+  std. dev.          9.6435   7.9461
+  weight sum            145      124
+  precision          1.2308   1.2308
+
+sex
+  0                    66.0     23.0
+  1                    81.0    103.0
+  [total]             147.0    126.0
+
+cp
+  1                    16.0      7.0
+  2                    37.0     10.0
+  3                    59.0     17.0
+  4                    37.0     94.0
+  [total]             149.0    128.0
+
+trestbps
+  mean             129.6575 134.8644
+  std. dev.         16.2938  18.6682
+  weight sum            145      124
+  precision          2.2553   2.2553
+
+chol
+  mean             244.1416 255.5481
+  std. dev.         55.3365  48.6812
+  weight sum            145      124
+  precision          2.9796   2.9796
+
+fbs
+  0                   124.0    104.0
+  1                    23.0     22.0
+  [total]             147.0    126.0
+
+restecg
+  0                    83.0     47.0
+  1                     2.0      4.0
+  2                    63.0     76.0
+  [total]             148.0    127.0
+
+thalach
+  mean             158.1753 139.1035
+  std. dev.         19.7442  22.1409
+  weight sum            145      124
+  precision          1.4886   1.4886
+
+exang
+  0                   126.0     58.0
+  1                    21.0     68.0
+  [total]             147.0    126.0
+
+oldpeak
+  '(-inf-0.75]'        97.0     34.0
+  '(0.75-inf)'         50.0     92.0
+  [total]             147.0    126.0
+
+slope
+  1                    95.0     32.0
+  2                    44.0     84.0
+  3                     9.0     11.0
+  [total]             148.0    127.0
+
+ca
+  mean                0.269   1.1694
+  std. dev.          0.6352   1.0217
+  weight sum            145      124
+  precision               1        1
+
+thal
+  3                   115.0     36.0
+  6                     5.0     11.0
+  7                    27.0     79.0
+  [total]             147.0    126.0
+
+=== Classifier model ===
+
+Scheme:   NaiveBayes
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+Naive Bayes Classifier
+
+                     Class
+Attribute                0        1
+                    (0.54)   (0.46)
+====================================
+age
+  mean              52.4732  56.4665
+  std. dev.          9.4805   8.1108
+  weight sum            145      124
+  precision          1.2308   1.2308
+
+sex
+  0                    63.0     23.0
+  1                    84.0    103.0
+  [total]             147.0    126.0
+
+cp
+  1                    16.0      7.0
+  2                    37.0      8.0
+  3                    60.0     17.0
+  4                    36.0     96.0
+  [total]             149.0    128.0
+
+trestbps
+  mean             129.7943 134.0522
+  std. dev.         16.2484  17.7911
+  weight sum            145      124
+  precision          2.0851   2.0851
+
+chol
+  mean             244.0966 249.5565
+  std. dev.         55.1811  49.6667
+  weight sum            145      124
+  precision               3        3
+
+fbs
+  0                   125.0    108.0
+  1                    22.0     18.0
+  [total]             147.0    126.0
+
+restecg
+  0                    84.0     51.0
+  1                     2.0      4.0
+  2                    62.0     72.0
+  [total]             148.0    127.0
+
+thalach
+  mean             158.3423 138.7473
+  std. dev.          18.991  23.1196
+  weight sum            145      124
+  precision          1.5057   1.5057
+
+exang
+  0                   126.0     61.0
+  1                    21.0     65.0
+  [total]             147.0    126.0
+
+oldpeak
+  '(-inf-0.75]'        96.0     37.0
+  '(0.75-inf)'         51.0     89.0
+  [total]             147.0    126.0
+
+slope
+  1                    94.0     33.0
+  2                    44.0     82.0
+  3                    10.0     12.0
+  [total]             148.0    127.0
+
+ca
+  mean               0.2759   1.0887
+  std. dev.          0.6377   1.0161
+  weight sum            145      124
+  precision               1        1
+
+thal
+  3                   114.0     34.0
+  6                     7.0     12.0
+  7                    26.0     80.0
+  [total]             147.0    126.0
+
+=== Classifier model ===
+
+Scheme:   NaiveBayes
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+Naive Bayes Classifier
+
+                     Class
+Attribute                0        1
+                    (0.54)   (0.46)
+====================================
+age
+  mean              52.5186   56.371
+  std. dev.          9.4446   7.8947
+  weight sum            145      124
+  precision             1.2      1.2
+
+sex
+  0                    64.0     23.0
+  1                    83.0    103.0
+  [total]             147.0    126.0
+
+cp
+  1                    16.0      8.0
+  2                    35.0      8.0
+  3                    61.0     18.0
+  4                    37.0     94.0
+  [total]             149.0    128.0
+
+trestbps
+  mean             128.6011 134.5124
+  std. dev.         16.5094   18.303
+  weight sum            145      124
+  precision          2.2083   2.2083
+
+chol
+  mean             240.3033 251.7784
+  std. dev.         52.0121  50.1047
+  weight sum            145      124
+  precision          3.0629   3.0629
+
+fbs
+  0                   128.0    106.0
+  1                    19.0     20.0
+  [total]             147.0    126.0
+
+restecg
+  0                    86.0     51.0
+  1                     2.0      3.0
+  2                    60.0     73.0
+  [total]             148.0    127.0
+
+thalach
+  mean             158.2177 140.1681
+  std. dev.         19.8795  22.0885
+  weight sum            145      124
+  precision          1.5057   1.5057
+
+exang
+  0                   125.0     60.0
+  1                    22.0     66.0
+  [total]             147.0    126.0
+
+oldpeak
+  '(-inf-0.75]'       100.0     35.0
+  '(0.75-inf)'         47.0     91.0
+  [total]             147.0    126.0
+
+slope
+  1                    94.0     36.0
+  2                    45.0     81.0
+  3                     9.0     10.0
+  [total]             148.0    127.0
+
+ca
+  mean               0.2621   1.1532
+  std. dev.          0.6327   1.0243
+  weight sum            145      124
+  precision               1        1
+
+thal
+  3                   113.0     34.0
+  6                     7.0     12.0
+  7                    27.0     80.0
+  [total]             147.0    126.0
+
+=== Classifier model ===
+
+Scheme:   NaiveBayes
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+Naive Bayes Classifier
+
+                     Class
+Attribute                0        1
+                    (0.54)   (0.46)
+====================================
+age
+  mean              52.6841  56.9032
+  std. dev.          9.5713   8.0022
+  weight sum            145      124
+  precision             1.2      1.2
+
+sex
+  0                    66.0     24.0
+  1                    81.0    102.0
+  [total]             147.0    126.0
+
+cp
+  1                    15.0      7.0
+  2                    38.0     10.0
+  3                    60.0     17.0
+  4                    36.0     94.0
+  [total]             149.0    128.0
+
+trestbps
+  mean             129.3185 135.3262
+  std. dev.         16.6008  19.2006
+  weight sum            145      124
+  precision          2.1633   2.1633
+
+chol
+  mean             242.8265 252.6646
+  std. dev.         53.8936  51.2027
+  weight sum            145      124
+  precision          2.9796   2.9796
+
+fbs
+  0                   125.0    104.0
+  1                    22.0     22.0
+  [total]             147.0    126.0
+
+restecg
+  0                    84.0     51.0
+  1                     2.0      4.0
+  2                    62.0     72.0
+  [total]             148.0    127.0
+
+thalach
+  mean             157.5531 138.2859
+  std. dev.         19.7016  22.9112
+  weight sum            145      124
+  precision          1.5057   1.5057
+
+exang
+  0                   124.0     55.0
+  1                    23.0     71.0
+  [total]             147.0    126.0
+
+oldpeak
+  '(-inf-0.75]'        98.0     36.0
+  '(0.75-inf)'         49.0     90.0
+  [total]             147.0    126.0
+
+slope
+  1                    94.0     33.0
+  2                    45.0     82.0
+  3                     9.0     12.0
+  [total]             148.0    127.0
+
+ca
+  mean                0.269   1.1129
+  std. dev.          0.6131   1.0334
+  weight sum            145      124
+  precision               1        1
+
+thal
+  3                   115.0     33.0
+  6                     7.0     13.0
+  7                    25.0     80.0
+  [total]             147.0    126.0
+
+=== Classifier model ===
+
+Scheme:   NaiveBayes
+Relation: processed.cleveland-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C12-Lfirst-last-M-weka.filters.unsupervised.attribute.NumericToNominal-R2,3,6,7,9,11,13,14-weka.filters.unsupervised.attribute.MergeManyValues-C14-L1-R2,3,4,5-weka.filters.unsupervised.attribute.Discretize-F-B2-M-1.0-R10-precision6-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+Naive Bayes Classifier
+
+                     Class
+Attribute                0        1
+                    (0.54)   (0.46)
+====================================
+age
+  mean              52.9655  56.8416
+  std. dev.          9.7035   7.7391
+  weight sum            145      125
+  precision             1.2      1.2
+
+sex
+  0                    70.0     23.0
+  1                    77.0    104.0
+  [total]             147.0    127.0
+
+cp
+  1                    16.0      7.0
+  2                    35.0     10.0
+  3                    63.0     18.0
+  4                    35.0     94.0
+  [total]             149.0    129.0
+
+trestbps
+  mean             129.7508 133.6412
+  std. dev.         16.6745  18.2152
+  weight sum            145      125
+  precision          2.2553   2.2553
+
+chol
+  mean             245.2714 249.9239
+  std. dev.         53.4281  47.9942
+  weight sum            145      125
+  precision          3.0709   3.0709
+
+fbs
+  0                   128.0    108.0
+  1                    19.0     19.0
+  [total]             147.0    127.0
+
+restecg
+  0                    83.0     52.0
+  1                     2.0      3.0
+  2                    63.0     73.0
+  [total]             148.0    128.0
+
+thalach
+  mean             157.2315 138.3116
+  std. dev.         19.3238  22.2299
+  weight sum            145      125
+  precision          1.5233   1.5233
+
+exang
+  0                   125.0     59.0
+  1                    22.0     68.0
+  [total]             147.0    127.0
+
+oldpeak
+  '(-inf-0.75]'        96.0     35.0
+  '(0.75-inf)'         51.0     92.0
+  [total]             147.0    127.0
+
+slope
+  1                    92.0     34.0
+  2                    47.0     83.0
+  3                     9.0     11.0
+  [total]             148.0    128.0
+
+ca
+  mean               0.2966    1.168
+  std. dev.          0.6552   1.0333
+  weight sum            145      125
+  precision               1        1
+
+thal
+  3                   117.0     35.0
+  6                     6.0     13.0
+  7                    24.0     80.0
+  [total]             147.0    128.0
+

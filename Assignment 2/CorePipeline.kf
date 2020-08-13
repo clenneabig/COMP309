@@ -159,7 +159,7 @@
 					"ClassifierPerformanceEvaluator2"
 				]
 			},
-			"coordinates" : "546,128"
+			"coordinates" : "577,149"
 		},
 		{
 			"class" : "weka.knowledgeflow.steps.TextSaver",
@@ -171,7 +171,7 @@
 			},
 			"connections" : {
 			},
-			"coordinates" : "606,231"
+			"coordinates" : "679,239"
 		},
 		{
 			"class" : "weka.knowledgeflow.steps.ClassifierPerformanceEvaluator",
@@ -192,7 +192,7 @@
 					"TextSaver3"
 				]
 			},
-			"coordinates" : "495,234"
+			"coordinates" : "466,294"
 		},
 		{
 			"class" : "weka.knowledgeflow.steps.TextViewer",
@@ -201,7 +201,7 @@
 			},
 			"connections" : {
 			},
-			"coordinates" : "425,332"
+			"coordinates" : "351,360"
 		},
 		{
 			"class" : "weka.knowledgeflow.steps.Filter",
@@ -282,7 +282,7 @@
 			},
 			"connections" : {
 			},
-			"coordinates" : "558,328"
+			"coordinates" : "562,346"
 		},
 		{
 			"class" : "weka.knowledgeflow.steps.TextSaver",

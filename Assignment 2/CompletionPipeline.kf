@@ -36,7 +36,7 @@
 					"LinearRegression"
 				]
 			},
-			"coordinates" : "467,92"
+			"coordinates" : "528,94"
 		},
 		{
 			"class" : "weka.knowledgeflow.steps.Classifier",
@@ -121,7 +121,7 @@
 				"filter" : {
 					"type" : "optionHandler",
 					"class" : "weka.filters.unsupervised.attribute.Remove",
-					"options" : "-R 1,2,5,6,10,11,12"
+					"options" : "-R 5"
 				},
 				"name" : "Remove"
 			},
@@ -130,7 +130,7 @@
 					"ClassAssigner"
 				]
 			},
-			"coordinates" : "253,92"
+			"coordinates" : "234,96"
 		},
 		{
 			"class" : "weka.knowledgeflow.steps.Filter",
@@ -138,16 +138,16 @@
 				"filter" : {
 					"type" : "optionHandler",
 					"class" : "weka.filters.unsupervised.attribute.ClassAssigner",
-					"options" : "-C first"
+					"options" : "-C 3"
 				},
 				"name" : "ClassAssigner"
 			},
 			"connections" : {
 				"dataSet" : [
-					"TrainTestSplitMaker"
+					"AttributeSelection"
 				]
 			},
-			"coordinates" : "372,92"
+			"coordinates" : "331,95"
 		},
 		{
 			"class" : "weka.knowledgeflow.steps.Loader",
@@ -200,6 +200,33 @@
 			"connections" : {
 			},
 			"coordinates" : "123,223"
+		},
+		{
+			"class" : "weka.knowledgeflow.steps.Filter",
+			"properties" : {
+				"filter" : {
+					"type" : "optionHandler",
+					"class" : "weka.filters.supervised.attribute.AttributeSelection",
+					"options" : "-E \"weka.attributeSelection.WrapperSubsetEval -B weka.classifiers.functions.LinearRegression -F 5 -T 0.01 -R 1 -E DEFAULT -- -S 0 -R 1.0E-8 -num-decimal-places 4\" -S \"weka.attributeSelection.BestFirst -D 1 -N 5\""
+				},
+				"name" : "AttributeSelection"
+			},
+			"connections" : {
+				"dataSet" : [
+					"TrainTestSplitMaker",
+					"TextViewer2"
+				]
+			},
+			"coordinates" : "433,95"
+		},
+		{
+			"class" : "weka.knowledgeflow.steps.TextViewer",
+			"properties" : {
+				"name" : "TextViewer2"
+			},
+			"connections" : {
+			},
+			"coordinates" : "434,193"
 		}
 	]
 }

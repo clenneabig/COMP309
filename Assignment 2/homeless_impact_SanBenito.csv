@@ -1,0 +1,94 @@
+county,date,rooms,rooms_occupied,trailers_requested,trailers_delivered,donated_trailers_delivered
+San Benito,4/14/2020,0,0,3,0,0
+San Benito,4/15/2020,0,0,3,0,0
+San Benito,4/16/2020,0,0,3,0,0
+San Benito,4/17/2020,67,32,3,0,0
+San Benito,4/18/2020,67,37,3,0,0
+San Benito,4/19/2020,67,48,3,0,0
+San Benito,4/20/2020,67,41,3,0,0
+San Benito,4/21/2020,67,41,3,3,0
+San Benito,4/22/2020,67,61,3,3,0
+San Benito,4/24/2020,67,43,3,3,0
+San Benito ,4/23/2020,67,40,3,3,0
+San Benito County,4/25/2020,67,40,3,3,0
+San Benito County,4/26/2020,67,46,3,3,0
+San Benito County,4/27/2020,67,49,3,3,0
+San Benito County,4/28/2020,67,62,3,3,0
+San Benito County,4/29/2020,67,62,3,3,0
+San Benito County,4/30/2020,67,48,3,3,0
+San Benito County,5/1/2020,67,44,3,3,0
+San Benito County,5/2/2020,67,45,3,3,0
+San Benito County,5/3/2020,67,44,3,3,0
+San Benito County,5/4/2020,67,49,3,3,0
+San Benito County,5/5/2020,67,49,3,3,0
+San Benito County,5/6/2020,67,59,3,3,0
+San Benito County,5/7/2020,67,57,3,3,0
+San Benito County,5/8/2020,67,49,3,3,0
+San Benito County,5/9/2020,67,49,3,3,0
+San Benito County,5/10/2020,67,40,3,3,0
+San Benito County,5/11/2020,67,44,3,3,0
+San Benito County,5/12/2020,67,57,3,3,0
+San Benito County,5/13/2020,67,56,3,3,0
+San Benito County,5/14/2020,67,55,3,3,0
+San Benito County,5/15/2020,67,42,3,3,0
+San Benito County,5/16/2020,67,42,3,3,0
+San Benito County,5/17/2020,67,40,3,3,0
+San Benito County,5/18/2020,67,49,3,3,0
+San Benito County,5/19/2020,67,52,3,3,0
+San Benito County,5/20/2020,67,56,3,3,0
+San Benito County,5/21/2020,67,51,3,3,0
+San Benito County,5/22/2020,67,39,3,3,0
+San Benito County,5/23/2020,67,39,3,3,0
+San Benito County,5/24/2020,67,45,3,3,0
+San Benito County,5/25/2020,67,45,3,3,0
+San Benito County,5/26/2020,67,52,3,3,0
+San Benito County,5/27/2020,67,64,3,3,0
+San Benito County,5/28/2020,67,63,3,3,0
+San Benito County,5/29/2020,67,50,3,3,0
+San Benito County,6/1/2020,67,50,3,3,0
+San Benito County,6/2/2020,67,59,3,3,0
+San Benito County,6/3/2020,67,59,3,3,0
+San Benito County,6/4/2020,97,70,3,3,0
+San Benito County,6/5/2020,97,70,3,3,0
+San Benito County,6/8/2020,97,73,3,3,0
+San Benito County,6/9/2020,97,87,3,3,0
+San Benito County,6/10/2020,97,86,3,3,0
+San Benito County,6/11/2020,97,90,3,3,0
+San Benito County,6/12/2020,97,70,3,3,0
+San Benito County,6/15/2020,97,62,3,3,0
+San Benito County,6/16/2020,97,88,3,3,0
+San Benito County,6/17/2020,97,92,3,3,0
+San Benito County,6/18/2020,97,80,3,3,0
+San Benito County,6/19/2020,97,81,3,3,0
+San Benito County,6/22/2020,97,83,3,3,0
+San Benito County,6/23/2020,97,78,3,3,0
+San Benito County,6/24/2020,97,76,3,3,0
+San Benito County,6/25/2020,97,81,3,3,0
+San Benito County,6/26/2020,97,75,3,3,0
+San Benito County,6/29/2020,97,85,3,3,0
+San Benito County,6/30/2020,97,85,3,3,0
+San Benito County,7/1/2020,97,85,3,3,0
+San Benito County,7/2/2020,97,87,3,3,0
+San Benito County,7/3/2020,97,85,3,3,0
+San Benito County,7/6/2020,97,85,3,3,0
+San Benito County,7/7/2020,97,84,3,3,0
+San Benito County,7/8/2020,97,81,3,3,0
+San Benito County,7/9/2020,97,81,3,3,0
+San Benito County,7/10/2020,97,96,3,3,0
+San Benito County,7/13/2020,97,83,3,3,0
+San Benito County,7/14/2020,23,23,3,3,0
+San Benito County,7/15/2020,20,20,3,3,0
+San Benito County,7/16/2020,20,20,3,3,0
+San Benito County,7/17/2020,21,21,3,3,0
+San Benito County,7/20/2020,23,23,3,3,0
+San Benito County,7/21/2020,23,23,3,3,0
+San Benito County,7/22/2020,23,23,3,3,0
+San Benito County,7/23/2020,23,23,3,3,0
+San Benito County,7/24/2020,23,23,3,3,0
+San Benito County,7/27/2020,23,23,3,3,0
+San Benito County,7/28/2020,23,23,3,3,0
+San Benito County,7/29/2020,23,23,3,3,0
+San Benito County,7/30/2020,23,23,3,3,0
+San Benito County,7/31/2020,23,23,3,3,0
+San Benito County,8/3/2020,23,23,3,3,0
+San Benito County,8/4/2020,23,23,3,3,0

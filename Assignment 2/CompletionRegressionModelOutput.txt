@@ -1,0 +1,15 @@
+=== Classifier model ===
+
+Scheme:   LinearRegression
+Relation: hospitals_by_county_SanBenito_plus_binary+homeless_impact_SanBenito-weka.filters.unsupervised.attribute.Remove-R5-weka.filters.unsupervised.attribute.ClassAssigner-C3-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.WrapperSubsetEval -B weka.classifiers.functions.LinearRegression -F 5 -T 0.01 -R 1 -E DEFAULT -- -S 0 -R 1.0E-8 -num-decimal-places 4-Sweka.attributeSelection.BestFirst -D 1 -N 5
+
+
+Linear Regression Model
+
+hospitalized_covid_confirmed_patients =
+
+      1.2164 * icu_covid_confirmed_patients +
+     -0.8532 * bed_yes? +
+     -0.0419 * rooms +
+      0.0208 * rooms_occupied +
+      3.1135

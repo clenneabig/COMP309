@@ -2,27 +2,13 @@
 
 Scheme: LinearRegression
 Options: -S 0 -R 1.0E-8 -num-decimal-places 4
-Relation: hospitals_by_county_SanBenito_plus_binary-weka.filters.unsupervised.attribute.Remove-R1,2,6,10-weka.filters.unsupervised.attribute.ClassAssigner-Cfirst
+Relation: hospitals_by_county_SanBenito_plus_binary-weka.filters.unsupervised.attribute.Remove-R1,2,6,10-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.attribute.ClassAssigner-Cfirst
 
 === Summary ===
 
 Correlation coefficient                  0.9597
-Mean absolute error                      0.2312
-Root mean squared error                  0.3733
-Relative absolute error                 24.1799 %
-Root relative squared error             28.754  %
-Total Number of Instances               44     
-=== Evaluation result ===
-
-Scheme: LinearRegression
-Options: -S 0 -R 1.0E-8 -num-decimal-places 4
-Relation: hospitals_by_county_SanBenito_plus_binary-weka.filters.unsupervised.attribute.Remove-R1,2,6,10-weka.filters.unsupervised.attribute.ClassAssigner-Cfirst
-
-=== Summary ===
-
-Correlation coefficient                  0.9597
-Mean absolute error                      0.2312
-Root mean squared error                  0.3733
-Relative absolute error                 24.1799 %
-Root relative squared error             28.754  %
+Mean absolute error                      0.2313
+Root mean squared error                  0.3734
+Relative absolute error                 24.1863 %
+Root relative squared error             28.765  %
 Total Number of Instances               44     

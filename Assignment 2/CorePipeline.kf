@@ -15,11 +15,11 @@
 			},
 			"connections" : {
 				"dataSet" : [
-					"Remove2",
-					"NumericToNominal"
+					"Remove",
+					"Remove22"
 				]
 			},
-			"coordinates" : "24,29"
+			"coordinates" : "15,88"
 		},
 		{
 			"class" : "weka.knowledgeflow.steps.TrainTestSplitMaker",
@@ -37,7 +37,7 @@
 					"LinearRegression"
 				]
 			},
-			"coordinates" : "453,38"
+			"coordinates" : "450,38"
 		},
 		{
 			"class" : "weka.knowledgeflow.steps.Classifier",
@@ -105,40 +105,6 @@
 			"coordinates" : "851,161"
 		},
 		{
-			"class" : "weka.knowledgeflow.steps.Filter",
-			"properties" : {
-				"filter" : {
-					"type" : "optionHandler",
-					"class" : "weka.filters.unsupervised.attribute.Remove",
-					"options" : "-R 1,2,6,10"
-				},
-				"name" : "Remove2"
-			},
-			"connections" : {
-				"dataSet" : [
-					"ClassAssigner"
-				]
-			},
-			"coordinates" : "173,33"
-		},
-		{
-			"class" : "weka.knowledgeflow.steps.Filter",
-			"properties" : {
-				"filter" : {
-					"type" : "optionHandler",
-					"class" : "weka.filters.unsupervised.attribute.ClassAssigner",
-					"options" : "-C first"
-				},
-				"name" : "ClassAssigner"
-			},
-			"connections" : {
-				"dataSet" : [
-					"TrainTestSplitMaker"
-				]
-			},
-			"coordinates" : "311,37"
-		},
-		{
 			"class" : "weka.knowledgeflow.steps.Classifier",
 			"properties" : {
 				"classifier" : {
@@ -159,7 +125,7 @@
 					"ClassifierPerformanceEvaluator2"
 				]
 			},
-			"coordinates" : "577,149"
+			"coordinates" : "623,135"
 		},
 		{
 			"class" : "weka.knowledgeflow.steps.TextSaver",
@@ -192,7 +158,7 @@
 					"TextSaver3"
 				]
 			},
-			"coordinates" : "466,294"
+			"coordinates" : "485,280"
 		},
 		{
 			"class" : "weka.knowledgeflow.steps.TextViewer",
@@ -201,7 +167,7 @@
 			},
 			"connections" : {
 			},
-			"coordinates" : "351,360"
+			"coordinates" : "387,349"
 		},
 		{
 			"class" : "weka.knowledgeflow.steps.Filter",
@@ -215,10 +181,102 @@
 			},
 			"connections" : {
 				"dataSet" : [
-					"ClassAssigner2"
+					"ReplaceMissingValues2"
 				]
 			},
-			"coordinates" : "174,131"
+			"coordinates" : "110,139"
+		},
+		{
+			"class" : "weka.knowledgeflow.steps.TextSaver",
+			"properties" : {
+				"append" : true,
+				"file" : "C:/Users/danie/Desktop/COMP309/Assignment 2/ClassifierResultsOutput.txt",
+				"name" : "TextSaver3",
+				"writeTitleString" : false
+			},
+			"connections" : {
+			},
+			"coordinates" : "571,343"
+		},
+		{
+			"class" : "weka.knowledgeflow.steps.TextSaver",
+			"properties" : {
+				"append" : true,
+				"file" : "C:/Users/danie/Desktop/COMP309/Assignment 2/RegressionResultsOutput.txt",
+				"name" : "TextSaver32",
+				"writeTitleString" : false
+			},
+			"connections" : {
+			},
+			"coordinates" : "845,60"
+		},
+		{
+			"class" : "weka.knowledgeflow.steps.Filter",
+			"properties" : {
+				"filter" : {
+					"type" : "optionHandler",
+					"class" : "weka.filters.unsupervised.attribute.Remove",
+					"options" : "-R 1,2,6,10"
+				},
+				"name" : "Remove"
+			},
+			"connections" : {
+				"dataSet" : [
+					"ReplaceMissingValues"
+				]
+			},
+			"coordinates" : "115,37"
+		},
+		{
+			"class" : "weka.knowledgeflow.steps.Filter",
+			"properties" : {
+				"filter" : {
+					"type" : "optionHandler",
+					"class" : "weka.filters.unsupervised.attribute.ReplaceMissingValues",
+					"options" : ""
+				},
+				"name" : "ReplaceMissingValues"
+			},
+			"connections" : {
+				"dataSet" : [
+					"ClassAssigner"
+				]
+			},
+			"coordinates" : "191,36"
+		},
+		{
+			"class" : "weka.knowledgeflow.steps.Filter",
+			"properties" : {
+				"filter" : {
+					"type" : "optionHandler",
+					"class" : "weka.filters.unsupervised.attribute.ClassAssigner",
+					"options" : "-C first"
+				},
+				"name" : "ClassAssigner"
+			},
+			"connections" : {
+				"dataSet" : [
+					"TrainTestSplitMaker"
+				]
+			},
+			"coordinates" : "356,37"
+		},
+		{
+			"class" : "weka.knowledgeflow.steps.Filter",
+			"properties" : {
+				"filter" : {
+					"type" : "optionHandler",
+					"class" : "weka.filters.unsupervised.attribute.ReplaceMissingValues",
+					"options" : ""
+				},
+				"name" : "ReplaceMissingValues2"
+			},
+			"connections" : {
+				"dataSet" : [
+					"NumericToNominal"
+				]
+			},
+			"coordinates" : "189,139"
 		},
 		{
 			"class" : "weka.knowledgeflow.steps.Filter",
@@ -226,16 +284,33 @@
 				"filter" : {
 					"type" : "optionHandler",
 					"class" : "weka.filters.unsupervised.attribute.NumericToNominal",
-					"options" : "-R 10"
+					"options" : "-R last"
 				},
 				"name" : "NumericToNominal"
 			},
 			"connections" : {
 				"dataSet" : [
-					"Remove22"
+					"ClassAssigner2"
 				]
 			},
-			"coordinates" : "19,132"
+			"coordinates" : "269,139"
+		},
+		{
+			"class" : "weka.knowledgeflow.steps.Filter",
+			"properties" : {
+				"filter" : {
+					"type" : "optionHandler",
+					"class" : "weka.filters.unsupervised.attribute.ClassAssigner",
+					"options" : "-C last"
+				},
+				"name" : "ClassAssigner2"
+			},
+			"connections" : {
+				"dataSet" : [
+					"CrossValidationFoldMaker"
+				]
+			},
+			"coordinates" : "358,137"
 		},
 		{
 			"class" : "weka.knowledgeflow.steps.CrossValidationFoldMaker",
@@ -253,48 +328,7 @@
 					"MultilayerPerceptron"
 				]
 			},
-			"coordinates" : "448,132"
-		},
-		{
-			"class" : "weka.knowledgeflow.steps.Filter",
-			"properties" : {
-				"filter" : {
-					"type" : "optionHandler",
-					"class" : "weka.filters.unsupervised.attribute.ClassAssigner",
-					"options" : "-C 7"
-				},
-				"name" : "ClassAssigner2"
-			},
-			"connections" : {
-				"dataSet" : [
-					"CrossValidationFoldMaker"
-				]
-			},
-			"coordinates" : "303,130"
-		},
-		{
-			"class" : "weka.knowledgeflow.steps.TextSaver",
-			"properties" : {
-				"append" : true,
-				"file" : "C:/Users/danie/Desktop/COMP309/Assignment 2/ClassifierResultsOutput.txt",
-				"name" : "TextSaver3",
-				"writeTitleString" : false
-			},
-			"connections" : {
-			},
-			"coordinates" : "562,346"
-		},
-		{
-			"class" : "weka.knowledgeflow.steps.TextSaver",
-			"properties" : {
-				"append" : true,
-				"file" : "C:/Users/danie/Desktop/COMP309/Assignment 2/RegressionResultsOutput.txt",
-				"name" : "TextSaver32",
-				"writeTitleString" : false
-			},
-			"connections" : {
-			},
-			"coordinates" : "845,60"
+			"coordinates" : "450,139"
 		}
 	]
 }

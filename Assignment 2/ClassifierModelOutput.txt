@@ -1,58 +1,363 @@
 === Classifier model ===
 
 Scheme:   MultilayerPerceptron
-Relation: hospitals_by_county_SanBenito_plus_binary-weka.filters.unsupervised.attribute.NumericToNominal-R10-weka.filters.unsupervised.attribute.Remove-R1,2,6-weka.filters.unsupervised.attribute.ClassAssigner-C7
+Relation: hospitals_by_county_SanBenito_plus_binary-weka.filters.unsupervised.attribute.Remove-R1,2,6-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.attribute.NumericToNominal-Rlast-weka.filters.unsupervised.attribute.ClassAssigner-Clast
 
 Sigmoid Node 0
     Inputs    Weights
-    Threshold    5.868539552128398
-    Node 2    -2.446859592198131
-    Node 3    -4.80778775055342
-    Node 4    -4.663763222969993
-    Node 5    -3.900705938815857
+    Threshold    5.852619860959526
+    Node 2    -2.4641485247297314
+    Node 3    -4.620648322571508
+    Node 4    -4.47907514305457
+    Node 5    -3.9092620596646537
 Sigmoid Node 1
     Inputs    Weights
-    Threshold    -5.8703266521403625
-    Node 2    2.4867125968616492
-    Node 3    4.7587015789420475
-    Node 4    4.724401863697957
-    Node 5    3.8615819543754695
+    Threshold    -5.854648744707689
+    Node 2    2.503594134778547
+    Node 3    4.5716755129276345
+    Node 4    4.539787535211443
+    Node 5    3.8698795900059664
 Sigmoid Node 2
     Inputs    Weights
-    Threshold    1.3070725847544749
-    Attrib hospitalized_covid_confirmed_patients    -0.6082441989750782
-    Attrib hospitalized_suspected_covid_patients    -0.3166462930172905
-    Attrib hospitalized_covid_patients    0.29838785886264463
-    Attrib icu_covid_confirmed_patients    -0.012654148593221417
+    Threshold    1.0608351958308058
+    Attrib hospitalized_covid_confirmed_patients    -0.19737953538652234
+    Attrib hospitalized_suspected_covid_patients    -0.19608818004225953
+    Attrib hospitalized_covid_patients    0.011840195437350114
+    Attrib icu_covid_confirmed_patients    0.007631122314327962
+    Attrib icu_suspected_covid_patients    -0.76285523440754
+    Attrib icu_available_beds    4.058155670070747
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    2.193089288663618
+    Attrib hospitalized_covid_confirmed_patients    -0.21980145097744547
+    Attrib hospitalized_suspected_covid_patients    -0.3842706721852252
+    Attrib hospitalized_covid_patients    0.024941172772900956
+    Attrib icu_covid_confirmed_patients    0.08843961674514646
+    Attrib icu_suspected_covid_patients    -1.607185097865794
+    Attrib icu_available_beds    6.462733018731821
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    2.1871166294571833
+    Attrib hospitalized_covid_confirmed_patients    -0.23813243684461444
+    Attrib hospitalized_suspected_covid_patients    -0.36973085697152425
+    Attrib hospitalized_covid_patients    0.04147436120676465
+    Attrib icu_covid_confirmed_patients    0.08884250247139255
+    Attrib icu_suspected_covid_patients    -1.552086452584914
+    Attrib icu_available_beds    6.372520332603016
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    1.8322561129484767
+    Attrib hospitalized_covid_confirmed_patients    -0.20526184137806713
+    Attrib hospitalized_suspected_covid_patients    -0.3436493666328477
+    Attrib hospitalized_covid_patients    0.004013804821752524
+    Attrib icu_covid_confirmed_patients    0.07352817602307954
+    Attrib icu_suspected_covid_patients    -1.3711193932154782
+    Attrib icu_available_beds    5.71750603023738
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+=== Classifier model ===
+
+Scheme:   MultilayerPerceptron
+Relation: hospitals_by_county_SanBenito_plus_binary-weka.filters.unsupervised.attribute.Remove-R1,2,6-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.attribute.NumericToNominal-Rlast-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    5.8571241054144565
+    Node 2    -2.5086893381824127
+    Node 3    -4.5837524698372345
+    Node 4    -4.440352251363936
+    Node 5    -3.9059918021013114
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -5.859118712864034
+    Node 2    2.5480310224905316
+    Node 3    4.534683614494826
+    Node 4    4.500963927699324
+    Node 5    3.86649695380351
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    1.0684578115338756
+    Attrib hospitalized_covid_confirmed_patients    -0.04846579031618234
+    Attrib hospitalized_suspected_covid_patients    -0.3126996074937424
+    Attrib hospitalized_covid_patients    -0.057669103917464666
+    Attrib icu_covid_confirmed_patients    -0.019863831326817884
+    Attrib icu_suspected_covid_patients    -0.7486757235033573
+    Attrib icu_available_beds    4.130600918260777
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    2.1368154377559914
+    Attrib hospitalized_covid_confirmed_patients    0.01654143598557115
+    Attrib hospitalized_suspected_covid_patients    -0.5442789063387875
+    Attrib hospitalized_covid_patients    -0.147415906091386
+    Attrib icu_covid_confirmed_patients    0.07230245669080186
+    Attrib icu_suspected_covid_patients    -1.5265840131990973
+    Attrib icu_available_beds    6.443195998835095
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    2.1320603254914863
+    Attrib hospitalized_covid_confirmed_patients    -0.006771773975707566
+    Attrib hospitalized_suspected_covid_patients    -0.5249962123009358
+    Attrib hospitalized_covid_patients    -0.1277777009062527
+    Attrib icu_covid_confirmed_patients    0.07431816152414025
+    Attrib icu_suspected_covid_patients    -1.4734113133868272
+    Attrib icu_available_beds    6.351026409562798
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    1.797843920113117
+    Attrib hospitalized_covid_confirmed_patients    0.003994540183766484
+    Attrib hospitalized_suspected_covid_patients    -0.49017040389206623
+    Attrib hospitalized_covid_patients    -0.13550970464625184
+    Attrib icu_covid_confirmed_patients    0.05449991515849714
+    Attrib icu_suspected_covid_patients    -1.3115376929708387
+    Attrib icu_available_beds    5.7309554573502215
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+=== Classifier model ===
+
+Scheme:   MultilayerPerceptron
+Relation: hospitals_by_county_SanBenito_plus_binary-weka.filters.unsupervised.attribute.Remove-R1,2,6-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.attribute.NumericToNominal-Rlast-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    5.8445668535041655
+    Node 2    -2.4628895263055846
+    Node 3    -4.5875003908890735
+    Node 4    -4.483973248522675
+    Node 5    -3.9367532583395928
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -5.846529919721994
+    Node 2    2.502223975318004
+    Node 3    4.538587931369568
+    Node 4    4.5446690971902015
+    Node 5    3.89726500075054
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    1.0333210188616022
+    Attrib hospitalized_covid_confirmed_patients    -0.2315295652015418
+    Attrib hospitalized_suspected_covid_patients    -0.21627674903981525
+    Attrib hospitalized_covid_patients    -0.04345262423274309
+    Attrib icu_covid_confirmed_patients    0.047972608346582374
+    Attrib icu_suspected_covid_patients    -0.745981057697891
+    Attrib icu_available_beds    4.066908882131555
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    2.1464591484629336
+    Attrib hospitalized_covid_confirmed_patients    -0.22306375961107858
+    Attrib hospitalized_suspected_covid_patients    -0.4418185735055521
+    Attrib hospitalized_covid_patients    -0.00739726993468181
+    Attrib icu_covid_confirmed_patients    0.12072587323197573
+    Attrib icu_suspected_covid_patients    -1.5819997789416584
+    Attrib icu_available_beds    6.439191117432032
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    2.1586313740983214
+    Attrib hospitalized_covid_confirmed_patients    -0.24241659676113758
+    Attrib hospitalized_suspected_covid_patients    -0.42856527562818786
+    Attrib hospitalized_covid_patients    0.009503126556632309
+    Attrib icu_covid_confirmed_patients    0.1223059609002744
+    Attrib icu_suspected_covid_patients    -1.5400317601650382
+    Attrib icu_available_beds    6.388096545355088
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    1.817480695645016
+    Attrib hospitalized_covid_confirmed_patients    -0.2149182841954207
+    Attrib hospitalized_suspected_covid_patients    -0.3958987069992087
+    Attrib hospitalized_covid_patients    -0.029951201877521722
+    Attrib icu_covid_confirmed_patients    0.10954465936525835
+    Attrib icu_suspected_covid_patients    -1.3679121409879038
+    Attrib icu_available_beds    5.756644939654425
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+=== Classifier model ===
+
+Scheme:   MultilayerPerceptron
+Relation: hospitals_by_county_SanBenito_plus_binary-weka.filters.unsupervised.attribute.Remove-R1,2,6-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.attribute.NumericToNominal-Rlast-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    5.8580686299220845
+    Node 2    -2.578425483654479
+    Node 3    -4.59131134230528
+    Node 4    -4.427235430028128
+    Node 5    -3.8951801653556317
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -5.859982379542595
+    Node 2    2.6173846811763712
+    Node 3    4.542141374442405
+    Node 4    4.487808697506104
+    Node 5    3.8555876213234184
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    1.127419777911905
+    Attrib hospitalized_covid_confirmed_patients    -0.1643481902602
+    Attrib hospitalized_suspected_covid_patients    -0.2209206297728408
+    Attrib hospitalized_covid_patients    -0.03003003965526407
+    Attrib icu_covid_confirmed_patients    0.02370420360192965
+    Attrib icu_suspected_covid_patients    -0.8116359181344069
+    Attrib icu_available_beds    4.2049472136855455
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    2.175242144175928
+    Attrib hospitalized_covid_confirmed_patients    -0.16133751602951327
+    Attrib hospitalized_suspected_covid_patients    -0.40121384228183066
+    Attrib hospitalized_covid_patients    -0.04074033689730431
+    Attrib icu_covid_confirmed_patients    0.09999071675576106
+    Attrib icu_suspected_covid_patients    -1.586592423816975
+    Attrib icu_available_beds    6.439651566687276
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    2.1586181448216832
+    Attrib hospitalized_covid_confirmed_patients    -0.18091467898393004
+    Attrib hospitalized_suspected_covid_patients    -0.38484453839356597
+    Attrib hospitalized_covid_patients    -0.02418584538748827
+    Attrib icu_covid_confirmed_patients    0.10024783374476762
+    Attrib icu_suspected_covid_patients    -1.5232916245861376
+    Attrib icu_available_beds    6.325990845749491
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    1.8215156528850798
+    Attrib hospitalized_covid_confirmed_patients    -0.15342370627823632
+    Attrib hospitalized_suspected_covid_patients    -0.3588163371247844
+    Attrib hospitalized_covid_patients    -0.054921891960428015
+    Attrib icu_covid_confirmed_patients    0.08591515347840548
+    Attrib icu_suspected_covid_patients    -1.3562167364905215
+    Attrib icu_available_beds    5.707763068482474
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+=== Classifier model ===
+
+Scheme:   MultilayerPerceptron
+Relation: hospitals_by_county_SanBenito_plus_binary-weka.filters.unsupervised.attribute.Remove-R1,2,6-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.attribute.NumericToNominal-Rlast-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    5.8554119453468685
+    Node 2    -2.349564697733171
+    Node 3    -4.7071083346536655
+    Node 4    -4.480525158635363
+    Node 5    -3.860954601369106
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -5.857555795046727
+    Node 2    2.3891457745177886
+    Node 3    4.658446576687185
+    Node 4    4.5416790023075695
+    Node 5    3.8219241919571836
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    0.9518604403185126
+    Attrib hospitalized_covid_confirmed_patients    -0.23895894349578933
+    Attrib hospitalized_suspected_covid_patients    -0.19022040630731046
+    Attrib hospitalized_covid_patients    -0.012295727125024958
+    Attrib icu_covid_confirmed_patients    -0.035831418448372426
+    Attrib icu_suspected_covid_patients    -0.6697868313882218
+    Attrib icu_available_beds    3.906209236854547
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    2.1949187905998353
+    Attrib hospitalized_covid_confirmed_patients    -0.2517966390242276
+    Attrib hospitalized_suspected_covid_patients    -0.44480425803220475
+    Attrib hospitalized_covid_patients    0.047307878017490736
+    Attrib icu_covid_confirmed_patients    0.07358479749653364
+    Attrib icu_suspected_covid_patients    -1.603830499523806
+    Attrib icu_available_beds    6.5329138841567005
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    2.1505520140494614
+    Attrib hospitalized_covid_confirmed_patients    -0.2685954501529474
+    Attrib hospitalized_suspected_covid_patients    -0.4231535899908902
+    Attrib hospitalized_covid_patients    0.06026015337244459
+    Attrib icu_covid_confirmed_patients    0.0719008198921214
+    Attrib icu_suspected_covid_patients    -1.5201710785055196
+    Attrib icu_available_beds    6.356323198636882
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    1.771702736555979
+    Attrib hospitalized_covid_confirmed_patients    -0.23563312508824968
+    Attrib hospitalized_suspected_covid_patients    -0.3838028488039106
+    Attrib hospitalized_covid_patients    0.012129359282405225
+    Attrib icu_covid_confirmed_patients    0.05208639905822906
+    Attrib icu_suspected_covid_patients    -1.3199477234777444
+    Attrib icu_available_beds    5.647588572861118
+Class 0
+    Input
+    Node 0
+Class 1
+    Input
+    Node 1
+=== Classifier model ===
+
+Scheme:   MultilayerPerceptron
+Relation: hospitals_by_county_SanBenito_plus_binary-weka.filters.unsupervised.attribute.Remove-R1,2,6-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.attribute.NumericToNominal-Rlast-weka.filters.unsupervised.attribute.ClassAssigner-Clast
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    5.845713666116707
+    Node 2    -2.4059263177430448
+    Node 3    -4.862323225457826
+    Node 4    -4.694699294217817
+    Node 5    -3.9375178807071527
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -5.847541445221027
+    Node 2    2.446088299560323
+    Node 3    4.8134484878194375
+    Node 4    4.755592714578419
+    Node 5    3.898595846433941
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    1.314193870174137
+    Attrib hospitalized_covid_confirmed_patients    -0.326524840557697
+    Attrib hospitalized_suspected_covid_patients    -0.19007179238108585
+    Attrib hospitalized_covid_patients    -0.13538055267896343
+    Attrib icu_covid_confirmed_patients    0.08990144257499176
     Attrib icu_suspected_covid_patients    -0.016249285177650778
-    Attrib icu_available_beds    3.8189141609676893
+    Attrib icu_available_beds    3.778925900089668
 Sigmoid Node 3
     Inputs    Weights
-    Threshold    3.0098618701320814
-    Attrib hospitalized_covid_confirmed_patients    -1.0079051925469944
-    Attrib hospitalized_suspected_covid_patients    -0.8600224586019068
-    Attrib hospitalized_covid_patients    0.6352823295831268
-    Attrib icu_covid_confirmed_patients    0.057264743197831786
+    Threshold    3.1774297035961196
+    Attrib hospitalized_covid_confirmed_patients    -0.4819756914847904
+    Attrib hospitalized_suspected_covid_patients    -0.6654721343641011
+    Attrib hospitalized_covid_patients    -0.21891775694998347
+    Attrib icu_covid_confirmed_patients    0.24991237191980928
     Attrib icu_suspected_covid_patients    0.0242525172953017
-    Attrib icu_available_beds    6.317490603178001
+    Attrib icu_available_beds    6.417377379990856
 Sigmoid Node 4
     Inputs    Weights
-    Threshold    2.974320984514044
-    Attrib hospitalized_covid_confirmed_patients    -1.0027581797781484
-    Attrib hospitalized_suspected_covid_patients    -0.8196516888812307
-    Attrib hospitalized_covid_patients    0.6268239818072734
-    Attrib icu_covid_confirmed_patients    0.05670776349671641
+    Threshold    3.1251356834600132
+    Attrib hospitalized_covid_confirmed_patients    -0.49274705003693414
+    Attrib hospitalized_suspected_covid_patients    -0.6277927706896518
+    Attrib hospitalized_covid_patients    -0.19558842760932912
+    Attrib icu_covid_confirmed_patients    0.24514392633445187
     Attrib icu_suspected_covid_patients    0.022662858742601488
-    Attrib icu_available_beds    6.230831979357883
+    Attrib icu_available_beds    6.303705882353877
 Sigmoid Node 5
     Inputs    Weights
-    Threshold    2.3964292096815636
-    Attrib hospitalized_covid_confirmed_patients    -0.8579383814857552
-    Attrib hospitalized_suspected_covid_patients    -0.6984403684398105
-    Attrib hospitalized_covid_patients    0.4736494568252983
-    Attrib icu_covid_confirmed_patients    0.05678092746294104
+    Threshold    2.517930283236334
+    Attrib hospitalized_covid_confirmed_patients    -0.428172102767562
+    Attrib hospitalized_suspected_covid_patients    -0.5285998420183942
+    Attrib hospitalized_covid_patients    -0.2198249613538627
+    Attrib icu_covid_confirmed_patients    0.20452535516870018
     Attrib icu_suspected_covid_patients    -0.031117935463524673
-    Attrib icu_available_beds    5.41028606833584
+    Attrib icu_available_beds    5.4795174387345424
 Class 0
     Input
     Node 0
@@ -62,58 +367,58 @@ Class 1
 === Classifier model ===
 
 Scheme:   MultilayerPerceptron
-Relation: hospitals_by_county_SanBenito_plus_binary-weka.filters.unsupervised.attribute.NumericToNominal-R10-weka.filters.unsupervised.attribute.Remove-R1,2,6-weka.filters.unsupervised.attribute.ClassAssigner-C7
+Relation: hospitals_by_county_SanBenito_plus_binary-weka.filters.unsupervised.attribute.Remove-R1,2,6-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.attribute.NumericToNominal-Rlast-weka.filters.unsupervised.attribute.ClassAssigner-Clast
 
 Sigmoid Node 0
     Inputs    Weights
-    Threshold    5.884560429705952
-    Node 2    -2.6100288073292495
-    Node 3    -4.472023285734811
-    Node 4    -4.439194953064997
-    Node 5    -3.8916975924547494
+    Threshold    5.867096546990921
+    Node 2    -2.5466662764813583
+    Node 3    -4.526117166403268
+    Node 4    -4.470066410481304
+    Node 5    -3.9416134511542897
 Sigmoid Node 1
     Inputs    Weights
-    Threshold    -5.8863005202942436
-    Node 2    2.648877110082087
-    Node 3    4.4225584472369714
-    Node 4    4.499181081050098
-    Node 5    3.851698963383292
+    Threshold    -5.868959170696215
+    Node 2    2.585880501359143
+    Node 3    4.476937725299683
+    Node 4    4.530389758495111
+    Node 5    3.901865087829856
 Sigmoid Node 2
     Inputs    Weights
-    Threshold    1.0679556807248893
-    Attrib hospitalized_covid_confirmed_patients    -0.48383800089549206
-    Attrib hospitalized_suspected_covid_patients    -0.3411777186629223
-    Attrib hospitalized_covid_patients    0.36209101915055847
-    Attrib icu_covid_confirmed_patients    -0.03112999943568648
-    Attrib icu_suspected_covid_patients    -0.8342969087341453
-    Attrib icu_available_beds    4.267911974198643
+    Threshold    1.1267084842457953
+    Attrib hospitalized_covid_confirmed_patients    -0.19316330678506166
+    Attrib hospitalized_suspected_covid_patients    -0.18916386802763638
+    Attrib hospitalized_covid_patients    -0.005527997628121996
+    Attrib icu_covid_confirmed_patients    0.03859908137619617
+    Attrib icu_suspected_covid_patients    -0.8115817847708675
+    Attrib icu_available_beds    4.167731315016639
 Sigmoid Node 3
     Inputs    Weights
-    Threshold    1.9456192830440233
-    Attrib hospitalized_covid_confirmed_patients    -0.684137854777485
-    Attrib hospitalized_suspected_covid_patients    -0.6110181558643093
-    Attrib hospitalized_covid_patients    0.5779432371873149
-    Attrib icu_covid_confirmed_patients    -0.005919237969148271
-    Attrib icu_suspected_covid_patients    -1.5108050348145832
-    Attrib icu_available_beds    6.3399648451433315
+    Threshold    2.1594470069822496
+    Attrib hospitalized_covid_confirmed_patients    -0.20066617957144292
+    Attrib hospitalized_suspected_covid_patients    -0.3848397753347566
+    Attrib hospitalized_covid_patients    -0.001741413616827547
+    Attrib icu_covid_confirmed_patients    0.10790023554397954
+    Attrib icu_suspected_covid_patients    -1.571286204157176
+    Attrib icu_available_beds    6.378339316578659
 Sigmoid Node 4
     Inputs    Weights
-    Threshold    1.9904041824914225
-    Attrib hospitalized_covid_confirmed_patients    -0.6977691466252327
-    Attrib hospitalized_suspected_covid_patients    -0.5996125324241544
-    Attrib hospitalized_covid_patients    0.5877840956142284
-    Attrib icu_covid_confirmed_patients    -0.005189669048486199
-    Attrib icu_suspected_covid_patients    -1.4923710631729472
-    Attrib icu_available_beds    6.36199263888266
+    Threshold    2.194570138413673
+    Attrib hospitalized_covid_confirmed_patients    -0.22049305113368434
+    Attrib hospitalized_suspected_covid_patients    -0.37139804197143783
+    Attrib hospitalized_covid_patients    0.016826849315514668
+    Attrib icu_covid_confirmed_patients    0.10981729612563922
+    Attrib icu_suspected_covid_patients    -1.5472845305516412
+    Attrib icu_available_beds    6.375409612424614
 Sigmoid Node 5
     Inputs    Weights
-    Threshold    1.6763289044968757
-    Attrib hospitalized_covid_confirmed_patients    -0.6119856031136892
-    Attrib hospitalized_suspected_covid_patients    -0.5433725136485946
-    Attrib hospitalized_covid_patients    0.48788322261527245
-    Attrib icu_covid_confirmed_patients    0.0018469780621599534
-    Attrib icu_suspected_covid_patients    -1.334356374562339
-    Attrib icu_available_beds    5.729362369193719
+    Threshold    1.8605391380381433
+    Attrib hospitalized_covid_confirmed_patients    -0.19160800628607186
+    Attrib hospitalized_suspected_covid_patients    -0.3438088667195142
+    Attrib hospitalized_covid_patients    -0.018401463388924646
+    Attrib icu_covid_confirmed_patients    0.09672433076324767
+    Attrib icu_suspected_covid_patients    -1.383795771942913
+    Attrib icu_available_beds    5.764214275032468
 Class 0
     Input
     Node 0
@@ -123,58 +428,58 @@ Class 1
 === Classifier model ===
 
 Scheme:   MultilayerPerceptron
-Relation: hospitals_by_county_SanBenito_plus_binary-weka.filters.unsupervised.attribute.NumericToNominal-R10-weka.filters.unsupervised.attribute.Remove-R1,2,6-weka.filters.unsupervised.attribute.ClassAssigner-C7
+Relation: hospitals_by_county_SanBenito_plus_binary-weka.filters.unsupervised.attribute.Remove-R1,2,6-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.attribute.NumericToNominal-Rlast-weka.filters.unsupervised.attribute.ClassAssigner-Clast
 
 Sigmoid Node 0
     Inputs    Weights
-    Threshold    5.870128165168662
-    Node 2    -2.576360934334437
-    Node 3    -4.558653028411092
-    Node 4    -4.406800471407657
-    Node 5    -3.872719720801289
+    Threshold    5.859047041653782
+    Node 2    -2.5754749963883694
+    Node 3    -4.5583423131741005
+    Node 4    -4.438270699641725
+    Node 5    -3.912785496215463
 Sigmoid Node 1
     Inputs    Weights
-    Threshold    -5.87206519220434
-    Node 2    2.6152730971503266
-    Node 3    4.509398076409966
-    Node 4    4.4672700576468305
-    Node 5    3.833041332531139
+    Threshold    -5.860902084576768
+    Node 2    2.614442244694089
+    Node 3    4.509155605435999
+    Node 4    4.49874122863153
+    Node 5    3.873095141483934
 Sigmoid Node 2
     Inputs    Weights
-    Threshold    1.0401870227554617
-    Attrib hospitalized_covid_confirmed_patients    -0.444949057741772
-    Attrib hospitalized_suspected_covid_patients    -0.34728481887262264
-    Attrib hospitalized_covid_patients    0.33520748491051117
-    Attrib icu_covid_confirmed_patients    -0.05149688600882466
-    Attrib icu_suspected_covid_patients    -0.8099168299864057
-    Attrib icu_available_beds    4.219414472906167
+    Threshold    1.1197250342905671
+    Attrib hospitalized_covid_confirmed_patients    -0.22334562182799994
+    Attrib hospitalized_suspected_covid_patients    -0.21467517625523033
+    Attrib hospitalized_covid_patients    0.015230399745509616
+    Attrib icu_covid_confirmed_patients    0.02985753713530824
+    Attrib icu_suspected_covid_patients    -0.8142949369597327
+    Attrib icu_available_beds    4.194900823089404
 Sigmoid Node 3
     Inputs    Weights
-    Threshold    1.9835201204608552
-    Attrib hospitalized_covid_confirmed_patients    -0.6484409850619416
-    Attrib hospitalized_suspected_covid_patients    -0.6052371242120697
-    Attrib hospitalized_covid_patients    0.5509715501132014
-    Attrib icu_covid_confirmed_patients    -0.021067301528672967
-    Attrib icu_suspected_covid_patients    -1.5436020388336849
-    Attrib icu_available_beds    6.419748462087041
+    Threshold    2.1573460998390033
+    Attrib hospitalized_covid_confirmed_patients    -0.2430750280893739
+    Attrib hospitalized_suspected_covid_patients    -0.38376856235267004
+    Attrib hospitalized_covid_patients    0.046393931305337276
+    Attrib icu_covid_confirmed_patients    0.0988479182537808
+    Attrib icu_suspected_covid_patients    -1.588234507627784
+    Attrib icu_available_beds    6.390621969408914
 Sigmoid Node 4
     Inputs    Weights
-    Threshold    1.9764562460758681
-    Attrib hospitalized_covid_confirmed_patients    -0.6494634267757332
-    Attrib hospitalized_suspected_covid_patients    -0.5861870805945163
-    Attrib hospitalized_covid_patients    0.5450008955471086
-    Attrib icu_covid_confirmed_patients    -0.018545088684254637
-    Attrib icu_suspected_covid_patients    -1.4834249997337057
-    Attrib icu_available_beds    6.319411634133868
+    Threshold    2.1612048953600436
+    Attrib hospitalized_covid_confirmed_patients    -0.26172265277113765
+    Attrib hospitalized_suspected_covid_patients    -0.37078406860387464
+    Attrib hospitalized_covid_patients    0.0632064811759269
+    Attrib icu_covid_confirmed_patients    0.09993749975651775
+    Attrib icu_suspected_covid_patients    -1.5402943504996744
+    Attrib icu_available_beds    6.322513086701534
 Sigmoid Node 5
     Inputs    Weights
-    Threshold    1.6655352880352041
-    Attrib hospitalized_covid_confirmed_patients    -0.569422782496378
-    Attrib hospitalized_suspected_covid_patients    -0.535753840523366
-    Attrib hospitalized_covid_patients    0.4531324346179153
-    Attrib icu_covid_confirmed_patients    -0.012360871162565054
-    Attrib icu_suspected_covid_patients    -1.327020371003078
-    Attrib icu_available_beds    5.6991551872568795
+    Threshold    1.827594281986185
+    Attrib hospitalized_covid_confirmed_patients    -0.2269254520149258
+    Attrib hospitalized_suspected_covid_patients    -0.34742140796308524
+    Attrib hospitalized_covid_patients    0.022247733294212528
+    Attrib icu_covid_confirmed_patients    0.0855672192249441
+    Attrib icu_suspected_covid_patients    -1.3739838096189123
+    Attrib icu_available_beds    5.715008594940988
 Class 0
     Input
     Node 0
@@ -184,58 +489,58 @@ Class 1
 === Classifier model ===
 
 Scheme:   MultilayerPerceptron
-Relation: hospitals_by_county_SanBenito_plus_binary-weka.filters.unsupervised.attribute.NumericToNominal-R10-weka.filters.unsupervised.attribute.Remove-R1,2,6-weka.filters.unsupervised.attribute.ClassAssigner-C7
+Relation: hospitals_by_county_SanBenito_plus_binary-weka.filters.unsupervised.attribute.Remove-R1,2,6-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.attribute.NumericToNominal-Rlast-weka.filters.unsupervised.attribute.ClassAssigner-Clast
 
 Sigmoid Node 0
     Inputs    Weights
-    Threshold    5.860220933117143
-    Node 2    -2.5012149705443516
-    Node 3    -4.541517571405281
-    Node 4    -4.459181743684535
-    Node 5    -3.9043164388035887
+    Threshold    5.466785039837069
+    Node 2    -2.3073160917150513
+    Node 3    -4.062408223499728
+    Node 4    -3.9673418010842245
+    Node 5    -3.5169789795361193
 Sigmoid Node 1
     Inputs    Weights
-    Threshold    -5.862137459863842
-    Node 2    2.5403209452866293
-    Node 3    4.492400851450474
-    Node 4    4.519636476173657
-    Node 5    3.8646281617964036
+    Threshold    -5.468547820315334
+    Node 2    2.346232405727159
+    Node 3    4.0129234456388945
+    Node 4    4.027436894335558
+    Node 5    3.4769419820857226
 Sigmoid Node 2
     Inputs    Weights
-    Threshold    0.9807817830296292
-    Attrib hospitalized_covid_confirmed_patients    -0.48698522937195987
-    Attrib hospitalized_suspected_covid_patients    -0.3401961392724322
-    Attrib hospitalized_covid_patients    0.29021354454578036
-    Attrib icu_covid_confirmed_patients    -0.013589023744722175
-    Attrib icu_suspected_covid_patients    -0.7649006723829662
-    Attrib icu_available_beds    4.129515160783284
+    Threshold    0.6799870658625656
+    Attrib hospitalized_covid_confirmed_patients    -0.17744646953669374
+    Attrib hospitalized_suspected_covid_patients    -0.2230567067373565
+    Attrib hospitalized_covid_patients    -0.06318955960871045
+    Attrib icu_covid_confirmed_patients    -5.017831781309264E-4
+    Attrib icu_suspected_covid_patients    -0.6846520916853155
+    Attrib icu_available_beds    3.8473344066889745
 Sigmoid Node 3
     Inputs    Weights
-    Threshold    1.956879400818651
-    Attrib hospitalized_covid_confirmed_patients    -0.6813691849447766
-    Attrib hospitalized_suspected_covid_patients    -0.6318729580491164
-    Attrib hospitalized_covid_patients    0.5483189471551161
-    Attrib icu_covid_confirmed_patients    0.005715022336495809
-    Attrib icu_suspected_covid_patients    -1.5295914744602204
-    Attrib icu_available_beds    6.401457486420736
+    Threshold    1.341607694459199
+    Attrib hospitalized_covid_confirmed_patients    -0.17744428618041713
+    Attrib hospitalized_suspected_covid_patients    -0.4880450618900297
+    Attrib hospitalized_covid_patients    -0.08034542450637906
+    Attrib icu_covid_confirmed_patients    0.10100068910789932
+    Attrib icu_suspected_covid_patients    -1.278157403647189
+    Attrib icu_available_beds    5.695328533367104
 Sigmoid Node 4
     Inputs    Weights
-    Threshold    1.9795546486389375
-    Attrib hospitalized_covid_confirmed_patients    -0.6892141575328533
-    Attrib hospitalized_suspected_covid_patients    -0.6194868006115176
-    Attrib hospitalized_covid_patients    0.551490323169214
-    Attrib icu_covid_confirmed_patients    0.007109967558989297
-    Attrib icu_suspected_covid_patients    -1.4930409481987783
-    Attrib icu_available_beds    6.373077860845875
+    Threshold    1.3690049684582755
+    Attrib hospitalized_covid_confirmed_patients    -0.1976656469632533
+    Attrib hospitalized_suspected_covid_patients    -0.4716831452526508
+    Attrib hospitalized_covid_patients    -0.06220984029142471
+    Attrib icu_covid_confirmed_patients    0.10305410473924922
+    Attrib icu_suspected_covid_patients    -1.2386593298701654
+    Attrib icu_available_beds    5.657788799667611
 Sigmoid Node 5
     Inputs    Weights
-    Threshold    1.6621150425989482
-    Attrib hospitalized_covid_confirmed_patients    -0.6095926341166636
-    Attrib hospitalized_suspected_covid_patients    -0.562260784382681
-    Attrib hospitalized_covid_patients    0.44926117882350924
-    Attrib icu_covid_confirmed_patients    0.017142129192768255
-    Attrib icu_suspected_covid_patients    -1.330660617180452
-    Attrib icu_available_beds    5.7334872765598215
+    Threshold    1.137956798413986
+    Attrib hospitalized_covid_confirmed_patients    -0.1686654677614263
+    Attrib hospitalized_suspected_covid_patients    -0.42069632399559936
+    Attrib hospitalized_covid_patients    -0.09048383977214747
+    Attrib icu_covid_confirmed_patients    0.07965282680175341
+    Attrib icu_suspected_covid_patients    -1.1284524858571936
+    Attrib icu_available_beds    5.158039781271924
 Class 0
     Input
     Node 0
@@ -245,363 +550,58 @@ Class 1
 === Classifier model ===
 
 Scheme:   MultilayerPerceptron
-Relation: hospitals_by_county_SanBenito_plus_binary-weka.filters.unsupervised.attribute.NumericToNominal-R10-weka.filters.unsupervised.attribute.Remove-R1,2,6-weka.filters.unsupervised.attribute.ClassAssigner-C7
+Relation: hospitals_by_county_SanBenito_plus_binary-weka.filters.unsupervised.attribute.Remove-R1,2,6-weka.filters.unsupervised.attribute.ReplaceMissingValues-weka.filters.unsupervised.attribute.NumericToNominal-Rlast-weka.filters.unsupervised.attribute.ClassAssigner-Clast
 
 Sigmoid Node 0
     Inputs    Weights
-    Threshold    5.867738226440891
-    Node 2    -2.489932306071382
-    Node 3    -4.579034434459789
-    Node 4    -4.454233972962083
-    Node 5    -3.882633601759731
+    Threshold    5.829216634024904
+    Node 2    -4.851676381572768
+    Node 3    -2.670635522092382
+    Node 4    -5.066848816873389
+    Node 5    -2.7675930759100233
 Sigmoid Node 1
     Inputs    Weights
-    Threshold    -5.869743390549683
-    Node 2    2.5291911451770845
-    Node 3    4.529911843614208
-    Node 4    4.514767321091863
-    Node 5    3.8430894422029342
+    Threshold    -5.828587462263866
+    Node 2    4.8216266425481376
+    Node 3    2.6795014324604622
+    Node 4    5.100945677618356
+    Node 5    2.751572132918525
 Sigmoid Node 2
     Inputs    Weights
-    Threshold    0.9922244539225495
-    Attrib hospitalized_covid_confirmed_patients    -0.4335032680449046
-    Attrib hospitalized_suspected_covid_patients    -0.33006628363923646
-    Attrib hospitalized_covid_patients    0.313785636682236
-    Attrib icu_covid_confirmed_patients    -0.054927918113824505
-    Attrib icu_suspected_covid_patients    -0.767484229310077
-    Attrib icu_available_beds    4.112354330349949
+    Threshold    2.317938482397
+    Attrib hospitalized_covid_confirmed_patients    -0.19497652448424943
+    Attrib hospitalized_suspected_covid_patients    -0.39169563754449593
+    Attrib hospitalized_covid_patients    0.002573809000933645
+    Attrib icu_covid_confirmed_patients    0.08282820187265227
+    Attrib icu_suspected_covid_patients    -1.674980515819313
+    Attrib icu_available_beds    6.689878293424273
 Sigmoid Node 3
     Inputs    Weights
-    Threshold    1.9937550349375885
-    Attrib hospitalized_covid_confirmed_patients    -0.6544353814897558
-    Attrib hospitalized_suspected_covid_patients    -0.604512603276513
-    Attrib hospitalized_covid_patients    0.5593168956595098
-    Attrib icu_covid_confirmed_patients    -0.02972695179281267
-    Attrib icu_suspected_covid_patients    -1.5473752366655538
-    Attrib icu_available_beds    6.438738048561248
+    Threshold    1.2090142161555648
+    Attrib hospitalized_covid_confirmed_patients    -0.2028994040210836
+    Attrib hospitalized_suspected_covid_patients    -0.2069759173593197
+    Attrib hospitalized_covid_patients    -0.07755355239905008
+    Attrib icu_covid_confirmed_patients    0.02665815824952974
+    Attrib icu_suspected_covid_patients    -0.783433437006229
+    Attrib icu_available_beds    4.28010476581505
 Sigmoid Node 4
     Inputs    Weights
-    Threshold    1.9981543699231794
-    Attrib hospitalized_covid_confirmed_patients    -0.6571704882076311
-    Attrib hospitalized_suspected_covid_patients    -0.5884131262182705
-    Attrib hospitalized_covid_patients    0.5567996514684743
-    Attrib icu_covid_confirmed_patients    -0.028385553224984927
-    Attrib icu_suspected_covid_patients    -1.4967000648908464
-    Attrib icu_available_beds    6.366787970229152
+    Threshold    2.400376098826448
+    Attrib hospitalized_covid_confirmed_patients    -0.18603689588199818
+    Attrib hospitalized_suspected_covid_patients    -0.4196790720798509
+    Attrib hospitalized_covid_patients    0.0034354467336057985
+    Attrib icu_covid_confirmed_patients    0.08246596893656975
+    Attrib icu_suspected_covid_patients    -1.777459524337848
+    Attrib icu_available_beds    6.9421357362871206
 Sigmoid Node 5
     Inputs    Weights
-    Threshold    1.671289466302138
-    Attrib hospitalized_covid_confirmed_patients    -0.5711525736876291
-    Attrib hospitalized_suspected_covid_patients    -0.5346891270341069
-    Attrib hospitalized_covid_patients    0.45547116294909074
-    Attrib icu_covid_confirmed_patients    -0.02019513230567983
-    Attrib icu_suspected_covid_patients    -1.3283360053341853
-    Attrib icu_available_beds    5.708834581760721
-Class 0
-    Input
-    Node 0
-Class 1
-    Input
-    Node 1
-=== Classifier model ===
-
-Scheme:   MultilayerPerceptron
-Relation: hospitals_by_county_SanBenito_plus_binary-weka.filters.unsupervised.attribute.NumericToNominal-R10-weka.filters.unsupervised.attribute.Remove-R1,2,6-weka.filters.unsupervised.attribute.ClassAssigner-C7
-
-Sigmoid Node 0
-    Inputs    Weights
-    Threshold    5.869259234310359
-    Node 2    -2.5370269719190603
-    Node 3    -4.55313255763567
-    Node 4    -4.422986411839239
-    Node 5    -3.8811091112376963
-Sigmoid Node 1
-    Inputs    Weights
-    Threshold    -5.871210928473528
-    Node 2    2.5761962403770995
-    Node 3    4.503919247425431
-    Node 4    4.483428925626323
-    Node 5    3.8414768362356035
-Sigmoid Node 2
-    Inputs    Weights
-    Threshold    1.0272084922123668
-    Attrib hospitalized_covid_confirmed_patients    -0.3431028458524781
-    Attrib hospitalized_suspected_covid_patients    -0.36252799947372427
-    Attrib hospitalized_covid_patients    0.2751344866519904
-    Attrib icu_covid_confirmed_patients    -0.05927359103210601
-    Attrib icu_suspected_covid_patients    -0.7922723674056871
-    Attrib icu_available_beds    4.174487291807268
-Sigmoid Node 3
-    Inputs    Weights
-    Threshold    2.009163222823006
-    Attrib hospitalized_covid_confirmed_patients    -0.5200846831025664
-    Attrib hospitalized_suspected_covid_patients    -0.6186193956345636
-    Attrib hospitalized_covid_patients    0.4500134201081184
-    Attrib icu_covid_confirmed_patients    0.014262866033171576
-    Attrib icu_suspected_covid_patients    -1.555259859980019
-    Attrib icu_available_beds    6.411597017096482
-Sigmoid Node 4
-    Inputs    Weights
-    Threshold    2.0117781291826553
-    Attrib hospitalized_covid_confirmed_patients    -0.5259436863300049
-    Attrib hospitalized_suspected_covid_patients    -0.5999443677083647
-    Attrib hospitalized_covid_patients    0.4503731785071074
-    Attrib icu_covid_confirmed_patients    0.0155286598975758
-    Attrib icu_suspected_covid_patients    -1.5031857945942873
-    Attrib icu_available_beds    6.333072785998805
-Sigmoid Node 5
-    Inputs    Weights
-    Threshold    1.6918078800641632
-    Attrib hospitalized_covid_confirmed_patients    -0.4503161375672412
-    Attrib hospitalized_suspected_covid_patients    -0.5546624669063477
-    Attrib hospitalized_covid_patients    0.371067996823506
-    Attrib icu_covid_confirmed_patients    0.0071469255803142595
-    Attrib icu_suspected_covid_patients    -1.3395433300936022
-    Attrib icu_available_beds    5.706851904754499
-Class 0
-    Input
-    Node 0
-Class 1
-    Input
-    Node 1
-=== Classifier model ===
-
-Scheme:   MultilayerPerceptron
-Relation: hospitals_by_county_SanBenito_plus_binary-weka.filters.unsupervised.attribute.NumericToNominal-R10-weka.filters.unsupervised.attribute.Remove-R1,2,6-weka.filters.unsupervised.attribute.ClassAssigner-C7
-
-Sigmoid Node 0
-    Inputs    Weights
-    Threshold    5.867447577183532
-    Node 2    -2.3453001755436067
-    Node 3    -4.6675731023198805
-    Node 4    -4.455633282761417
-    Node 5    -3.840963529292928
-Sigmoid Node 1
-    Inputs    Weights
-    Threshold    -5.8696380873820715
-    Node 2    2.3848161332850673
-    Node 3    4.618841012131223
-    Node 4    4.51669712731007
-    Node 5    3.8018304074340676
-Sigmoid Node 2
-    Inputs    Weights
-    Threshold    0.865436303549935
-    Attrib hospitalized_covid_confirmed_patients    -0.47446539979743824
-    Attrib hospitalized_suspected_covid_patients    -0.32608377528644367
-    Attrib hospitalized_covid_patients    0.2936647266491931
-    Attrib icu_covid_confirmed_patients    -0.10349476501883038
-    Attrib icu_suspected_covid_patients    -0.6580420471711798
-    Attrib icu_available_beds    3.921564137196702
-Sigmoid Node 3
-    Inputs    Weights
-    Threshold    1.9714569675392921
-    Attrib hospitalized_covid_confirmed_patients    -0.7191982958948516
-    Attrib hospitalized_suspected_covid_patients    -0.6930131688298474
-    Attrib hospitalized_covid_patients    0.6210837927554642
-    Attrib icu_covid_confirmed_patients    -0.0648371128855263
-    Attrib icu_suspected_covid_patients    -1.5253340169937883
-    Attrib icu_available_beds    6.5072537947513975
-Sigmoid Node 4
-    Inputs    Weights
-    Threshold    1.9412953068097576
-    Attrib hospitalized_covid_confirmed_patients    -0.7130803131388577
-    Attrib hospitalized_suspected_covid_patients    -0.6648845305161774
-    Attrib hospitalized_covid_patients    0.6059983409590026
-    Attrib icu_covid_confirmed_patients    -0.062151567799532556
-    Attrib icu_suspected_covid_patients    -1.4474862549419876
-    Attrib icu_available_beds    6.346603984859879
-Sigmoid Node 5
-    Inputs    Weights
-    Threshold    1.5996511967891216
-    Attrib hospitalized_covid_confirmed_patients    -0.6214530935237322
-    Attrib hospitalized_suspected_covid_patients    -0.5928792183699215
-    Attrib hospitalized_covid_patients    0.48805319340299375
-    Attrib icu_covid_confirmed_patients    -0.054402367565895275
-    Attrib icu_suspected_covid_patients    -1.266942612295722
-    Attrib icu_available_beds    5.643217205131496
-Class 0
-    Input
-    Node 0
-Class 1
-    Input
-    Node 1
-=== Classifier model ===
-
-Scheme:   MultilayerPerceptron
-Relation: hospitals_by_county_SanBenito_plus_binary-weka.filters.unsupervised.attribute.NumericToNominal-R10-weka.filters.unsupervised.attribute.Remove-R1,2,6-weka.filters.unsupervised.attribute.ClassAssigner-C7
-
-Sigmoid Node 0
-    Inputs    Weights
-    Threshold    5.4696489994755115
-    Node 2    -2.325594101293939
-    Node 3    -4.04255885771093
-    Node 4    -3.9580360958778553
-    Node 5    -3.505455879063336
-Sigmoid Node 1
-    Inputs    Weights
-    Threshold    -5.471373755725209
-    Node 2    2.3643766389214638
-    Node 3    3.9929965089486497
-    Node 4    4.018025327215175
-    Node 5    3.465330047541454
-Sigmoid Node 2
-    Inputs    Weights
-    Threshold    0.6696516086084852
-    Attrib hospitalized_covid_confirmed_patients    -0.36059211185674367
-    Attrib hospitalized_suspected_covid_patients    -0.26901983448331657
-    Attrib hospitalized_covid_patients    0.19186842381852537
-    Attrib icu_covid_confirmed_patients    -0.05561233648593941
-    Attrib icu_suspected_covid_patients    -0.6756304624464181
-    Attrib icu_available_beds    3.8619959001373707
-Sigmoid Node 3
-    Inputs    Weights
-    Threshold    1.2977467640352722
-    Attrib hospitalized_covid_confirmed_patients    -0.4920278467905927
-    Attrib hospitalized_suspected_covid_patients    -0.5410390618107846
-    Attrib hospitalized_covid_patients    0.3286323517753577
-    Attrib icu_covid_confirmed_patients    0.015032357379577409
-    Attrib icu_suspected_covid_patients    -1.2368490858293253
-    Attrib icu_available_beds    5.660157316196292
-Sigmoid Node 4
-    Inputs    Weights
-    Threshold    1.3271131021290616
-    Attrib hospitalized_covid_confirmed_patients    -0.5021944608259524
-    Attrib hospitalized_suspected_covid_patients    -0.5257726925035245
-    Attrib hospitalized_covid_patients    0.33229872138704775
-    Attrib icu_covid_confirmed_patients    0.017600991539289214
-    Attrib icu_suspected_covid_patients    -1.1990758044695813
-    Attrib icu_available_beds    5.633206344333555
-Sigmoid Node 5
-    Inputs    Weights
-    Threshold    1.1040355405848579
-    Attrib hospitalized_covid_confirmed_patients    -0.4412616521211949
-    Attrib hospitalized_suspected_covid_patients    -0.47084166444687686
-    Attrib hospitalized_covid_patients    0.2659734773679882
-    Attrib icu_covid_confirmed_patients    0.009336035785721628
-    Attrib icu_suspected_covid_patients    -1.096701437129332
-    Attrib icu_available_beds    5.133862102573524
-Class 0
-    Input
-    Node 0
-Class 1
-    Input
-    Node 1
-=== Classifier model ===
-
-Scheme:   MultilayerPerceptron
-Relation: hospitals_by_county_SanBenito_plus_binary-weka.filters.unsupervised.attribute.NumericToNominal-R10-weka.filters.unsupervised.attribute.Remove-R1,2,6-weka.filters.unsupervised.attribute.ClassAssigner-C7
-
-Sigmoid Node 0
-    Inputs    Weights
-    Threshold    5.87330698133976
-    Node 2    -2.589914092241099
-    Node 3    -4.5207514687827
-    Node 4    -4.4153952870339435
-    Node 5    -3.8892526302361583
-Sigmoid Node 1
-    Inputs    Weights
-    Threshold    -5.875150354836451
-    Node 2    2.628739255804666
-    Node 3    4.471455219797468
-    Node 4    4.475726321538453
-    Node 5    3.8494355659237343
-Sigmoid Node 2
-    Inputs    Weights
-    Threshold    1.0444477000890608
-    Attrib hospitalized_covid_confirmed_patients    -0.4513273351446139
-    Attrib hospitalized_suspected_covid_patients    -0.3471169838474842
-    Attrib hospitalized_covid_patients    0.3163509362096171
-    Attrib icu_covid_confirmed_patients    -0.03835281265563226
-    Attrib icu_suspected_covid_patients    -0.8108026134123381
-    Attrib icu_available_beds    4.232714251116334
-Sigmoid Node 3
-    Inputs    Weights
-    Threshold    1.96991217918779
-    Attrib hospitalized_covid_confirmed_patients    -0.6365313862400332
-    Attrib hospitalized_suspected_covid_patients    -0.5917487453917201
-    Attrib hospitalized_covid_patients    0.5338842631903021
-    Attrib icu_covid_confirmed_patients    -0.02035423084871779
-    Attrib icu_suspected_covid_patients    -1.5283825222865661
-    Attrib icu_available_beds    6.37157971331817
-Sigmoid Node 4
-    Inputs    Weights
-    Threshold    1.9821920256145993
-    Attrib hospitalized_covid_confirmed_patients    -0.6414189826750848
-    Attrib hospitalized_suspected_covid_patients    -0.578204800888803
-    Attrib hospitalized_covid_patients    0.534482231405342
-    Attrib icu_covid_confirmed_patients    -0.01938907075492317
-    Attrib icu_suspected_covid_patients    -1.4839973423143624
-    Attrib icu_available_beds    6.319674022715287
-Sigmoid Node 5
-    Inputs    Weights
-    Threshold    1.6744743383062421
-    Attrib hospitalized_covid_confirmed_patients    -0.564926779203954
-    Attrib hospitalized_suspected_covid_patients    -0.5300497625765406
-    Attrib hospitalized_covid_patients    0.4422371242036676
-    Attrib icu_covid_confirmed_patients    -0.010345133228745354
-    Attrib icu_suspected_covid_patients    -1.3304680351446285
-    Attrib icu_available_beds    5.709924378222654
-Class 0
-    Input
-    Node 0
-Class 1
-    Input
-    Node 1
-=== Classifier model ===
-
-Scheme:   MultilayerPerceptron
-Relation: hospitals_by_county_SanBenito_plus_binary-weka.filters.unsupervised.attribute.NumericToNominal-R10-weka.filters.unsupervised.attribute.Remove-R1,2,6-weka.filters.unsupervised.attribute.ClassAssigner-C7
-
-Sigmoid Node 0
-    Inputs    Weights
-    Threshold    5.842966955680685
-    Node 2    -4.828736650466114
-    Node 3    -2.6667803472061573
-    Node 4    -5.032462009483754
-    Node 5    -2.765492555868034
-Sigmoid Node 1
-    Inputs    Weights
-    Threshold    -5.842332927373972
-    Node 2    4.798739676144137
-    Node 3    2.675627194477106
-    Node 4    5.066622466785729
-    Node 5    2.7494502061768022
-Sigmoid Node 2
-    Inputs    Weights
-    Threshold    2.1421137614019456
-    Attrib hospitalized_covid_confirmed_patients    -0.6381333894481044
-    Attrib hospitalized_suspected_covid_patients    -0.5796862333343471
-    Attrib hospitalized_covid_patients    0.5265073322086044
-    Attrib icu_covid_confirmed_patients    -0.020025683239876205
-    Attrib icu_suspected_covid_patients    -1.6326681891124413
-    Attrib icu_available_beds    6.682410977755002
-Sigmoid Node 3
-    Inputs    Weights
-    Threshold    1.1354699732256417
-    Attrib hospitalized_covid_confirmed_patients    -0.44826445386597197
-    Attrib hospitalized_suspected_covid_patients    -0.3247855218701582
-    Attrib hospitalized_covid_patients    0.23252909510303768
-    Attrib icu_covid_confirmed_patients    -0.014539887666845205
-    Attrib icu_suspected_covid_patients    -0.784517171053279
-    Attrib icu_available_beds    4.292805808933259
-Sigmoid Node 4
-    Inputs    Weights
-    Threshold    2.2076644772986462
-    Attrib hospitalized_covid_confirmed_patients    -0.6549949327550655
-    Attrib hospitalized_suspected_covid_patients    -0.620041921669611
-    Attrib hospitalized_covid_patients    0.5625500526133864
-    Attrib icu_covid_confirmed_patients    -0.030474349113611562
-    Attrib icu_suspected_covid_patients    -1.7274849172584843
-    Attrib icu_available_beds    6.922804047865379
-Sigmoid Node 5
-    Inputs    Weights
-    Threshold    1.145017816012347
-    Attrib hospitalized_covid_confirmed_patients    -0.4725006890234151
-    Attrib hospitalized_suspected_covid_patients    -0.36368095503581077
-    Attrib hospitalized_covid_patients    0.31704208719792576
-    Attrib icu_covid_confirmed_patients    -0.04279633127532838
-    Attrib icu_suspected_covid_patients    -0.8605802225084213
-    Attrib icu_available_beds    4.404030382284498
+    Threshold    1.2305373234518215
+    Attrib hospitalized_covid_confirmed_patients    -0.21510168436852725
+    Attrib hospitalized_suspected_covid_patients    -0.2441054985955057
+    Attrib hospitalized_covid_patients    -0.007773512617464369
+    Attrib icu_covid_confirmed_patients    0.0200582965105872
+    Attrib icu_suspected_covid_patients    -0.8687455662928787
+    Attrib icu_available_beds    4.390770950401781
 Class 0
     Input
     Node 0
